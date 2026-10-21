@@ -1,0 +1,49 @@
+Neet sarthi
+AI Engineer
+
+"We are looking for a hands-on **AI Engineer** to build AI-powered applications, develop custom software products, maintain existing platforms, and provide technical support. The role involves AI-assisted development, product deployment, troubleshooting, and end-to-end ownership.
+
+Key Responsibilities
+
+* Build web apps, internal tools, and automations using AI coding tools and LLM APIs.
+* Develop AI features such as chatbots, content/question generation, document processing, summarisation, and RAG search.
+* Maintain websites, web apps, admin panels, databases, hosting, security, and deployments.
+* Debug issues, improve performance, manage backups, and maintain code using Git.
+* Support users, train internal teams, prepare guides, and resolve technical issues.
+
+Required Skills
+
+* Hands-on experience in Python, PHP, or Node.js.
+* Knowledge of HTML, CSS, JavaScript, and React/Vue or similar frameworks.
+* Experience with SQL databases (MySQL/PostgreSQL) and REST APIs.
+* Practical experience with AI tools such as ChatGPT, Claude, Copilot, or Cursor.
+* Built or integrated at least one LLM API-based feature.
+* Familiarity with Git, Linux basics, and web/cloud deployment.
+* Good communication in Hindi and English, problem-solving skills, and an ownership mindset.
+
+Good to Have
+
+* RAG, embeddings, vector databases, LangChain, or LlamaIndex.
+* Android/Flutter maintenance, EdTech, online exams, or e-commerce experience.
+* Docker, CI/CD, AWS/GCP/Azure, or Hostinger exposure.
+* AI project portfolio or GitHub profile.
+
+What We Offer
+
+* Ownership of real-world products and hands-on AI development.
+* A fast-moving team, competitive salary based on skills, and growth opportunities toward a lead role.
+
+How to Apply
+
+Send your **resume, GitHub/portfolio link, and a short note about one project you built using AI** to:
+
+**Email:** careers@qsarthi.com  
+**Contact:** 8209326376  
+**Subject:** AI Engineer â€“ Kota
+
+**Selection Process:** Shortlisted candidates will complete a practical task involving a small AI-powered feature, followed by technical and HR interviews.
+
+Pay: Up to â‚¹30,000.00 per month
+
+Work Location: In person"
+

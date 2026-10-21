@@ -1,0 +1,17 @@
+
+- Describe the most technically complex challenge you've done in detail?
+
+    In a recent AR app (https://discoverloka.org/) I developed for a startup, I had to work with feature-matching and object-detection libraries in OpenCV and port them to Dart so that I can use these algorithms within a Flutter app. 
+
+    The flutter ecosystem did not have any native implementation of the SIFT algorithm or any other feature-matching algorithms or any port of OpenCV that contained these algorithms. So I had the challenge of porting these libraries from OpenCV in C/C++ to Dart. My approach was to transmute data types in Dart to C using dart:ffi and call the SIFT algorithm in C and then transmute the results back to Dart for my Flutter app.
+
+    This would allow a single codebase for implementing complex computer vision features in both Android and iOS. I also had to do this in real-time for the camera feed, the first challenge came from how the different OS handle and store frames from the camera feed and their different aspect ratios. I had to normalize for all of these and convert each frame to C data types for processing and feature-matching. Once this was done, I had to run the SIFT algorithm, look for features then match these features with stored objects to check if the camera was pointing at the same object as one in our database. I implemented this for any number of possible objects in the scene and send these results back to Dart in the form of a character array. I then made Dart use this information to highlight the matched features and display information related to the matched object. All of this had to be done in real-time which led to a lot of work going into optimizing the algorithms and data structures.
+
+    This back and forth between C code and Dart code required really intricate and proper understanding of the code and the OpenCV libraries and of Dart. I had to make sure no extra space was being used in storing data, there were no leaks and it was optimized enough to happen in real time. 
+
+
+- Describe one thing you're good at technically which not many others are
+
+    I have an honours in mathematics and was accepted into the best mathematics and theoretical computer science masters' programmes in the country. I believe this shows evidence of extremely strong quantitative abilities and critical thinking, which is extremely important with the current tools of LLMs and genAI. One can code up a lot of problems using these tools but to make sure they are being used efficiently and are not producing under-optimized or incorrect solutions you need to be able to look at complex and convincing solutions by these tools and pick out their essential elements and analyse them properly to avoid such problems. 
+
+    I believe that this is the most important tool that a competent software developer can have if they want to still contribute meaningfully to this field. I also have strong competence with Flutter and React/Nextjs applications, especially solving complex software problems to produce reusable solutions that make development easier for the company in the future.

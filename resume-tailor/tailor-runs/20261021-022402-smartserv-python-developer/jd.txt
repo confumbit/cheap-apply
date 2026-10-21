@@ -1,0 +1,38 @@
+SmartServ
+Python Developer
+
+PYTHON & AI ENGINEERING
+Python Developer: AI / ML & Image Processing
+
+    Full-time
+    1–4 years
+    Thane
+
+Share
+Apply now
+
+Build and deploy Python AI modules for document, OCR and face-match style products at a fast-growing FinTech-AI product company serving banks, NBFCs and insurers.
+VIEW DETAILS
+What you'll do
+
+    Develop, enhance and maintain Python applications and AI modules
+    Work with AI/ML models, deep-learning frameworks and image-processing algorithms
+    Integrate and deploy models using TensorFlow, PyTorch, OpenCV and PIL
+    Debug and optimise code and model performance
+    Work with cloud environments (preferably AWS) and serverless architecture
+
+What we're looking for
+
+    Hands-on Python development experience
+    Strong data structures, algorithms and problem solving
+    AI, ML, deep learning and image-processing experience
+    Practical knowledge of TensorFlow / PyTorch / OpenCV / PIL
+    B.E. / B.Tech / M.Tech / MCA (CS / IT / Engineering) or equivalent
+
+Nice to have
+
+    AWS and serverless (Lambda)
+    OCR, face detection or document-extraction projects
+    Model optimisation (ONNX, quantisation)
+
+Work setup: On-site.

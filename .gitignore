@@ -1,0 +1,10 @@
+.env
+.venv/
+.hermex/
+.browser-profile/
+__pycache__/
+*.pyc
+applications/
+.experience-cache.json
+candidate-profile.json
+resume-tailor/resume_tailor.json

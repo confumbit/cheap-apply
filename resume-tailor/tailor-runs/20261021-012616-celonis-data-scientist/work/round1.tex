@@ -1,0 +1,219 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{cmap}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks,pdflang={en-US}]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{accsupp}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\pdfglyphtounicode{bulletoperator}{2022}
+\pdfglyphtounicode{asteriskmath}{002A}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\hypersetup{
+    pdftitle={Hiten Dalmia - Resume},
+    pdfauthor={Hiten Dalmia},
+    pdfsubject={Resume},
+    pdfcreator={LaTeX}
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{5pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{\raisebox{0.15ex}{\tiny\textbullet}}
+\renewcommand\labelitemiii{\raisebox{0.15ex}{\tiny\textbullet}}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge Hiten Dalmia} \\ \vspace{1pt}
+  \small \href{mailto:hitendwork@gmail.com}{\underline{hitendwork@gmail.com}} |
+  \href{https://www.linkedin.com/in/hiten-dalmia/}{\underline{linkedin/hiten-dalmia}} |
+  \href{https://github.com/confumbit}{\underline{github/confumbit}} |
+  \href{https://confumbit.github.io/index.html}{\underline{confumbit.github.io (homepage)}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Chennai Mathematical Institute}{Chennai, India}
+{Master of Science in Theoretical Computer Science}{}%Aug. 2026 -- Discontinued}
+
+\resumeSubheading
+{Kirori Mal College, University of Delhi}{Delhi, India}
+{Bachelor of Science (Honours with Research) in Mathematics, \footnotesize{Minor in Economics}}{}%Nov. 2022 -- May 2026}
+\resumeSubHeadingListEnd
+
+% -----------EXPERIENCE-----------
+\section{Experience}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Data \& Software Engineer}{Mar. 2023 -- Present}
+{Freelance \& Fractal}{Remote}
+\resumeItemListStart
+\resumeItem{Delivered 10+ production web and mobile applications, building data engineering pipelines, operational analytics assets, and automated transactional workflows in agile sprints using Jira.}
+
+\resumeItem{\textbf{Order Procurement \& Management Solution} | \emph{Python, SQL, PostgreSQL, NextJS, TypeScript}}
+\resumeItemListStart
+\resumeItem{Architected an order procurement platform with PostgreSQL and NextJS, building RESTful APIs to centralize operational process data and automate order workflows for 20+ daily business orders.}
+\resumeItem{Designed administrative analytics dashboards and an order management interface supporting employee dispatch, audit logging, and automated reporting to track order fulfillment KPIs.}
+\resumeItem{Developed an automated data ingestion pipeline using Python, integrating an LLM agent with RAG fallback and evals to parse unstructured messages into structured SQL records, eliminating manual transactions.}
+\resumeItem{Modeled relational PostgreSQL schemas and SQL views with indexing constraints, ensuring data integrity, reducing query latencies by 40\%, and delivering clean analytics assets for stakeholders.}
+\resumeItemListEnd
+\resumeItemListEnd
+
+\medskip
+
+\resumeSubheading
+{Data Scientist \& Software Developer}{Oct. 2023 -- Apr. 2025}
+{Tagglabs Experimental Pvt. Ltd. (Contract)}{Gurugram, Haryana (Remote)}
+\resumeItemListStart
+\resumeItem{\textbf{Cross-platform AR App} | \emph{Python, OpenCV, C++, Django, Flutter} \textbf{(\underline{\href{[suspicious link removed]}{Live link}})}}
+\resumeItemListStart
+\resumeItem{Engineered a native C/C++ bridge using \texttt{dart:ffi} to port OpenCV SIFT algorithms into Flutter, enabling cross-platform statistical keypoint extraction across iOS and Android.}
+\resumeItem{Built a real-time video data pipeline normalizing camera frame buffers into C structs, maintaining zero memory leaks and 30+ FPS performance during continuous stream transformation.}
+\resumeItem{Implemented statistical feature matching models on vector coordinate feeds, validating hypothesis thresholds on spatial objects in Python and C to render real-time AR UI overlays.}
+\resumeItem{Constructed RESTful backend APIs in Django and Python, conducting exploratory analysis on spatial location data to deliver location-aware discovery features to 100+ alpha testers.}
+\resumeItemListEnd
+
+\medskip
+
+\resumeItem{\textbf{Kia National Conference App} | \emph{Python, Flutter, SQL, Jira}}
+\resumeItemListStart
+\resumeItem{Created an event analytics application for 500+ attendees at the Kia National Dealer Conference, building real-time telemetry tracking and reporting dashboards to analyze user journey metrics.}
+\resumeItemListEnd
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% -----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Data Science \& Analytics:} {Python, SQL, Pandas, NumPy, Scikit-learn, R, Mathematica, Seaborn, Matplotlib} \\
+        \textbf{Foundation Models \& AI:} {RAG, AI Agents, Model Evals, LLM Pipelines, Context Engineering, OpenCV (SIFT)} \\
+        \textbf{Databases \& Analytic Tools:} {PostgreSQL, Celonis EMS, Tableau, Power BI, Django, NextJS, NodeJS, ExpressJS} \\
+        \textbf{Developer Tools \& Agile:} {Git, Linux, Bash, Docker, AWS, Jira, Agile, \BeginAccSupp{ActualText=LaTeX}\LaTeX\EndAccSupp{}} \\
+        }}
+\end{itemize}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Erasmus Mundus Joint Master MATHS-DISC Fellowship}{Europe}
+{Issued by European Union and affiliated universities}{Mar. 2026}
+\resumeSubheading
+{Master in Mathematics (ISI) and MSc Computer Science (CMI) Scholarships}{India}
+{Indian Statistical Institute and Chennai Mathematical Institute respectively}{Jun. 2026}
+
+\resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{\href{https://doi.org/10.46753/pjmpa.2026.v01i01.001}{\underline{\textbf{Computable Analysis: Mathematical Foundations and Computability of Real Functions}}}}{}
+{Poincare Journal of Mathematical Physics \& Applications, Vol. 1, No. 1 (2026), 1--20 (with Sujit Kumar)}{}
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}

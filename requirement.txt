@@ -1,0 +1,6 @@
+notebooklm-py[browser]
+playwright
+google-genai
+python-jobspy
+python-dotenv
+requests

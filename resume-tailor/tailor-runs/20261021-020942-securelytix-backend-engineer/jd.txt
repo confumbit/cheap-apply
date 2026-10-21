@@ -1,0 +1,17 @@
+Securelytix
+Backend Engineer
+
+We're Hiring at Securelytix! | Backend Engineer
+
+We're growing our team at Securelytix and looking for a Backend Engineer who loves solving problems, building things from scratch, and taking ownership.
+
+If you're someone who enjoys startup life, learning fast, and making a real impact, we’d love to connect! 
+
+What were looking for:
+1-4 years of backend development experience
+Strong API, database, and system design fundamentals
+Familiarity with cloud, Docker, and Kubernetes
+Go (Golang) experience is a plus
+
+Work Location: Bangalore (Hybrid) 
+Compensation: INR 10–15 LPA (Annual CTC)

@@ -1,0 +1,80 @@
+HelixBeat
+Jr. Flutter Developer
+
+Job Description-
+
+Experience: 4+ Years
+
+Location: Remote / Later on will be Hybrid(Karnataka, Hyderabad, Chennai)
+Employment Type: Full-time
+
+About the Role:We are seeking an experienced Flutter Developer . The ideal candidate will have deep hands-on experience in Flutter, Dart, BloC and backend integrations, with a solid understanding of modern app architecture, state management, and clean code principles.
+
+Key Responsibilities:
+
+Application Development
+
+    Design, develop, test, and deploy mobile applications using Flutter and Dart
+    Build reusable and modular components using GetX or BLoC state management
+    Integrate with RESTful APIs and backend services (using Dio, HTTP)
+    Implement Firebase services like Authentication, Firestore, and Push Notifications
+    Manage application performance and optimize UI/UX for seamless user experience
+
+Collaboration & Code Quality
+
+    Collaborate with cross-functional teams including backend, design, and QA
+    Participate in code reviews, ensuring adherence to Clean Architecture and coding standards
+    Use Git, GitHub, and Bitbucket for version control and CI/CD workflows
+
+Testing & Deployment
+
+    Write unit test cases using Mockito and ensure code reliability
+    Manage app releases and deployment to Google Play Store and App Store
+    Use Crashlytics, JIRA, and Freshdesk for issue tracking and bug resolution
+
+Integration & Maintenance
+
+    Integrate payment gateways (Stripe, Razorpay, PayU, PayPal)
+    Handle analytics, notifications, and security integration
+    Conduct periodic app performance tuning and refactoring for scalability
+
+Required Skills:
+
+    Strong proficiency in Flutter and Dart
+    Experience with Kotlin or Java for Android, and Swift (basic understanding) for iOS
+    Solid understanding of app architecture (MVVM, MVC, Clean Architecture)
+    Proficient with state management tools GetX, Bloc, Provider
+    Strong understanding of REST APIs, Firebase, and mobile design patterns
+    Experience with Git, JIRA, Crashlytics, and Trello
+    Knowledge of Python/Django or WordPress is a plus
+
+Qualifications:
+
+    Bachelor’s/Master’s degree in Computer Science, Information Technology, or related field
+    Strong communication, problem-solving, and mentoring skills
+
+Bonus / Good-to-Have:
+
+    Experience developing consumer-facing apps with high user engagement
+    Knowledge of Azure DevOps, CI/CD pipelines, or PWA
+    Previous experience leading a small development team
+
+Pay: ₹800,000.00 - ₹1,500,000.00 per year
+
+Benefits:
+
+    Provident Fund
+
+Application Question(s):
+
+    What is your notice period?
+    What is your ctc and ectc?
+
+Experience:
+
+    total: 4 years (Preferred)
+    Flutter: 4 years (Preferred)
+    Dart: 4 years (Preferred)
+    BloC: 2 years (Preferred)
+
+Work Location: Remote

@@ -1,0 +1,2 @@
+VALIDATOR FEEDBACK (round 1). Fix every issue below, change nothing else, and return the full LaTeX block and report again.
+- BANNED_PHRASE: "dynamic" in bullet "Implemented BLoC state management to stream..."

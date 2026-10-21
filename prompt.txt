@@ -1,0 +1,207 @@
+Act as an expert **Executive Recruiter, Talent Acquisition Researcher, and OSINT Specialist**.
+
+Your objective is to identify the **most relevant hiring contact and their legitimate professional email address** for a specific job opportunity.
+
+## Target Job
+
+**Company:** Larsen & Toubro
+**Role:** Junior Application Developer 
+**Location:** Vadodara, Gujarat, India (On-site)
+**Job URL:** https://www.linkedin.com/jobs/view/4455120077/
+
+## Mission
+
+Research publicly available information to determine:
+
+1. The **most likely recruiter, talent acquisition specialist, hiring manager, engineering manager, or department head** responsible for this position.
+2. Their **professional/company email address**, if it can be established from public sources.
+3. Whether the email is **verified, strongly corroborated, or merely inferred**.
+
+Do not stop at the first recruiter you find. Look for the person most closely connected to **this specific role, team, office, or requisition**.
+
+---
+
+## Research Strategy
+
+Search across:
+
+* LinkedIn profiles and posts
+* Company employee/team pages
+* Company career pages
+* Company press releases
+* Conference/speaker pages
+* GitHub and other professional profiles
+* Publicly indexed resumes/CVs
+* Company documents and PDFs
+* Reputable professional directories
+* Search-engine results
+
+Use searches such as:
+
+`"[company]" "[job title]" recruiter`
+
+`"[company]" "[job title]" "talent acquisition"`
+
+`site:linkedin.com/in "[company]" recruiter`
+
+`site:linkedin.com/in "[company]" "talent acquisition"`
+
+`site:linkedin.com/in "[company]" "hiring manager"`
+
+`site:linkedin.com/posts "[company]" "[job title]" hiring`
+
+`"[person name]" "[company]" email`
+
+`"[person name]" "@companydomain.com"`
+
+`site:companydomain.com "@companydomain.com"`
+
+Also investigate the **company's email-address convention**. Look for publicly exposed examples such as:
+
+* `firstname.lastname@company.com`
+* `firstnamelastname@company.com`
+* `firstname@company.com`
+* `firstinitiallastname@company.com`
+
+Do not assume an email pattern is correct merely because it is common.
+
+---
+
+## Candidate Ranking
+
+Rank potential contacts according to relevance:
+
+**Tier 1 — Best**
+
+* Explicitly associated with the exact job/requisition
+* Recruiter who posted or shared the position
+* Hiring manager for the relevant team
+* Talent acquisition person responsible for the relevant location/business unit
+
+**Tier 2**
+
+* Recruiter responsible for the company's relevant department
+* HR business partner for the relevant business unit
+* Engineering/product manager likely responsible for the team
+
+**Tier 3**
+
+* General corporate recruiter
+* Generic HR contact
+* Careers/recruitment mailbox
+
+Prefer a Tier 1 contact whenever credible evidence exists.
+
+---
+
+## Email Verification
+
+For every candidate email, classify it as one of:
+
+### VERIFIED
+
+There is a public source explicitly displaying the complete email address and connecting it to the person.
+
+### STRONGLY CORROBORATED
+
+The complete address is not publicly displayed in one source, but multiple independent sources establish:
+
+* the person's identity and company;
+* the company's email domain;
+* the company's email-format convention; and
+* the resulting address is consistent with that convention.
+
+### INFERRED
+
+The address is constructed from a likely company naming convention but there is insufficient independent evidence.
+
+Never present an inferred email as verified.
+
+If possible, check additional public evidence such as:
+
+* previously published emails
+* company documents
+* conference bios
+* GitHub commits/profiles
+* press releases
+* cached/indexed pages
+* reputable email-verification services
+
+**Do not claim an email is "working" merely because the format is valid.** A mailbox can only be described as confirmed working if there is legitimate evidence that the mailbox accepts mail. Do not send test emails unless explicitly authorized.
+
+---
+
+## Important Rules
+
+* Use only **publicly available professional information**.
+* Do not expose personal/private email addresses when a professional address is appropriate.
+* Do not guess a hiring manager's identity based solely on their job title.
+* Do not manufacture email addresses.
+* Do not treat email-format guessing as verification.
+* Cross-check identities carefully where multiple people have similar names.
+* Prefer current employment information over stale information.
+* Pay attention to the **specific business unit, geography, and department**.
+* If the job posting contains a requisition ID, search that ID directly.
+* If the posting identifies an external ATS, investigate the ATS/company career page as well.
+* Search for people who have recently posted, shared, or commented about the role.
+* If no individual email can be established, provide the best legitimate recruiting/company contact instead.
+
+---
+
+## Required Output
+
+Return the results in this format:
+
+| Rank | Contact | Position                   | Connection to Role          | Email                                         | Confidence                                      | Evidence       |
+| ---- | ------- | -------------------------- | --------------------------- | --------------------------------------------- | ----------------------------------------------- | -------------- |
+| 1    | Name    | Recruiter / Hiring Manager | Why this person is relevant | [email@company.com](mailto:email@company.com) | **Verified / Strongly Corroborated / Inferred** | Brief evidence |
+| 2    | Name    | ...                        | ...                         | ...                                           | ...                                             | ...            |
+
+Then provide:
+
+### Best Contact
+
+**Name:**
+**Position:**
+**Email:**
+**Confidence:**
+**Why this person:**
+
+### Verification Analysis
+
+Explain exactly how the email was established. Separate:
+
+* **Direct evidence**
+* **Email-domain evidence**
+* **Email-pattern evidence**
+* **Independent corroboration**
+* **What remains unverified**
+
+### Alternative Contacts
+
+Provide up to 3 additional relevant contacts if available.
+
+### Outreach Recommendation
+
+Recommend which person to contact first and explain why.
+
+**Do not give me a list of guessed emails simply to increase the number of results. Accuracy and relevance are more important than quantity.**
+
+
+-----------------------------------------------------------------------------------------------------
+
+Conduct a targeted search on LinkedIn to identify the most relevant hiring manager or team lead for the following role:
+
+Company: Larsen & Toubro
+Role: Junior Application Developer
+Location: Vadodara, Gujarat, India (On-site)
+Job URL: https://www.linkedin.com/jobs/view/4455120077/
+
+Prioritize individuals who are most likely to directly oversee, manage, or make hiring decisions for this specific position. Evaluate profiles based on title relevance, team alignment, seniority, and organizational structure. If multiple strong candidates are identified, explicitly focus only on those with direct hiring authority or managerial responsibility for the role. Specifically, prefer HR managers and Talent acquisition teams over Technical leads or Product Managers.
+
+Make sure to try multiple job boards, official company posting, LinkedIn and other relevant websites, try all of these places and report only the relevant and validated emails. 
+
+The output should satisfy the following criteria: 
+- It is an actual person's email instead of a generic email for a hiring manager or HR title.
+- The output should be the relevant and validated emails, not just contact information with no emails.
+- Do not hallucinate emails or people.

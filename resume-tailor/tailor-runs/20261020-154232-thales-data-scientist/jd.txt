@@ -1,0 +1,65 @@
+Thales
+Data Scientist
+
+"Location: Noida, India
+  
+  
+Thales is a global technology leader trusted by governments, institutions, and enterprises to tackle their most demanding challenges. From quantum applications and artificial intelligence to cybersecurity and 6G innovation, our solutions empower critical decisions rooted in human intelligence. Operating at the forefront of aerospace and space, cybersecurity and digital identity, weâ€™re driven by a mission to build a future we can all trust.
+  
+  
+Present in India since 1953, Thales is headquartered in Noida and has other operational offices and sites spread across Delhi, Gurugram, Bengaluru and Mumbai, among others. Over 2200 employees are working with Thales and its joint ventures in India. Since the beginning, Thales has been playing an essential role in Indiaâ€™s growth story by sharing its technologies and expertise in Defence, Aerospace and Cyber & Digital sectors. Thales has two engineering competence centres in India - one in Noida focused on Cyber & Digital business, while the one in Bengaluru focuses on hardware, software and systems engineering capabilities for both the civil and defence sectors, serving global needs. The Group has also established an MRO (Maintenance, Repair & Overhaul) facility in Gurugram to provide comprehensive avionics maintenance and repair services to Indian airlines and support the growth of the local aviation industry.
+  
+  
+We are looking for a skilled Data Scientist / AI Engineer with strong experience in Data Science, AI, and Generative AI on Databricks. The ideal candidate should have hands-on expertise in building regression, classification, and segmentation models and working with large-scale data using Python, PySpark, and SQL on GCP cloud environment.
+  
+  
+This role focuses on developing scalable AI solutions, building intelligent data products, and delivering business insights through advanced analytics and Generative AI capabilities.
+  
+  
+**Key Responsibilities**
+
+* Build and deploy regression, classification, segmentation and other ML/AI models
+* Perform data exploration, feature engineering, and model evaluation
+* Develop predictive and prescriptive analytics solutions
+* Design end-to-end ML pipelines on Databricks
+* Work with large-scale data using PySpark and SQL
+* Build ETL pipelines on Databricks and Delta Lake
+* Deploy models on GCP infrastructure
+* Collaborate with business teams and stakeholders
+
+**Must Skills**
+
+* Python
+* PySpark
+* SQL
+* Machine Learning
+* Databricks
+* Data Analysis and Problem Solving
+
+**Preferred Skills**
+
+* GCP (Google Cloud Platform)
+* Generative AI and LLMs
+* BigQuery
+* MLflow
+* RAG and Prompt Engineering
+* MLOps and CI/CD
+
+**Experience**
+
+* 10-12 years in Data Science / AI / Machine Learning
+* Hands-on experience with Databricks
+* Experience in production ML model development
+
+**Education**
+
+* B.Tech / M.Tech in Computer Science, Electronics, AI, Data Science, Statistics, or related field
+
+**Ideal Candidate**
+
+* Strong analytical mindset
+* Business-focused
+* Self-driven and innovative
+* Strong collaboration and communication skills
+
+At Thales, weâ€™re committed to fostering a workplace where respect, trust, collaboration, and passion drive everything we do. Here, youâ€™ll feel empowered to bring your best self, thrive in a supportive culture, and love the work you do. Join us, and be part of a team reimagining technology to create solutions that truly make a difference â€“ for a safer, greener, and more inclusive world."

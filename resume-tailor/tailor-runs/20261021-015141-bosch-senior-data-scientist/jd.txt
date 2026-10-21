@@ -1,0 +1,51 @@
+Bosch
+Senior Data Scientist
+
+Senior Data Scientist – AI, Data Engineering & Intelligent Automation
+
+    building 601 & 602, p.b.3000, adugodi. hosur road,, 560030 bangalore, India
+    Full-time
+    Legal Entity: Bosch Global Software Technologies Private Limited
+
+Company Description
+
+Bosch Global Software Technologies Private Limited is a 100% owned subsidiary of Robert Bosch GmbH, one of the world's leading global supplier of technology and services, offering end-to-end Engineering, IT and Business Solutions. With over 27,000+ associates, it’s the largest software development center of Bosch, outside Germany, indicating that it is the Technology Powerhouse of Bosch in India with a global footprint and presence in the US, Europe and the Asia Pacific region.
+Job Description
+
+    Data Analytics/Pyspark/Azure data bricks
+    Pipeline Design & Development: Build, monitor, and maintain robust, scalable batch and real-time ETL/ELT pipelines using PySpark, SQL, Delta Lake, and Auto Loader.
+    Data Governance & Security: Enforce data access policies, row/column-level security, and lineage tracking using Databricks Unity Catalog to protect PII and maintain compliance
+    Orchestration & Workflow Automation: Schedule and orchestrate multi-task jobs using Databricks Workflows (Lakeflow Jobs) or external schedulers (e.g., Apache Airflow, Azure Data Factory)
+    Data Quality Assurance: Define and integrate automated data quality rules, validation checks, and testing frameworks (e.g., Great Expectations, Delta Live Tables expectations) directly into pipelines
+    Big Data handling :Design and implement scalable data ingestion, transformation, and processing pipelines.Automate data collection, validation, and integration workflows.Ensure data quality, reliability, and governance across the data ecosystem.Interface with diverse enterprise data sources including databases, APIs, cloud platforms, files, streaming systems, and third-party applications.Analyze structured and unstructured data to derive actionable insights and recommendations.
+    Design experiments, evaluate data performance, and continuously improve solution effectiveness.Apply advanced analytics techniques to support business decision-making.Data Visualization & Business InsightsBuild intuitive dashboards and visualizations to communicate insights effectively. Translate technical findings into business-friendly recommendations.
+    Support leadership teams with data-driven decision-making.
+    AI, GenAI & Agentic Solutions: Design and develop AI-powered applications using modern Large Language Models (LLMs). Build Agentic AI workflows and intelligent assistants for enterprise use cases.Implement Model Context Protocol (MCP)-based integrations and orchestration frameworks. Develop Retrieval-Augmented Generation (RAG) and enterprise knowledge solutions. Deployment, Cloud & Infrastructure.
+    Deploy AI and analytics solutions across cloud and on-premises environments.
+    Design scalable solution architectures on Azure, AWS, GCP, or hybrid platforms.
+    Containerize applications using Docker. Collaborate with infrastructure and DevOps teams to ensure production-grade deployments. Stakeholder Management & Technical Leadership
+    Work closely with business stakeholders to understand requirements and define solution roadmaps. Lead technical discussions and provide architectural guidance. Present complex technical concepts to both technical and non-technical audiences.
+    Mentor junior team members and promote engineering best practices.  
+
+ 
+
+Required Technical Skills
+
+    Data Science & Analytics, Machine Learning, Statistical Modeling, Predictive Analytics, Data Mining, Feature Engineering Model Evaluation and Optimization
+    Programming & Development: Python (Mandatory), SQL (Mandatory), Strong scripting and automation skills, REST APIs and system integrations
+    Version control systems (Git)
+    Data Engineering: ETL/ELT Development, Data Pipeline Design, Data Warehousing Concepts, Workflow Automation, Structured and Unstructured Data Processing, Data Visualization, Power BI, Tableau, Looker, or equivalent platforms.
+    Dashboard Development: Data Storytelling
+    Cloud & Infrastructure: Azure, AWS, or GCP. Docker, Kubernetes, CI/CD Concepts
+    Solution Deployment and Monitoring
+    AI & Generative AI, Large Language Models (LLMs)Claude, OpenAI, and related AI platforms, Agentic AI Frameworks, Model Context Protocol (MCP), Prompt Engineering, RAG Architectures AI Application Deployment.
+
+Qualifications: Bachelor's Degree (BE/BTech) in Computer Science, Information Technology, Data Science, Engineering, Mathematics, Statistics, or a related field. Master's Degree is an added advantage.
+
+Experience: 6-8 years of experience in Data Science, Data Engineering, AI, or Analytics domains. Proven experience delivering end-to-end solutions from data acquisit
+Qualifications
+
+B.E
+Additional Information
+
+6 to 8 years

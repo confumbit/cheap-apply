@@ -1,0 +1,48 @@
+Celonis
+Data Scientist
+
+Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI's operational blind spots into operational clarity. World's leading companies trust Celonis and its global ecosystem of partners to make their AI agents, people, systems, and processes work together, achieving transformational outcomes. We believe there's a massive opportunity to unlock global productivity and sustainability by giving AI the context to understand how every business process really works. Join our mission to make processes work for people, companies, and the planet.
+
+The Team:
+The Data Analytics and Transformation team encompasses the Data Engineering, Semantics, Data Science, Strategic Intelligence and Business Transformation functions. The team provides analytic support and a strategic perspective to the different functions within Celonis to enable them to make evidence-based decisions. We deliver actionable insights by collecting, organizing and interpreting data about user journeys, product telemetry, incidents, infrastructure utilization, sales motions, and much more. We transform data into analytic assets by conducting exploratory analysis, identifying outliers, validating hypotheses, building statistical models, quantifying risk; communicating findings through well crafted stories and critical recommendations. 
+
+The Role:
+As a Data Scientist in the Data Analytics and Transformation team, you will play a key role in developing and communicating data-driven insights that will help with strategic and tactical decision making in a hyper growth environment. You will be using your analytical and data science skills to create and fine tune statistical and machine learning models, carry experimentation, build with foundation models - RAG, agents, evals and communicate findings to engineers, managers and executives. In this exciting role, you will be involved with analyzing and modeling data, building visualizations to deliver insights at scale, as well as facilitating data driven discussions between stakeholders across the organization.
+
+The work you’ll do:
+
+    Developing data-driven insights and decision making applications for internal use with a special focus on Operational processes
+    Produce regular reporting and providing analysis for leaders in the business
+    Build, document, and maintain innovative operational processes that meet our business objectives and ensure compliance with a focus on automation and reducing manual transactions
+    Utilize project management skills to mobilize internal and external stakeholders to achieve goals
+    Continuously create and engage in data engineering processes to ensure data accuracy, consistency, and integrity through continuous audit and review as we scale
+    Conduct in-depth analytic investigations to find answers to business questions or support making the case for product and/or engineering ideas
+
+
+The qualifications you need:
+
+    Bachelor’s degree or equivalent with a strong focus on Economics, Business, Mathematics, Computer Science, or Data Science.
+    3+ years relevant experience as an Analytics Engineer / Product Analyst / Data Engineer or similar, partnering with product, engineering or growth teams at a SaaS or enterprise software company
+    Hands on experience with using analytic tools like Celonis EMS, Tableau, Qlik, Looker, Power BI to build and deliver insights
+    Technical competence with analytical tools for data extraction, visualization and analysis (SQL, Python, Pandas)
+    Experience working with large datasets 
+    Outcome-oriented with strong decision-making skills and the ability to prioritize multiple objectives while meeting aggressive deadlines
+    Have excellent written and verbal communication skills; exceptional attention to detail
+    Experience working in agile teams using collaboration software like Jira or similar
+    Eager to work in a fast-growing organization with diverse and international teams spread across multiple locations
+
+What Celonis can offer you:
+
+    Pioneer Innovation: Work with the global leader in Process Mining and the Process Intelligence Graph to shape the future of AI-driven business operations.
+    Ownership from Day 1: Every full-time "Celonaut" is an owner, receiving Restricted Stock Units (RSUs) and merit-based refresh grants.
+    Unrivaled Family Support: Benefit from our inclusive parental leave policy—24 weeks of fully paid leave for primary carers and 12 weeks for supporting carers, available from your first day of employment.
+    Work-Life Integration: Enjoy Unlimited PTO (in applicable regions) and generous PTO globally, as well as a flexible hybrid work model that balances remote focus with vibrant office collaboration.
+    Continuous Growth: Elevate your skills through our 70-20-10 learning framework, mentorship programs, and access to a dedicated learning platform.
+    Holistic Well-being: Prioritize your health with subsidized Wellhub memberships, mental health counseling, and dedicated "Wellness Weeks" that prioritize work/life balance.
+    Drive Sustainability: Participate in annual Impact Days, where you receive paid time off to volunteer for community and environmental causes with your local office, or virtually.
+    Global Inclusion & Belonging: Find community through our Inclusion Think Tank and participate in our annual Inclusion Days, ensuring every voice is heard and valued.
+    Value-Driven Impact: Join a mission-led organization where our core values—Live for Customer Value, The Best Team Wins, We Own It, and Earth Is Our Future—drive every decision.
+
+About Us:
+
+Celonis is the trusted platform to industrialize Enterprise AI, empowering organizations to analyze, design, and operate AI-driven processes. The Celonis Platform is powered by the Celonis Context Model, which combines process data, business knowledge, and intelligence to create a living digital twin of the enterprise that AI can understand — turning AI’s operational blind spots into operational clarity. Industry-leading companies around the world trust Celonis and its global ecosystem of partners to make their AI agents, people, systems, and processes work together, achieving transformational outcomes. Celonis is headquartered in Munich, Germany, and New York City, USA, with more than 20 offices worldwide.

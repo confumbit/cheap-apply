@@ -1,0 +1,41 @@
+Order Procurement & Management Solution | ExpressJS, NextJS, PostgreSQL, TypeScript, TailwindCSS
+• Built a full-stack order placement portal for the company with session-based auth. and RESTful APIs.
+• Designed dual interfaces: customer-facing product ordering and an office-side order management system.
+• Designed the customer interface to display real-time product listings with current pricing and enable seamless
+order placement to logged-in users.
+• Built the office interface as a comprehensive order management system, featuring employee assignment,
+activity logging, internal notes, processing WhatsApp messages into orders, and support for recurring orders.
+• Architected the system to ensure scalability, maintainability, and efficient data handling, leveraging
+PostgreSQL as the relational database.
+
+Cross-platform AR App | Flutter, OpenCV, C, Django (Live link) # If you are using this project, include the live link already in the expandskills.tex file
+• Led the development of the alpha release of a cross-platform augmented reality, location-aware mobile app
+made with Flutter for Android and iOS.
+• Developed an internal package for Flutter, integrating the SIFT algorithm for feature matching via native C
+APIs and the OpenCV library into the Flutter ecosystem.
+• Implemented feature matching on real-time video streams for multiple platforms using a single codebase.
+• Built the UI from Figma designs and a RESTful API with the backend using Django.
+
+Kia National Conference App | Flutter
+• Built an app for the Kia National Dealer Conference in Bangkok, Thailand, handles registration, hosts
+centralized attendee details, guides navigation around host hotels/cities, and enables live audience engagement.
+
+Drawing My College’s Logo on the Complex Plane | Python, NumPy, Matplotlib
+• Implemented the Discrete Fourier Transform algorithm in Python to approximate the fourier series for SVG Paths
+using the DFT.
+• Used Matplotlib to draw the logo onto the complex plane.
+
+Data Analysis and Visualisation with Pandas Course Project | Python, NumPy, Pandas, Seaborn
+• Worked on a US Housing dataset with the python libraries Seaborn, Pandas, and NumPy.
+• Drew statistical inferences using Violin Plot, Scatter Plot, KDE Plot etc.
+• Found correlations between various characterisitcs of the US Housing market using basic statistical descriptions.
+
+Behavioural and Statistical Experiment Randomness Challenge | ReactJS, ExpressJS, Heroku, MongoDB
+• Assess the ability of users to be random by asking them to click six identical buttons in a random fashion.
+• Uses different statistical methods to analyse the data collected, uses a REST API to store data in an Object
+Relational Database.
+
+MERN Stack E-commerce Website Cz Creation Online Shop | MERN, Heroku, JWT
+• A fully fledged e-commerce website for a small business taking their products online.
+• It has user authentication using JWT tokens, CRUD operations like the ability to add items to cart, place orders,
+forgot password etc. implemented using a REST API.

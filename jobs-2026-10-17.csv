@@ -1,0 +1,1029 @@
+id,site,job_url,job_url_direct,title,company,location,date_posted,job_type,salary_source,interval,min_amount,max_amount,currency,is_remote,job_level,job_function,listing_type,emails,description,company_industry,company_url,company_logo,company_url_direct,company_addresses,company_num_employees,company_revenue,company_description,skills,experience_range,company_rating,company_reviews_count,vacancy_count,work_from_home_type,hr_emails
+bayt-75330322,bayt,https://www.bayt.com/en/india/jobs/senior-associate-data-scientist-75330322/,,Senior Associate Data Scientist,Amgen Inc,India,17-10-2026,,,,,,,FALSE,,,,,"**Career Category**Information Systems**Job Description**Join Amgen’s Mission of Serving Patients  
+
+At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do.
+
+  
+
+Since 1980, we’ve helped pioneer the world of biotech in our fight against the world’s toughest diseases. With our focus on four therapeutic areas –Oncology, Inflammation, General Medicine, and Rare Disease– we reach millions of patients each year. As a member of the Amgen team, you’ll help make a lasting impact on the lives of patients as we research, manufacture, and deliver innovative medicines to help people live longer, fuller happier lives.
+
+  
+
+Our award-winning culture is collaborative, innovative, and science based. If you have a passion for challenges and the opportunities that lay within them, you’ll thrive as part of the Amgen team. Join us and transform the lives of patients while transforming your career.
+
+  
+  
+**What you will do**  
+
+Let’s do this. Let’s change the world. In this vital role you will identify trends, root causes, and potential improvements in our products and processes, ensuring that patient voices are heard and addressed with utmost precision. As the Sr Associate Data Scientist at Amgen, you will be responsible for developing and deploying basic machine learning, operational research, semantic analysis, and statistical methods to uncover structure in large data sets. This role involves creating analytics solutions to address customer needs and opportunities.
+
+  
+
+* Collect, clean, and manage large datasets related to product performance and patient complaints.
+* Ensure data integrity, accuracy, and accessibility for further analysis.
+* Develop and maintain databases and data systems for storing patient complaints and product feedback.
+* Analyze data to identify patterns, trends, and correlations in patient complaints and product issues.
+* Use advanced statistical methods and machine learning techniques to uncover insights and root causes.
+* Develop analytics or predictive models to foresee potential product issues and patient concerns to address customer needs and opportunities.
+* Prepare comprehensive reports and visualizations to communicate findings to key collaborators.
+* Present insights and recommendations to cross-functional teams, including product development, quality assurance, and customer service.
+* Collaborate with regulatory and compliance teams to ensure adherence to healthcare standards and regulations.
+* Find opportunities for product enhancements and process improvements based on data analysis.
+* Work with product complaint teams to implement changes and monitor their impact.
+* Stay abreast of industry trends, emerging technologies, and standard methodologies in data science and healthcare analytics.
+* Evaluate data to support product complaints.
+* Work alongside software developers and software engineers to translate algorithms into commercially viable products and services.
+* Work in technical teams in development, deployment, and application of applied analytics, predictive analytics, and prescriptive analytics.
+* Perform exploratory and targeted data analyses using descriptive statistics and other methods.
+* Work with data engineers on data quality assessment, data cleansing and data analytics
+* Generate reports, annotated code, and other projects artifacts to document, archive, and communicate your work and outcomes.
+
+**What we expect of you**  
+
+We are all different, yet we all use our unique contributions to serve patients.
+
+  
+  
+
+**Basic Qualifications:**
+
+  
+
+* Master’s degree and 3 to 5 years of Data Science and with one or more analytic software tools or languages, and data visualization tools experience OR
+* Bachelor’s degree and 5 to 7 years of Data Science and with one or more analytic software tools or languages, and data visualization tools experience O
+
+  
+
+**Preferred Qualifications:**
+
+  
+
+* Demonstrated skill in the use of applied analytics, descriptive statistics, feature extraction and predictive analytics on industrial datasets.
+* Experience in statistical techniques and hypothesis testing, experience with regression analysis, clustering and classification.
+* Experience in analyzing time-series data for forecasting and trend analysis.
+* Experience with Data Bricks platform for data analytics.
+* Experience working with healthcare data, including patient complaints, product feedback, and regulatory requirements.
+
+**What you can expect of us**  
+
+As we work to develop treatments that take care of others, we also work to care for your professional and personal growth and well-being. From our competitive benefits to our collaborative culture, we’ll support your journey every step of the way.
+
+  
+
+In addition to the base salary, Amgen offers competitive and comprehensive Total Rewards Plans that are aligned with local industry standards.
+
+  
+  
+**Apply now for a career that defies imagination**  
+
+Objects in your future are closer than they appear. Join us.
+
+  
+  
+**careers.amgen.com**.",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_1778798667_n.png,,,,,,,5,,,,,
+bayt-75329810,bayt,https://www.bayt.com/en/india/jobs/ai-engineer-75329810/,,AI Engineer,Luxoft,India,17-10-2026,,,,,,,FALSE,,,,,"Project description  
+Developing cloud-based compliance state-of-the-art archive products to archive and retain real-time communications data in line with internal and external regulatory requirements. The product is developed in-house in an agile development setup based on business requirements from multiple stakeholder parties. By employing continuous development and deployment principles, the team is aiming to transition from project to product management to support the bank with robust compliance archive solutions for the next decade.  
+For a large global investment bank, we are looking for GCP-qualified cloud engineers to help with the FIC (fixed income and currencies) cloud migrations under Project Cirrus.  
+Knowledge of Financial Services/FIC would be great, but the primary skills we need are in building, migrating, and deploying applications to GCP, Terraform module coding, Google infrastructure, cloud-native services such as GCE, GKE, CloudSQL/Postgres, logging and monitoring, etc., & good written and spoken English, as we would like these engineers to help with knowledge transfer to our existing development & support teams.  
+We would like to place people alongside the engineers they'll be working with in the bank.  
+Responsibilities  
+Key Responsibilities & Skills and Experience  
+Proven experience (13+ years) in an AI Engineer role, demonstrating successful application of AI skills and advanced techniques to solve complex, real-world problems, with a track record of leading technical initiatives.  
+Extensive hands-on software engineering experience, including the design and delivery of enterprise-scale distributed applications and production-grade AI or Generative AI solutions.  
+Deep expertise in Python or Java engineering skills and practical experience with API, microservices and asynchronous application design; experience with FastAPI, Spring Boot or comparable frameworks is beneficial.  
+Strong experience with BigQuery and PostgreSQL, cloud-native architectures, Git-based development, CI/CD, Docker, Kubernetes, infrastructure as code, observability and automated testing; practical knowledge of GitHub or Azure DevOps, Terraform and OpenTelemetry is beneficial.  
+Practical expertise in LLM applications, AI agents, RAG architectures, vector databases, semantic or hybrid search, model evaluation and LLMOps, with hands-on experience in relevant orchestration, evaluation and observability tools.  
+Solid grounding in machine learning, feature engineering, model explainability and analytical modelling, using relevant Python ML libraries.  
+Strong understanding of financial markets and investment products is highly desirable, with experience in Investment Banking / Treasury.  
+Strong engineering mindset and ownership mentality, with sound judgement and the ability to structure ambiguity, solve complex problems, make pragmatic technical decisions and balance delivery speed, quality, risk, maintainability and long-term scalability.  
+Excellent stakeholder management, communication and collaboration skills, with the ability to understand business needs, translate them into clear technical choices, manage expectations, influence decisions and build trusted relationships across business, product, technology and control functions.  
+Demonstrated technical leadership, including the ability to set direction, lead by example, mentor and develop engineers, provide constructive challenge, drive accountability and foster an inclusive culture of learning, experimentation and engineering excellence.  
+Ability to lead delivery across the engineering lifecycle, establish fit-for-purpose standards and working practices, manage dependencies and trade-offs, and maintain focus on measurable business and user outcomes.  
+Bachelor’s degree in Computer Science, Engineering, Science or a related discipline, or equivalent professional experience  
+Strategic AI Solution Development:  
+End-to-End AI Architecture & Leadership: Lead the design, architecture, and implementation of highly scalable and robust AI-powered applications and services utilizing Python, FastAPI/Flask, FastMcp LangGraph, ADK and Google VertexAI.  
+Advanced Model Integration & Optimization: Architect, integrate, and expertly fine-tune large language models, with a strategic focus on the Gemini Model, for advanced NLP tasks and cutting-edge generative AI applications.  
+Pioneering Conversational & Agentic AI:   
+Agentic AI System Orchestration: Architect and implement advanced Agentic AI patterns, orchestrating complex AI workflows using frameworks like ADK and LangGraph to build robust, intelligent, and autonomous systems.  
+Scalable System Integration & Cloud Infrastructure:  
+API Architecture & Integration: Drive the design and implementation of seamless API architectures and integrations with diverse internal and external systems, ensuring optimal data flow and functionality across the enterprise.  
+Cloud Infrastructure Leadership: Lead the deployment, management, and optimization of AI solutions on cloud platforms, leveraging services like GCP CloudRun/GKE, BigQuery, Cloud Composer, and CloudSQL for resilient data processing and infrastructure management.  
+Operational Excellence & Quality Assurance:  
+Code Quality & AIOps Governance: Establish and enforce rigorous code quality standards and best practices for software development and AIOps, ensuring clean, maintainable, and well-documented code across all AI projects.  
+Advanced Testing & Deployment Oversight: Architect and execute comprehensive test strategies for AI solutions, leading the deployment and continuous monitoring of models in production environments, ensuring high performance and reliability.  
+Thought Leadership & Cross-Functional Collaboration:  
+Research & Innovation Leadership: Actively lead research into the latest advancements in AI, machine learning, and natural language processing, translating cutting-edge developments into innovative solutions and strategic initiatives.  
+Cross-Functional Strategic Partnership: Collaborate closely with product managers, data scientists, and other engineering leaders to define strategy, align priorities, and ensure the successful delivery of high-quality, impactful AI products that meet business objectives.  
+Skills  
+Must have  
+""  
+Strong programming skills in Java (preferred), with experience in Python, Scala a plus.  
+Experience developing back end components including real time report generation, batch processing and integration with downstream systems  
+Strong performance tuning capabilities  
+Experience in high volume data processing / ETL using Java.  
+Experience working with Relational Databases – ideally Oracle Exadata.  
+Experience working in an Agile based team – ideally Scrum.  
+Big Data Framing and Analysis  
+A track record of building scalable and maintainable applications.  
+An understanding of stream based processing  
+A thorough understanding of quality assurance principles  
+Good working knowledge of the use of JIRA / Defect Management tools  
+Good working Knowledge of Software Versioning. i.e. Git Flow  
+Experience working in a test driven development domain  
+Good Understanding of Automated testing tools (Rational Robot, Silktest, WinRunner, HP UFT, QuickTest Pro, RIATest, Green Hat etc)  
+Knowledge of white/black box level testing, system and performance testing of applications using industry standard practices and tools""  
+Nice to have  
+Banking Domain  
+Other  
+Languages  
+English: C2 Proficient  
+Seniority  
+Senior",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_1004114910_n.png,,,,,,,13,,,,,
+bayt-75330591,bayt,https://www.bayt.com/en/india/jobs/senior-data-scientist-ai-ml-75330591/,,Senior Data Scientist – AI/ML,"Thermo Fisher Scientific, Inc",India,17-10-2026,,,,,,,FALSE,,,,,"**Work Schedule**
+
+  
+Standard (Mon-Fri)
+
+**Environmental Conditions**
+
+  
+Office
+
+**Job Description**
+
+  
+
+As part of the Thermo Fisher Scientific team, you’ll discover meaningful work that makes a positive impact on a global scale. Join our colleagues in bringing our Mission to life every single day to enable our customers to make the world healthier, cleaner and safer. We provide our global teams with the resources needed to achieve individual career goals while helping to take science a step beyond by developing solutions for some of the world’s toughest challenges, like protecting the environment, making sure our food is safe or helping find cures for cancer.  
+DESCRIPTION:  
+Join our team at Thermo Fisher Scientific as a **Data Scientist III** and contribute to global healthcare and scientific innovation.In this role, you will serve as a **hands-on technical and business leader**, responsible for shaping high-value Data Science and AI solutions across multiple business areas. The position combines deep technical expertise, leadership in emerging technologies, senior stakeholder engagement, mentoring, and portfolio-level decision-making, while remaining actively involved in solution architecture and complex technical delivery. Working in a collaborative environment, you will design, develop, and deploy advanced data science and AI solutions that improve operational efficiency, support better decision-making, and create measurable business impact. This role provides the opportunity to work with cutting-edge technologies while contributing to our mission of enabling our customers to make the world healthier, cleaner, and safer.  
+REQUIREMENTS:
+
+  
+
+·   Bachelor's or Master's degree in Data Science, Statistics, Computer Science, Engineering, Mathematics or a related quantitative field; advanced degree is beneficial.
+
+  
+
+·   Typically 5-7+ years of progressive experience in data science, machine learning, AI or advanced analytics.
+
+  
+
+·   Deep hands-on expertise in Python, SQL, statistical modeling, machine learning, solution architecture and cloud platforms.
+
+  
+
+·   Demonstrated experience delivering production-grade data science or AI solutions with measurable business impact.
+
+  
+
+·   Strong understanding of modern AI approaches including GenAI/LLMs, RAG, AI agents, graph technologies and evolving AI ecosystems.
+
+  
+
+·   Proven ability to influence senior stakeholders and translate business strategy into technical solutions.
+
+  
+
+·   Strong commercial/business acumen and ability to prioritize based on value rather than technical novelty.
+
+  
+
+·   Demonstrated technical leadership, mentoring and cross-functional influence.",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_3081203002_n.png,,,,,,,5,,,,,
+bayt-75330950,bayt,https://www.bayt.com/en/india/jobs/data-scientist-75330950/,,Data Scientist,ICF International Inc,India,17-10-2026,,,,,,,FALSE,,,,"Candidateaccommodation@icf.com, candidateaccommodation@icf.com","**The opportunity**
+
+  
+  
+
+ICF supports governments and organisations on challenges in areas such as energy, the environment, health and public policy. Our data science team works with subject matter experts to turn evidence and data into practical solutions for clients in the UK and EU.
+
+  
+  
+
+You will be the first data scientist in our India team. At first, you will meet specialist teams, identify valuable use cases and build focused proofs of concept that demonstrate what data science and AI can do. As these relationships mature, you will help develop our ability to deliver data science and AI solutions across client projects, working with the wider data science team from discovery through implementation. Knowledge of energy would help, initiative, technical breadth and the ability to earn trust across disciplines are central to the role.
+
+  
+  
+
+**What you will do**
+
+  
+  
+
+•Meet colleagues across practice areas to understand their work, identify specific use cases and agree what a useful result would look like.
+
+  
+
+•Initially, scope and demonstrate focused proofs of concept, choosing suitable methods from statistical analysis and forecasting to machine learning and language models.
+
+  
+
+•Explain methods, limitations and potential value clearly to specialists and nontechnical colleagues. Use their feedback to improve the solution and build confidence in the team’s services.
+
+  
+
+•Assess data quality, feasibility, privacy and delivery needs, and define the evidence needed to take a prototype further.
+
+  
+
+•As demand grows, design and deliver data science and AI solutions across projects with the wider team, from modelling and evaluation to integration, documentation and adoption. Contribute to proposals and client presentations.
+
+  
+
+•Establish reusable ways of working and help turn early demonstrations into a sustainable pipeline of well-defined client work.
+
+  
+  
+
+**What you will bring**
+
+  
+  
+
+•Hands-on experience in Python for analysis and modelling, including common data and machine learning libraries, ability to use SQL to extract, join and check data.
+
+  
+
+•Sound grounding in statistics and machine learning, including regression or classification, forecasting, validation, baseline comparisons and appropriate performance measures.
+
+  
+
+•Practical familiarity with using large language models in analysis or prototyping, including prompting, checking outputs against evidence and recognising privacy, accuracy and reliability risks.
+
+  
+
+•Experience preparing imperfect data, building reproducible analyses and writing maintainable code with version control and testing.
+
+  
+
+•Ability to take an ambiguous question from discovery to a working demonstration, explain assumptions and uncertainty, and judge whether a solution is worth developing for operational use.
+
+  
+
+•Confidence working independently and engaging stakeholders across teams, clear written and spoken English for technical and nontechnical audiences.
+
+  
+
+•A relevant degree or equivalent practical experience in a quantitative field.
+
+  
+  
+
+**Useful additional experience**
+
+  
+  
+
+•Experience in energy, utilities, climate or environmental policy, particularly applied analysis with domain experts.
+
+  
+
+•Experience in consulting, public policy research or client-facing delivery, familiarity with cloud platforms, APIs, data pipelines or deployment.
+
+  
+
+•Experience building AI agents or applications that connect language models to data and tools, such as retrieval-based systems. We can train someone with strong core skills.
+
+  
+  
+
+**How we work**
+
+  
+
+As the first data scientist in our India team, you will have the opportunity to shape how our established data science and AI services grow there. You will work alongside colleagues with a wide range of technical and subject expertise, tackle varied client challenges, and see promising ideas develop into project work. We will support your career development with ongoing training and opportunities to deepen both your technical and consulting skills.
+
+  
+  
+
+**Bot and Third-Party Applications**
+
+  
+
+Please note that this application must be submitted directly by the applicant for consideration. Failure to do so may result in the application being excluded for consideration.  Applicants needing an accommodation for disability or religious purposes in connection with the application process should contact Candidateaccommodation@icf.com for assistance.
+
+  
+
+**Working at ICF**
+
+  
+ICF is a global advisory and technology services provider, but we’re not your typical consultants. We combine unmatched expertise with cutting-edge technology to help clients solve their most complex challenges, navigate change, and shape the future.**Candidate AI Usage Policy**  
+
+At ICF, we are committed to ensuring a fair and equitable interview process for all candidates based on their own skills and knowledge. As part of this commitment, the use of artificial intelligence (AI) tools to generate or assist with responses during interviews (whether in-person or virtual) is not permitted. This policy is in place to maintain the integrity and authenticity of the interview process. 
+
+  
+  
+
+However, we understand that some candidates may require accommodations that involve the use of AI. If such an accommodation is needed, candidates are instructed to contact us in advance atcandidateaccommodation@icf.com. We are dedicated to providing the necessary support to ensure that all candidates have an equal opportunity to succeed. 
+
+  
+  
+New Delhi, India (II77)",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_2883956755_n.png,,,,,,,,,,,,
+bayt-75329687,bayt,https://www.bayt.com/en/india/jobs/data-scientist-ii-data-scientist-ies-cfx-prime-75329687/,,"Data Scientist II, Data Scientist, IES CFX & Prime",ADCI - Karnataka,"Bengaluru, India",17-10-2026,,,,,,,FALSE,,,,,"Are you passionate about applying machine learning and advanced statistical techniques to protect one of the world's largest online marketplaces? Do you want to be at the forefront of developing innovative solutions that improve Amazon's customers experience? Do you thrive in a collaborative environment where diverse perspectives drive breakthrough solutions?  
+If yes, we invite you to join the Amazon Customer Fulfillment & Prime analytics team. We're seeking an exceptional scientist who can revolutionize how we delight our customers. As a key member of our team, you'll develop and deploy machine learning systems that analyze millions of customer interactions daily, ensuring state of art experience for customers across 10 countries. Your work will directly impact the shopping experience for hundreds of millions of customers worldwide.   
+Key job responsibilities  
+• Ability to work independently across the end-to-end ML lifecycle: feature engineering, modeling, and MLOps to productionize models.  
+• Strong foundation in machine learning and statistical modeling.  
+• Experience deploying ML solutions into a production environment.  
+• Apply machine learning and statistical techniques to create scalable abuse-detection solutions that identify fraudulent customer behavior, rings of accounts, identity change, holistic customer risk, and marketplace manipulation schemes.  
+• Innovate with the latest GenAI technology to build highly automated solutions for efficient customer promotions.  
+• Collaborate with cross-functional teams to develop comprehensive ML/statistical models that scale to millions of customers across 10+ countries.  
+• Willing to travel to Mexico (MX) and Brazil (BR).  
+• Comfortable working CET hours to maintain overlap with Mexico and Brazil business teams.  
+About the team  
+You'll be working closely with business partners, science and engineering teams to create end-to-end scalable machine learning solutions that address real-world problems. You will build scalable, efficient, and automated processes for large-scale data analyses, model development, model validation, and model implementation.  
+You will also be providing clear and compelling reports for your solutions and contributing to the ongoing innovation and knowledge-sharing that are central to the team's success.  
+- 6+ years of data scientist experience  
+- 6+ years of data querying languages (e.g. SQL), scripting languages (e.g. Python) or statistical/mathematical software (e.g. R, SAS, Matlab, etc.) experience  
+- 6+ years of machine learning/statistical modeling data analysis tools and techniques, and parameters that affect their performance experience  
+- 5+ years of working with or evaluating AI systems experience  
+- Master's degree in Science, Technology, Engineering, or Mathematics (STEM), or experience working in Science, Technology, Engineering, or Mathematics (STEM)  
+- Ph.D. in Science, Technology, Engineering, or Mathematics (STEM)  
+- Knowledge of machine learning concepts and their application to reasoning and problem-solving  
+- Experience in Python, Perl, or another scripting language  
+- Experience in a ML or data scientist role with a large technology company  
+- Experience in defining and creating benchmarks for assessing GenAI model performance  
+- Experience working on multi-team, cross-disciplinary projects  
+- Experience applying quantitative analysis to solve business problems and making data-driven business decisions  
+- Experience effectively communicating complex concepts through written and verbal communication  
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_3791395804_n.png,,,,,,,6,,,,,
+bayt-75330294,bayt,https://www.bayt.com/en/india/jobs/llm-agentic-ai-performance-engineer-75330294/,,LLM & Agentic AI Performance Engineer,Intel Corporation,India,17-10-2026,,,,,,,FALSE,,,,,"**Job Details:**  
+  
+Job Description: The Role and Impact:
+
+Join Intel's Data Center AI organization and help shape how LLM and Agentic AI workloads perform on Intel platforms.
+
+  
+  
+
+Our team operates at a unique intersection of core performance optimization, AI frameworks, and customer-facing AI solutions. We bridge the gap between teams that deeply understand silicon and benchmarking and teams building real-world AI solutions, turning performance insights into software optimizations that developers and customers can use.
+
+  
+  
+
+In this role, you will own end-to-end performance characterization and optimization of LLM and Agentic AI workloads, from Python-level frameworks and inference runtimes down to Linux, system architecture, and hardware performance counters.
+
+  
+  
+
+This is not simply a benchmarking role. Benchmarking tells us what the number is. Your job is to understand why the number is what it is, identify the hardware or software bottleneck, and determine what needs to change to remove it.
+
+  
+  
+
+Your work will translate into code contributions, framework optimizations, best-known configurations (BKCs), customer-ready solutions, and insights that help influence future Intel hardware and software.
+
+  
+  
+
+If you enjoy working across the complete AI stack, from agent frameworks and LLM serving engines to NUMA, memory bandwidth, cache behavior, and silicon counters, this role provides an opportunity to work at that intersection.
+
+  
+  
+About the Team:
+
+The AI Solutions and Toolkit Engineering team is part of Intel's Data Center organization, focused on enabling modern AI workloads and solutions on Intel platforms.
+
+  
+  
+
+We work across the AI ecosystem, collaborating with AI framework and runtime developers, performance and optimization teams, hardware architects, open-source communities, and solution engineering teams.
+
+  
+  
+
+Our goal is to take deep platform capabilities and performance insights and translate them into practical, optimized AI solutions that developers and customers can deploy.
+
+  
+  
+
+The team works across areas including LLM inference, Agentic AI, AI frameworks and runtimes, workload optimization, open-source software, and datacenter AI systems.
+
+  
+  
+Key Responsibilities:  
+
+·   Characterize and optimize LLM and Agentic AI workloads across the complete software and hardware stack.
+
+  
+  
+
+·   Identify performance bottlenecks across AI frameworks, inference runtimes, operating systems, memory, compute, and platform architecture.
+
+  
+  
+
+·   Design and develop hardware-aware and hardware-agnostic optimizations for AI frameworks and runtimes.
+
+  
+  
+
+·   Optimize LLM inference techniques including KV-cache management, attention, continuous batching, and quantization.
+
+  
+  
+
+·   Work hands-on with serving stacks such as vLLM, SGLang, TGI, or equivalent technologies.
+
+  
+  
+
+·   Analyze host and accelerator performance using tools such as VTune, EMON/PMU, perf, top-down analysis, and roofline modeling.
+
+  
+  
+
+·   Debug complex performance issues spanning Python frameworks, native code, Linux, runtime libraries, and hardware.
+
+  
+  
+
+·   Convert performance findings into software changes, upstream contributions, BKCs, and reusable optimization guidance.
+
+  
+  
+
+·   Collaborate with open-source communities to upstream and integrate performance improvements.
+
+  
+  
+
+Translate silicon-level findings into actionable recommendations for framework developers, while bringing application and framework insights back to Intel platform and silicon teams.
+
+  
+  
+  
+  
+**Qualifications:**Minimum Qualifications:  
+
+·   BE +10 years / M.Tech +8 years in Computer Science, Computer Engineering, Electrical Engineering, or a related discipline.
+
+  
+  
+
+·   Significant hands-on experience in performance engineering, systems optimization, or workload characterization on server-class platforms.
+
+  
+  
+
+·   Demonstrated ability to identify complex performance bottlenecks and deliver measurable performance improvements.
+
+  
+  
+
+·   Strong programming skills in Python and C++, or equivalent systems programming experience in C/Rust.
+
+  
+  
+
+·   Strong understanding of server architecture including cache hierarchy, memory bandwidth, NUMA, interconnects, and system-level performance behavior.
+
+  
+  
+
+·   Hands-on experience with Linux performance and system technologies such as affinity, huge pages, cgroups, eBPF, ftrace, perf, or equivalent tools.
+
+  
+  
+Preferred Qualifications:  
+
+·   Deep understanding of LLM inference, including KV-cache, paged attention, continuous batching and quantization such as INT8, INT4, or FP8.
+
+  
+  
+
+·   Hands-on experience modifying or optimizing AI serving stacks such as vLLM, SGLang, TGI, OpenVINO, or equivalent.
+
+  
+  
+
+·   Experience building, profiling, or optimizing Agentic AI systems using technologies such as LangGraph, CrewAI, AutoGen, MCP-based frameworks, or similar platforms.
+
+  
+  
+
+·   Experience with hardware counter-level performance analysis using VTune, EMON/PMU, perf, top-down analysis, or roofline modeling.
+
+  
+  
+
+·   Contributions to significant open-source projects, including upstream code contributions.
+
+  
+  
+
+·   Ability to communicate across abstraction layers, translating silicon-level findings for software developers and application-level requirements for hardware architects.
+
+  
+  
+Why Join This Team?  
+
+This role gives you the opportunity to work across boundaries that few engineering positions span:
+
+  
+  
+
+**Agentic AI & LLMs → AI frameworks → inference runtimes Linux → server architecture → silicon**
+
+  
+  
+
+You won't be limited to measuring performance or optimizing an isolated component. You'll help connect the entire stack, identify where the real bottlenecks are, implement improvements, and make those optimizations available to developers and customers.
+
+  
+  
+
+The result is tangible: better AI performance today, stronger software solutions for customers, and insights that can influence tomorrow's Intel platforms.
+
+  
+  
+  
+  
+  
+  
+Job Type:Experienced Hire  
+  
+Shift:Shift 1 (India)  
+  
+Primary Location: India, Bangalore  
+  
+Additional Locations:  
+  
+  
+  
+Posting Statement:All qualified applicants will receive consideration for employment without regard to race, color, religion, religious creed, sex, national origin, ancestry, age, physical or mental disability, medical condition, genetic information, military and veteran status, marital status, pregnancy, gender, gender expression, gender identity, sexual orientation, or any other characteristic protected by local law, regulation, or ordinance.Position of TrustN/A  
+
+**Work Model for this Role**
+
+  
+  
+This role will be eligible for our hybrid work model which allows employees to split their time between working on-site at their assigned Intel site and off-site. \\* Job posting details (such as work model, location or time type) are subject to change.  
+
+\\*
+
+  
+  
+  
+ADDITIONAL INFORMATION: Intel is committed to Responsible Business Alliance (RBA) compliance and ethical hiring practices. We do not charge any fees during our hiring process. Candidates should never be required to pay recruitment fees, medical examination fees, or any other charges as a condition of employment. If you are asked to pay any fees during our hiring process, please report this immediately to your recruiter.",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_1379290405_n.png,,,,,,,10,,,,,
+bayt-75329670,bayt,https://www.bayt.com/en/india/jobs/senior-data-scientist-ies-cfx-prime-75329670/,,"Senior Data Scientist, IES CFX & Prime",ASSPL - Karnataka,"Bengaluru, India",17-10-2026,,,,,,,FALSE,,,,,"Are you passionate about applying machine learning and advanced statistical techniques to protect one of the world's largest online marketplaces? Do you want to be at the forefront of developing innovative solutions that improve Amazon's customers experience? Do you thrive in a collaborative environment where diverse perspectives drive breakthrough solutions?  
+If yes, we invite you to join the Amazon Customer Fulfillment & Prime analytics team. We're seeking an exceptional scientist who can revolutionize how we delight our customers. As a key member of our team, you'll develop and deploy machine learning systems that analyze millions of customer interactions daily, ensuring state of art experience for customers across 10 countries. Your work will directly impact the shopping experience for hundreds of millions of customers worldwide.  
+Key job responsibilities  
+• Ability to work independently across the end-to-end ML lifecycle: feature engineering, modeling, and MLOps to productionize models.  
+• Strong foundation in machine learning and statistical modeling.  
+• Experience deploying ML solutions into a production environment.  
+• Apply machine learning and statistical techniques to create scalable abuse-detection solutions that identify fraudulent customer behavior, rings of accounts, identity change, holistic customer risk, and marketplace manipulation schemes.  
+• Innovate with the latest GenAI technology to build highly automated solutions for efficient customer promotions.  
+• Collaborate with cross-functional teams to develop comprehensive ML/statistical models that scale to millions of customers across 10+ countries.  
+• Willing to travel to Mexico (MX) and Brazil (BR).  
+• Comfortable working CET hours to maintain overlap with Mexico and Brazil business teams.  
+About the team  
+You'll be working closely with business partners, science and engineering teams to create end-to-end scalable machine learning solutions that address real-world problems. You will build scalable, efficient, and automated processes for large-scale data analyses, model development, model validation, and model implementation.  
+You will also be providing clear and compelling reports for your solutions and contributing to the ongoing innovation and knowledge-sharing that are central to the team's success.  
+- 8+ years of data querying languages (e.g. SQL), scripting languages (e.g. Python) or statistical/mathematical software (e.g. R, SAS, Matlab, etc.) experience  
+- 8+ years of data scientist experience  
+- Experience with statistical models e.g. multinomial logistic regression  
+- Experience as a leader and mentor on a data science team  
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_3791395804_n.png,,,,,,,8,,,,,
+bayt-75330319,bayt,https://www.bayt.com/en/india/jobs/senior-software-engineer-agentic-ai-platforms-75330319/,,"Senior Software Engineer, Agentic AI Platforms",FIS,India,17-10-2026,,,,,,,FALSE,,,,,"The future of money is being built right now. At FIS, we help the world’s businesses, banks and communities move, manage and grow money with confidence. Join a team that values fresh thinking, works together to solve complex challenges, and creates technology that powers everyday life.
+
+  
+  
+Role location
+
+Bangalore - Hybrid (two days in-office, three days virtual)
+
+  
+
+Experience - 2 to 7 years
+
+  
+  
+About the role
+
+As a Senior Software Engineer, Agentic AI Platforms, you will design sophisticated software solutions that improve how enterprise engineering teams plan, build, test and operate software. You will create coding harnesses, reusable libraries and automated workflows that connect artificial intelligence coding agents with development tools and business systems. You will influence architectural decisions while partnering with engineering, implementation and client-facing stakeholders. Your work will deliver scalable solutions, improve development efficiency and establish reliable patterns for AI-assisted engineering
+
+  
+  
+Your key responsibilities
+
+* Design scalable agentic workflows across software planning, coding, testing, deployment and maintenance.
+* Build advanced coding harnesses, reusable libraries and integrations using Python and TypeScript, including Model Context Protocol servers and tools that securely connect agents with enterprise systems.
+* Establish evaluation, automated testing and monitoring approaches for AI-generated code and workflows.
+* Translate complex requirements into maintainable software designs and contribute to architectural decisions involving scalability, security, extensibility and long-term support.
+* Coordinate complex development activities, lead technical troubleshooting, document architectures and operational procedures, and mentor engineers on agentic programming and software engineering practices.
+
+  
+What you bringRequired qualifications
+
+* Advanced software engineering skills using Python, TypeScript or comparable programming languages.
+* Experience designing distributed applications, application programming interfaces, developer platforms or workflow automation systems.
+* Experience building reusable libraries, coding frameworks or extensible integration components.
+* Experience with cloud architecture, deployment, monitoring, maintenance and production support, supported by strong knowledge of automated testing, secure coding, code review and software quality practices.
+* A degree in computer science, engineering or a related field, or equivalent practical experience, with the ability to solve complex technical problems and communicate effectively across functions.
+
+Preferred qualifications
+
+* Experience with Claude Code, GitHub Copilot, OpenCode or comparable artificial intelligence coding environments, or with developing agentic applications, coding agents or Model Context Protocol integrations.
+* Knowledge of large language model evaluation, prompt design, tool calling and workflow observability.
+* Experience delivering technical implementations or troubleshooting solutions directly with clients, with familiarity in security, privacy and compliance controls for enterprise artificial intelligence systems.
+
+  
+What we offer you
+
+Ready to build what's next? At FIS, you'll have the opportunity to grow your career, contribute your ideas, and help create technology that powers the global economy.
+
+  
+  
+
+Our benefits include:
+
+  
+
+* Opportunities to innovate in fintech
+* Tools for personal and professional growth
+* Internal career growth opportunities
+* Inclusive and diverse work environment
+* Resources to invest in your community
+
+**Privacy Statement**
+
+  
+
+FIS is committed to protecting the privacy and security of all personal information that we process in order to provide services to our clients. For specific information on how FIS protects personal information online, please see the Online Privacy Notice.
+
+  
+
+**Sourcing Model**
+
+  
+
+Recruitment at FIS works primarily on a direct sourcing model; a relatively small portion of our hiring is through recruitment agencies. FIS does not accept resumes from recruitment agencies which are not on the preferred supplier list and is not responsible for any related fees for resumes submitted to job postings, our employees, or any other part of our company.
+
+  
+
+#pridepass",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_503170176_n.png,,,,,,,2,,,,,
+bayt-75331053,bayt,https://www.bayt.com/en/india/jobs/staff-ai-engineer-75331053/,,Staff AI Engineer,"Generac Power Systems, Inc","Pune, India",17-10-2026,,,,,,,FALSE,,,,,"**We are Generac, a leading energy technology company committed to powering a smarter world.**
+
+  
+  
+
+Over the 60 plus years of Generac’s history, we’ve been dedicated to energy innovation. From creating the home standby generator market category, to our current evolution into an energy technology solutions company, we continue to push new boundaries.
+
+  
+
+* Architect, build, and operate production AI/ML systems and agentic workflows, including the tooling, infrastructure, and processes needed to develop, test, and deploy them reliably.
+* Define and implement quality and reliability practices for AI systems — testing frameworks, monitoring, and pass/fail criteria that gate releases and catch regressions before they reach customers.
+* Instrument and operate production systems, building sufficient visibility into system behavior (e.g., logging, tracing, dashboards) to diagnose issues and support continuous improvement.
+* Translate production feedback and failures into concrete engineering improvements, driving iteration on models, prompts, retrieval, or other system components based on data and stakeholder input.
+* Define and track the technical metrics that matter for a given system or product area (e.g., accuracy, latency, cost, reliability) and produce artifacts that product, engineering, and risk stakeholders can rely on.
+* Establish technical standards, tooling, and patterns that can be reused across teams building AI-driven products, promoting consistency in how AI system quality is measured and maintained.
+* Partner closely with engineering, product, and design; mentor other engineers; and serve as a technical resource on AI system design, quality, and reliability trade-offs.
+* Translate ambiguous, evolving product and technical goals into concrete, measurable engineering plans and deliverables.
+
+**Minimum Job Requirements**  
+
+**Education:**
+
+  
+
+Bachelor's or Master's degree in Computer Science, Machine Learning, or a related technical field, or equivalent experience.
+
+  
+
+**Certification/License:**
+
+  
+
+None required.
+
+  
+
+**Work Experience:**
+
+  
+
+5+ years building and operating production AI/ML or software systems, including hands-on experience with large language models (LLMs) and/or AI agent systems.
+
+  
+
+**Knowledge, Skills & Abilities:**
+
+  
+
+* Strong software engineering fundamentals, including proficiency in Python and experience with distributed data pipelines and CI/CD.
+* Demonstrated experience building and/or operating evaluation, testing, or observability capabilities for ML/AI systems in production.
+* Experience with LLM-based system design, including techniques such as LLM-as-judge evaluation, golden-dataset curation, and regression/drift detection.
+* Experience instrumenting or operating complex, multi-step systems (e.g., multi-step reasoning, tool use, retrieval, multi-agent handoffs).
+* Experience assessing agentic or AI systems for security, reliability, or failure modes (e.g., red-teaming or similar practices).
+* Ability to translate ambiguous product or technical goals into measurable, defensible engineering plans.
+* Strong cross-functional collaboration and communication skills; able to represent technical trade-offs to non-technical stakeholders.
+
+**Preferred Job Requirements**  
+
+* Experience with cloud AI/ML platforms (e.g., AWS Bedrock) and agent frameworks (e.g., LangGraph, Strands, or similar).
+* Experience with cloud-native MLOps/LLMOps practices: packaging, CI/CD, A/B testing, and model or prompt versioning.
+* Hands-on experience with evaluation or observability platforms (e.g., Langfuse, Braintrust, LangSmith, or similar).
+* Track record of standing up a new technical capability (e.g., an evaluation or observability function) as a reusable, cross-team resource.
+* Experience using synthetic data to increase test coverage for AI/ML systems.
+
+Experience across multiple product domains or business contexts",Other Business Support Services,,,,,,,,,5,,,,
+bayt-75329738,bayt,https://www.bayt.com/en/india/jobs/ai-engineer-75329738/,,AI Engineer,Luxoft,"Pune, India",17-10-2026,,,,,,,FALSE,,,,,"Project description  
+Developing cloud-based compliance state-of-the-art archive products to archive and retain real-time communications data in line with internal and external regulatory requirements. The product is developed in-house in an agile development setup based on business requirements from multiple stakeholder parties. By employing continuous development and deployment principles, the team is aiming to transition from project to product management to support the bank with robust compliance archive solutions for the next decade.  
+For a large global investment bank, we are looking for GCP-qualified cloud engineers to help with the FIC (fixed income and currencies) cloud migrations under Project Cirrus.  
+Knowledge of Financial Services/FIC would be great, but the primary skills we need are in building, migrating, and deploying applications to GCP, Terraform module coding, Google infrastructure, cloud-native services such as GCE, GKE, CloudSQL/Postgres, logging and monitoring, etc., & good written and spoken English, as we would like these engineers to help with knowledge transfer to our existing development & support teams.  
+We would like to place people alongside the engineers they'll be working with in the bank.  
+Responsibilities  
+Key Responsibilities & Skills and Experience  
+Proven experience (13+ years) in an AI Engineer role, demonstrating successful application of AI skills and advanced techniques to solve complex, real-world problems, with a track record of leading technical initiatives.  
+Extensive hands-on software engineering experience, including the design and delivery of enterprise-scale distributed applications and production-grade AI or Generative AI solutions.  
+Deep expertise in Python or Java engineering skills and practical experience with API, microservices and asynchronous application design; experience with FastAPI, Spring Boot or comparable frameworks is beneficial.  
+Strong experience with BigQuery and PostgreSQL, cloud-native architectures, Git-based development, CI/CD, Docker, Kubernetes, infrastructure as code, observability and automated testing; practical knowledge of GitHub or Azure DevOps, Terraform and OpenTelemetry is beneficial.  
+Practical expertise in LLM applications, AI agents, RAG architectures, vector databases, semantic or hybrid search, model evaluation and LLMOps, with hands-on experience in relevant orchestration, evaluation and observability tools.  
+Solid grounding in machine learning, feature engineering, model explainability and analytical modelling, using relevant Python ML libraries.  
+Strong understanding of financial markets and investment products is highly desirable, with experience in Investment Banking / Treasury.  
+Strong engineering mindset and ownership mentality, with sound judgement and the ability to structure ambiguity, solve complex problems, make pragmatic technical decisions and balance delivery speed, quality, risk, maintainability and long-term scalability.  
+Excellent stakeholder management, communication and collaboration skills, with the ability to understand business needs, translate them into clear technical choices, manage expectations, influence decisions and build trusted relationships across business, product, technology and control functions.  
+Demonstrated technical leadership, including the ability to set direction, lead by example, mentor and develop engineers, provide constructive challenge, drive accountability and foster an inclusive culture of learning, experimentation and engineering excellence.  
+Ability to lead delivery across the engineering lifecycle, establish fit-for-purpose standards and working practices, manage dependencies and trade-offs, and maintain focus on measurable business and user outcomes.  
+Bachelor’s degree in Computer Science, Engineering, Science or a related discipline, or equivalent professional experience  
+Strategic AI Solution Development:  
+End-to-End AI Architecture & Leadership: Lead the design, architecture, and implementation of highly scalable and robust AI-powered applications and services utilizing Python, FastAPI/Flask, FastMcp LangGraph, ADK and Google VertexAI.  
+Advanced Model Integration & Optimization: Architect, integrate, and expertly fine-tune large language models, with a strategic focus on the Gemini Model, for advanced NLP tasks and cutting-edge generative AI applications.  
+Pioneering Conversational & Agentic AI:   
+Agentic AI System Orchestration: Architect and implement advanced Agentic AI patterns, orchestrating complex AI workflows using frameworks like ADK and LangGraph to build robust, intelligent, and autonomous systems.  
+Scalable System Integration & Cloud Infrastructure:  
+API Architecture & Integration: Drive the design and implementation of seamless API architectures and integrations with diverse internal and external systems, ensuring optimal data flow and functionality across the enterprise.  
+Cloud Infrastructure Leadership: Lead the deployment, management, and optimization of AI solutions on cloud platforms, leveraging services like GCP CloudRun/GKE, BigQuery, Cloud Composer, and CloudSQL for resilient data processing and infrastructure management.  
+Operational Excellence & Quality Assurance:  
+Code Quality & AIOps Governance: Establish and enforce rigorous code quality standards and best practices for software development and AIOps, ensuring clean, maintainable, and well-documented code across all AI projects.  
+Advanced Testing & Deployment Oversight: Architect and execute comprehensive test strategies for AI solutions, leading the deployment and continuous monitoring of models in production environments, ensuring high performance and reliability.  
+Thought Leadership & Cross-Functional Collaboration:  
+Research & Innovation Leadership: Actively lead research into the latest advancements in AI, machine learning, and natural language processing, translating cutting-edge developments into innovative solutions and strategic initiatives.  
+Cross-Functional Strategic Partnership: Collaborate closely with product managers, data scientists, and other engineering leaders to define strategy, align priorities, and ensure the successful delivery of high-quality, impactful AI products that meet business objectives.  
+Skills  
+Must have  
+""  
+Strong programming skills in Java (preferred), with experience in Python, Scala a plus.  
+Experience developing back end components including real time report generation, batch processing and integration with downstream systems  
+Strong performance tuning capabilities  
+Experience in high volume data processing / ETL using Java.  
+Experience working with Relational Databases – ideally Oracle Exadata.  
+Experience working in an Agile based team – ideally Scrum.  
+Big Data Framing and Analysis  
+A track record of building scalable and maintainable applications.  
+An understanding of stream based processing  
+A thorough understanding of quality assurance principles  
+Good working knowledge of the use of JIRA / Defect Management tools  
+Good working Knowledge of Software Versioning. i.e. Git Flow  
+Experience working in a test driven development domain  
+Good Understanding of Automated testing tools (Rational Robot, Silktest, WinRunner, HP UFT, QuickTest Pro, RIATest, Green Hat etc)  
+Knowledge of white/black box level testing, system and performance testing of applications using industry standard practices and tools""  
+Nice to have  
+Banking Domain  
+Other  
+Languages  
+English: C2 Proficient  
+Seniority  
+Senior",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_1004114910_n.png,,,,,,,13,,,,
+bayt-75330675,bayt,https://www.bayt.com/en/india/jobs/senior-engineer-platform-engineering-75330675/,,"Senior Engineer, Platform Engineering",AmerisourceBergen Corporation,"Pune, India",17-10-2026,,,,,,,FALSE,,,,hrsc@cencora.com,"Our team members are at the heart of everything we do. At Cencora, we are united in our responsibility to create healthier futures, and every person here is essential to us being able to deliver on that purpose. If you want to make a difference at the center of health, come join our innovative company and help us improve the lives of people and animals everywhere. Apply today!
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+**Job Details**   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+Cencora is a leading global pharmaceutical distribution and healthcare solutions organization dedicated to improving the lives of people and animals worldwide. Through its extensive network of manufacturers, healthcare providers, pharmacies, and patients, Cencora helps ensure timely and reliable access to critical therapies and healthcare services. The company continually invests in innovative technologies, operational excellence, and talented professionals to advance healthcare delivery and create meaningful impact across the global healthcare ecosystem.
+
+  
+  
+
+**Summary:**
+
+  
+
+The Senior Platform Engineer for Leena AI is a senior individual contributor within the Platform Engineering organization, responsible for owning and operating Cencora's Leena AI deployment — an agentic AI platform used to automate HR, IT, and employee support workflows at enterprise scale. Operating with a high degree of autonomy, this role applies deep technical expertise to extend Leena AI's capabilities by connecting it to internal systems via custom MCP (Model Context Protocol) servers, alongside platform configuration, integration engineering, and operational monitoring responsibilities.
+
+  
+  
+Platform Administration
+
+* Configure and maintain the Leena AI instance, including Knowledge Studio content sources, permissions and access controls, and governance policies.
+* Build and optimize agentic workflows using AOP Studio and Workflow Studio, translating HR and IT business requirements into automated AI Colleague processes.
+* Own the Leena AI platform roadmap, proactively identifying opportunities to expand automation coverage and enhance employee experience.
+
+MCP & Integration Engineering (Core Focus)
+
+* Design, implement, and maintain Custom MCP Connectors to register internal MCP servers with Leena AI, enabling internal tools and data sources to be surfaced as agent actions.
+* Configure and manage authentication methods for MCP servers, including: No Authentication (internal/public endpoints) Custom Header/API Key Authentication Admin OAuth 2.0 User OAuth 2.0
+* Perform OAuth client registration, redirect URI setup, and credential management where required.
+* Validate and troubleshoot tool discovery and runtime schema synchronization across connected MCP servers as services evolve.
+* Assess and implement pre-built MCP connectors and the Pipedream MCP Connector where appropriate, making informed build-versus-buy decisions.
+* Coordinate network connectivity, infrastructure requirements, and security reviews for internally hosted MCP servers in partnership with enterprise infrastructure and security teams.
+
+Enterprise Integrations
+
+* Maintain and enhance integrations with core enterprise platforms, including: Workday ServiceNow Microsoft 365 SharePoint
+* Utilize Leena AI native connectors and REST API connectors when MCP-based integration is not suitable.
+* Act as the subject matter expert (SME) for enterprise integrations and provide guidance on optimal approaches for new connectivity requirements.
+
+Monitoring, Quality & Reporting
+
+* Monitor chatbot conversations, agent performance, and automation accuracy; investigate negative use cases and continuously improve training data and FAQs.
+* Track and report key performance indicators (KPIs), including: Ticket Deflection Rate Resolution Time Customer Satisfaction (CSAT)
+* Review execution logs, platform alerts, and credential-expiration notifications across all connected systems and proactively resolve issues.
+* Prepare and present regular platform health, adoption, utilization, and performance reports to leadership and key stakeholders.
+
+Security & Governance
+
+* Administer role-based access controls (RBAC), audit trails, and connector security across the platform.
+* Manage OAuth credentials, API keys, secrets, and certificate rotation processes for all integrations, including custom MCP connections.
+* Ensure platform operations comply with organizational information security policies, regulatory requirements, and data governance standards.
+
+Stakeholder Engagement & Leadership
+
+* Serve as the primary technical point of contact for HR, IT, and business stakeholders utilizing the Leena AI platform.
+* Gather, analyze, and translate business requirements into scalable AI-driven solutions, including identifying internal tools and services suitable for MCP exposure.
+* Lead requirement discovery workshops, solution-design discussions, platform demonstrations, and stakeholder presentations.
+* Collaborate with Leena AI support and product teams on platform upgrades, feature releases, and MCP-related incidents.
+* Mentor junior team members and promote engineering best practices, operational excellence, and continuous improvement within the Platform Engineering team.
+
+.
+
+  
+
+**Experience:**
+
+  
+
+* 6 years of IT experience, with expertise in systems administration, integration engineering, or conversational AI platforms such as Leena AI, Moveworks, Microsoft Copilot Studio, or Glean, including ownership of platform implementations and integration initiatives.
+* Strong understanding of Model Context Protocol (MCP) or proven experience with API integrations and connected systems.
+* Hands-on experience with OAuth 2.0, client registration, API key management, and header-based authentication mechanisms.
+* Experience integrating SaaS applications using REST/SOAP APIs, Single Sign-On (SSO), and SAML.
+* Familiarity with HRIS and ITSM platforms such as Workday, ServiceNow, or similar enterprise applications
+
+  
+
+**Educational Qualification:**
+
+  
+
+* Bachelor’s Degree in Statistics, Computer Science, Information Technology, or a related discipline (or equivalent relevant experience).
+
+  
+
+**Skills & Knowledge:**
+
+  
+
+**Behavioral Skills:**
+
+  
+
+* Critical Thinking
+* Detail Oriented
+* Impact and Influencing
+* Interpersonal Communication
+* Multitasking
+* Problem Solving
+* Time Management
+
+  
+
+**Technical Skills:**
+
+  
+
+* Identity & Access Management
+* Database Administration
+* IT Support like Software & Hardware Installation, Troubleshooting
+* Software Validation
+* Systems Integration
+* IT Regulatory Compliance like SOX Compliance
+
+******What Cencora offers******
+
+​Benefit offerings outside the US may vary by country and will be aligned to local market practice. The eligibility and effective date may differ for some benefits and for team members covered under collective bargaining agreements.
+
+  
+Full time******Affiliated Companies******Affiliated Companies: CENCORA BUSINESS SERVICES INDIA PRIVATE LIMITED********Equal Employment Opportunity********
+
+Cencora is committed to providing equal employment opportunity without regard to race, color, religion, sex, sexual orientation, gender identity, genetic information, national origin, age, disability, veteran status or membership in any other class protected by federal, state or local law.
+
+  
+
+The company’s continued success depends on the full and effective utilization of qualified individuals. Therefore, harassment is prohibited and all matters related to recruiting, training, compensation, benefits, promotions and transfers comply with equal opportunity principles and are non-discriminatory.
+
+  
+
+Cencora is committed to providing reasonable accommodations to individuals with disabilities during the employment process which are consistent with legal requirements. If you wish to request an accommodation while seeking employment, please call 888.692.2272 or email hrsc@cencora.com. We will make accommodation determinations on a request-by-request basis. Messages and emails regarding anything other than accommodations requests will not be returned",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_3921875137_n.png,,,,,,,6,,,,
+bayt-75331048,bayt,https://www.bayt.com/en/india/jobs/ai-engineer-ii-75331048/,,AI Engineer II,"Generac Power Systems, Inc","Pune, India",17-10-2026,,,,,,,FALSE,,,,,"**We are Generac, a leading energy technology company committed to powering a smarter world.**
+
+  
+  
+
+Over the 60 plus years of Generac’s history, we’ve been dedicated to energy innovation. From creating the home standby generator market category, to our current evolution into an energy technology solutions company, we continue to push new boundaries.
+
+  
+
+* AI Application & Agentic Architecture
+  + GenAI & RAG Solutions: Design and develop production-grade AI applications and RAG architectures leveraging structured/unstructured enterprise knowledge repositories.
+  + Agentic Automation: Architect, deploy, and scale autonomous AI agents capable of multi-step reasoning, planning, tool execution, and complex workflow automation.
+  + Multi-Agent Orchestration: Implement multi-agent communication networks and agent-to-system integrations using modern frameworks and protocols (e.g., Model Context Protocol - MCP).
+  + Enterprise Integration: Embed intelligent assistants, copilot features, microservices, and APIs into modern web applications and industrial operations software.
+* Cloud AI & Open-Source Engineering
+  + Cloud AI Solutions: Build robust solutions on cloud platforms including:
+    - Microsoft Azure: Azure AI Foundry, Azure OpenAI Service, Azure AI Search, Azure Machine Learning, Azure Functions, Azure Databricks.
+    - Google Cloud (GCP): Vertex AI, Gemini Models, Document AI, BigQuery, AlloyDB AI, Cloud Run.
+  + Open-Source Innovation: Hands-on development utilizing modern agentic frameworks and open-source models:
+    - Frameworks: LangGraph, LangChain, LlamaIndex, CrewAI, AutoGen, Claude Agent SDK, Hugging Face, MCP.
+    - Models: Llama, Gemma, Mistral, and leading proprietary/open-weights LLMs.
+* Deployment, MLOps & Optimization
+  + LLMOps & Lifecycle: Develop continuous integration/deployment (CI/CD) pipelines for testing, evaluating, and monitoring live AI applications.
+  + Performance Optimization: Perform advanced prompt engineering, fine-tuning, latency reduction, and domain-specific model evaluation.
+  + Observability & Governance: Implement enterprise best practices for AI observability, performance tuning, model accuracy, and responsible AI governance.
+
+Minimum Job Requirements
+
+**Education**
+
+  
+
+* Education: Bachelor’s or master’s degree in computer science, Artificial Intelligence, Data Science, Machine Learning, Software Engineering, or a related technical discipline.
+
+**Experience & Skills**:
+
+  
+
+* Experience: 3+ years of hands-on experience building and deploying AI, ML, NLP, or Generative AI solutions.
+* Production Track Record: Demonstrated experience delivering at least one production-ready AI application, LLM-powered platform, or agentic workflow into a live environment.
+* Core Technical Expertise:
+* Strong working knowledge of LLMs, Prompt Engineering, RAG architectures, Vector Databases, and RESTful Microservices.
+* Solid understanding of modern software engineering practices (Git, CI/CD, unit testing, containerization).
+* Languages: Advanced proficiency in Python (required), JavaScript / TypeScript (Preferred)
+* Architectures: GenAI, LLMs, RAG, Agentic AI, Autonomous Workflows, Vector DBs
+* Cloud Platforms: Azure AI, GCP Vertex AI
+* Frameworks: LangGraph, LangChain, LlamaIndex, MCP, CrewAI, AutoGen, Databricks, Google-BigQuery
+
+Preferred Job Requirements
+
+* Hands-on experience developing AI assistants, enterprise copilots, or autonomous multi-agent orchestration frameworks.
+* Deep knowledge of LLMOps/MLOps, evaluation frameworks, and AI monitoring/observability tools.
+* Experience in manufacturing, energy, industrial IoT, field service, or engineering operations domains.
+* Familiarity with JavaScript/TypeScript, enterprise security standards, or Model Context Protocol (MCP).
+* Active open-source contributions, technical publications, or patent filings in AI/ML.
+
+Physical Requirements and Working Conditions
+
+PHYSICAL DEMANDS:
+
+  
+
+***Office Environment (Includes field sales):***
+
+  
+
+While performing the duties of this job, the employee is regularly required to talk and hear; and use hands to manipulate objects or controls.  The employee is regularly required to stand and walk.  On occasion, the incumbent may be required to stoop, bend, or reach above the shoulders.  The employee must occasionally lift up to 25 pounds. Specific conditions of this job are typical of frequent and continuous computer-based work requiring periods of sitting, close vision, and the ability to adjust focus. Occasional travel. *(If travel percentage is required beyond occasional or is a regular part of the job, include “Up to x% travel and valid Driver’s License required.”)*
+
+  
+
+**DISCLAIMER**
+
+  
+
+*All responsibilities and requirements are subject to possible modification to reasonably accommodate individuals with disabilities.*
+
+  
+
+*This job description in no way states or implies that these are the only responsibilities to be performed by an employee occupying this job or position.  Employees must follow any other job-related instructions and perform any other job-related duties requested by their leaders.*",Other Business Support Services,,,,,,,,,3,,,,
