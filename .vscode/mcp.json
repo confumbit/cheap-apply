@@ -1,9 +1,0 @@
-{
-  "servers": {
-    "playwright": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@playwright/mcp@latest", "--browser", "chrome", "--user-data-dir", "${workspaceFolder}/.browser-profile"]
-    }
-  }
-}
