@@ -1,0 +1,1049 @@
+id,site,job_url,job_url_direct,title,company,location,date_posted,job_type,salary_source,interval,min_amount,max_amount,currency,is_remote,job_level,job_function,listing_type,emails,description,company_industry,company_url,company_logo,company_url_direct,company_addresses,company_num_employees,company_revenue,company_description,skills,experience_range,company_rating,company_reviews_count,vacancy_count,work_from_home_type,resume_pdf
+bayt-75348654,bayt,https://www.bayt.com/en/india/jobs/applied-ai-engineer-75348654/,,Applied AI Engineer,Nextracker Inc,India,2026-10-22,,,,,,,False,,,,,"**Job Description:**
+
+  
+  
+  
+  
+
+Location: Hyderabad
+
+  
+  
+
+Experience:
+
+  
+  
+
+BS and 5-8 years  
+MS and 3-6 years  
+PhD and 0-3 yea
+
+  
+  
+
+Primary Areas: Agentic AI, LLM Application Development, Backend Engineering
+
+  
+  
+
+Primary Stack: Python, Django/FastAPI, Azure OpenAI, Azure AI Foundry, PostgreSQL, Redis, Go, Angular/TypeScript, Docker
+
+  
+  
+
+**ROLE SUMMARY**
+
+  
+  
+
+Build practical, production-oriented AI applications and agentic workflows for Nextpower's engineering and business platforms.
+
+  
+  
+
+You will develop agents that can understand tasks, use tools and APIs, work with enterprise data, produce structured outputs, and involve people when approval or review is required. You will integrate these capabilities into our Python/Django, Go, and Angular/TypeScript platform on Azure.
+
+  
+  
+
+The role requires strong software engineering fundamentals and a willingness to balance rapid experimentation with reliability, security, evaluation, and maintainability.
+
+  
+  
+
+**KEY RESPONSIBILITIES**
+
+  
+  
+
+* Design and build agentic AI features using tool/function calling, structured outputs, workflow orchestration, state management, and human-in-the-loop controls.
+* Integrate agents with APIs, databases, documents, business services, and external systems.
+* Select appropriate solutions, including deterministic workflows, single-agent solutions, or multi-agent orchestration.
+* Build LLM applications using prompt engineering, context management, RAG, vector search, and model APIs.
+* Implement asynchronous workflows with retries, timeouts, progress tracking, and recovery.
+* Integrate AI capabilities into backend services and expose them through clean APIs and user interfaces.
+* Define evaluations and automated tests for accuracy, task completion, tool use, reliability, latency, cost, and safety.
+* Add guardrails for prompt injection, unauthorized actions, data leakage, and unsafe tool use.
+* Add tracing and observability for prompts, model calls, retrieval, tool calls, workflow state, errors, latency, and cost.
+* Collaborate with product, engineering, QA, security, and subject-matter experts to deliver maintainable AI capabilities.
+
+  
+
+**REQUIRED SKILLS**
+
+  
+  
+
+* Professional software engineering experience.
+* Hands-on experience building an LLM-powered or agentic AI application, prototype, or production feature.
+* Strong Python skills with Django, FastAPI, or a similar backend framework.
+* Practical understanding of LLM application patterns, including tool calling, structured outputs, prompt and context management, agent workflows, and RAG.
+* Experience with an LLM or agent framework such as LangGraph, LangChain, Semantic Kernel, or similar.
+* Experience integrating APIs, databases, or business services into AI workflows.
+* Understanding of REST APIs, asynchronous processing, retries, and error handling.
+* Experience with PostgreSQL or MySQL, Redis, and Docker.
+* Understanding of AI evaluation, testing, observability, and responsible AI practices.
+* Strong fundamentals in software design, debugging, version control, code reviews, and maintainability.
+
+  
+
+**PREFERRED SKILLS**
+
+  
+  
+
+* Experience with Azure OpenAI, Azure AI Foundry, or Azure AI Search.
+* Experience deploying AI applications to the cloud.
+* Experience with multi-step, asynchronous, or long-running agent workflows.
+* Experience with PostgreSQL/pgvector or another vector database.
+* Go backend or Angular/TypeScript experience.
+* Familiarity with event-driven systems, queues, workflow orchestration, or OpenTelemetry.
+* Experience with AI-assisted development or developer-productivity tools.
+
+  
+
+**SOFT SKILLS**
+
+  
+  
+
+* Curious, pragmatic, and able to learn rapidly in a changing technology area.
+* Strong quality, security, and reliability mindset.
+* Able to choose when agentic AI is appropriate and when deterministic logic is preferable.
+* Clear communicator with strong ownership of outcomes.
+* Comfortable working through ambiguity and iterating from prototype to production.
+
+**EDUCATIONAL QUALIFICATION**
+
+  
+  
+
+* Bachelor's or Master's degree in Computer Science, Information Technology, Engineering, or a related field.
+* Equivalent practical experience may also be considered.
+
+At Nextpower, we are driving the global energy transition with an integrated clean energy technology platform that combines intelligent structural, electrical, and digital solutions for utility-scale power plants. Our comprehensive portfolio enables faster project delivery, higher performance, and greater reliability, helping our customers capture the full value of solar power. Our talented worldwide teams are redefining how solar power plants are designed, built, and operated every day with smart technology, data-driven insights, and advanced automation. Together, we’re building the foundation for the world’s next generation of clean energy infrastructure.
+
+  
+  
+  
+  
+**We are Nextpower**",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_2428449631_n.png,,,,,,,5,,,,,
+bayt-75348566,bayt,https://www.bayt.com/en/india/jobs/ai-engineer-generative-ai-ai-platform-voice-ai-75348566/,,"AI Engineer - Generative AI, AI Platform & Voice AI",Mavenir,India,2026-10-22,,,,,,,False,,,,,"Mavenir is building the future of networks and pioneering advanced technology, focusing on the vision of a single, software-based automated network that runs on any cloud. As the industry's only end-to-end, cloud-native network software provider, Mavenir is transforming the way the world connects, accelerating software network transformation for 250+ Communications Service Providers in over 120 countries, which serve more than 50% of the world’s subscribers.
+
+  
+
+**Role Summary**
+
+  
+Plans, designs, develops and tests software systems or applications for software enhancements and new products including cloud-based or internet-related tools.
+
+**Key Responsibilities**
+
+  
+
+* Generative AI application development
+* LLMs, SLMs, RAG, agents, tool-calling, and prompt engineering
+* AI gateway or AI platform concepts
+* LLM fine-tuning and evaluation
+* ML model training and ML pipelines
+* Python-based backend development
+* FastAPI, REST APIs, microservices, and async processing
+* Vector databases such as Milvus, FAISS, Qdrant, Weaviate, or Pinecone
+* ML frameworks such as PyTorch, TensorFlow, Hugging Face Transformers, or Scikit-learn
+* Fine-tuning frameworks such as PEFT, LoRA, QLoRA, TRL, or Unsloth
+* Workflow orchestration using Airflow, Prefect, Kubeflow, Dagster, or similar tools
+* Containerization using Docker
+* Kubernetes-based deployment experience
+* Observability using logs, metrics, traces, dashboards, and alerts
+* Strong understanding of scalable system design
+* Good software engineering fundamentals, clean coding, testing, and documentation
+
+**Job Requirements**
+
+  
+
+• Design, develop, and deploy AI solutions across Generative AI, AI Platforms, Voice AI, LLM Fine-Tuning, and MLOps.  
+• Build production-grade applications using LLMs, RAG, Agents, and Prompt Engineering.  
+• Develop scalable APIs, backend services, and AI/ML pipelines.  
+• Contribute to AI platform development, performance optimization, and production deployments.  
+Must-Have Skills:  
+• Strong programming skills in C, C++ and Python.  
+• Strong understanding of scalable system design.  
+• Hands-on experience with GenAI, LLMs, RAG, Agents, and Prompt Engineering.  
+• Experience building APIs, backend systems, and microservices.  
+• Knowledge of ML training, evaluation, and MLOps workflows.  
+• Experience with PyTorch, TensorFlow, Hugging Face, or similar frameworks.  
+• Familiarity with Docker, Kubernetes, Vector Databases, and cloud-native environments.  
+Preferred Qualifications:  
+• Bachelor's or master's degree in computer science, AI, ML, Data Science, or a related field.
+
+  
+
+**Accessibility**
+
+  
+
+Mavenir is committed to working with and providing reasonable accommodation to individuals with physical and mental disabilities. If you require any assistance, please state in your application or contact your recruiter.
+
+  
+
+Mavenir is an Equal Employment Opportunity (EEO) employer and welcomes qualified applicants from around the world, regardless of their ethnicity, gender, religion, nationality, age, disability, or other legally protected status.",Other Business Support Services,,,,,,,,,,,,,,D:\work\job-apps\fresh\resume-tailor\tailor-runs\20261022-154104-mavenir-ai-engineer-generative-ai-ai-platform-vo\final\resume.pdf
+bayt-75348508,bayt,https://www.bayt.com/en/india/jobs/senior-specialist-artificial-intelligence-75348508/,,Senior Specialist - Artificial Intelligence,ACCELYA,India,2026-10-22,,,,,,,False,,,,,"For more than 40 years, Accelya has been the industry’s partner for change, simplifying airline financial and commercial processes and empowering the air transport community to take better control of the future. Whether partnering with IATA on industry-wide initiatives or enabling digital transformation to simplify airline processes, Accelya drives the airline industry forward and proudly puts control back in the hands of airlines so they can move further, faster.
+
+  
+Role Purpose  
+As Senior Specialist - Artifical Intelligence at Accelya, you will lead AI/ML development, architecting intelligent systems, mentoring engineers and applying advanced AI techniques to solve complex airline domain problems at scale.  
+Duties & Responsibilities  
+• Lead the design and development of complex, production-grade AI/ML systems for airline software applications  
+• Architect scalable ML platforms and AI feature infrastructure on AWS, integrating with Accelya's microservices architecture  
+• Drive adoption of advanced AI techniques including foundation models, RAG, agentic AI and reinforcement learning for airline domain problems  
+• Lead ML experiment design, statistical evaluation and production deployment of high-impact AI capabilities  
+• Partner with senior product and engineering leaders on AI product strategy and roadmap  
+• Define AI engineering standards, review practices and MLOps governance across the team  
+• Publish internal research, thought leadership and contribute to Accelya's AI knowledge community  
+Required Experience & Skills  
+• 5–7 years of AI/ML engineering experience with a track record of high-impact model delivery  
+• Expert ML skills across classical ML, deep learning, LLMs and generative AI  
+• Deep experience with ML platform engineering, MLOps and responsible AI  
+• Proven ability to lead ML engineering teams and drive technical strategy  
+• Bachelor's degree in Computer Science or related field; Master's or PhD preferred  
+Preferred Experience & Skills  
+• Deep expertise in generative AI, foundation models and agentic AI frameworks (LangChain, LlamaIndex) applied to enterprise software products  
+• Knowledge of how FLYR's AI-native architecture, PROS AI and Amadeus ML capabilities are shaping AI in the airline technology sector  
+• Expert use of AWS AI services (SageMaker, Bedrock, Comprehend) within Accelya's AWS-partnered cloud environment  
+• Understanding of responsible AI governance in airline technology, including model explainability, fairness in pricing AI and regulatory implications for AI-driven airline decisions  
+What do we offer?  
+• An open culture with a creative and challenging opportunity to satisfy your intellectual needs  
+• Flexible working hours  
+• Smart working: a hybrid remote/office working environment  
+• Work-life balance  
+• An excellent, dynamic and multicultural environment to work in  
+About Accelya  
+Accelya is a leading global software provider to the airline industry, powering over 200 airlines with an open, modular software platform. Owned by Vista Equity Partners, we bring together 2,000+ employees across 10 global offices. We are proud partners of AWS and pioneers in NDC expertise. Find out more at www.accelya.com
+
+What does the future of the air transport industry look like to you? Whether you’re an industry veteran or someone with experience from other industries, we want to make your ambitions a reality!",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_2270549381_n.png,,,,,,,5,,,,,
+bayt-75347929,bayt,https://www.bayt.com/en/india/jobs/order-to-cash-data-business-analytics-expert-75347929/,,Order To Cash Data & Business Analytics Expert,Sanofi,India,2026-10-22,,,,,,,False,,,,,"**Job title: Order to Cash Data & Business Analytics Expert**
+
+* **Location:** Hyderabad
+
+**About the job**  
+
+Sanofi is a global life sciences company committed to improving access to healthcare and supporting the people we serve throughout the continuum of care. From prevention to treatment, Sanofi transforms scientific innovation into healthcare solutions, in human vaccines, rare diseases, multiple sclerosis, oncology, immunology, infectious diseases, diabetes and cardiovascular solutions. As a company with a global vision of drug development and a highly regarded corporate culture, Sanofi is recognized as one of the best pharmaceutical companies in the world and is pioneering the application of Artificial Intelligence (AI) with strong commitment to develop advanced data standards to increase reusability & interoperability and thus accelerate impact on global health.
+
+  
+
+Our Order to Cash (O2C) team aims for excellence, equipping Sanofi with a robust core model, seconded with best of breed digital solutions embedding artificial intelligence and machine learning functionalities. Our international presence, our ambition to become a global reference player for all order to cash related processes mean that our team works on a variety of projects with opportunities for a rich mix of work. This leads to a challenging and stimulating professional experience full of growth and learning. Business Operations is a Global organization of Sanofi providing end to end services to all geographies in Europe, North America, China, JPAC & International regions and covering Global Procurement services, Operations and transition management, medical activities hub, People services, and Global Finance services. Global Finance services homedical following service lines O2C, A2R, Financial sanctions compliance.
+
+  
+
+Over the past two years, Global Finance Services has doubled in size and increased its scope. As one department within Business Operations, we’re also part of something much bigger. This provides opportunities for learning, growing, job moves and a diversified, fulfilling career. Order To Cash (O2C) service line, one of the pillars of Business Operations Finance services, is currently covering the following areas
+
+  
+
+* Master data Management
+* Sales orders Management
+* Requests and Disputes Management
+* Credit Risk and Credit Data Management
+* Collections and Customer Contact Management
+* Cash Application and Receivables Management
+* AR related Month-end Closing, Reporting and Non-trade Invoice Management
+
+These operations are critical for customers & patients’ products fulfillment, accurate accounting, generating cash flow, and customer satisfaction.
+
+  
+
+As Order to Cash Data & Business Analytics Expert within our Global Finance Services Order to Cash team, you'll turn data into insights that improve how we serve customers, collect cash, and run our processes. Ready to get started?
+
+  
+
+Join the team that powers Sanofi from within, streamlining how we work, scaling bold ideas, and accelerating impact across the business. In our Business Operations Hubs, you'll help shape smarter, data-driven Order to Cash processes (from sales orders to cash application) that support customers and help bring life-changing treatments to patients faster. You'll work with colleagues across the globe, using analytics, automation, and AI to drive continuous improvement.
+
+  
+
+**Main responsibilities:**
+
+  
+  
+
+* Build and improve dashboards, KPIs, and reports that help teams monitor efficiency, spot deviations, and follow process adherence.
+* Analyze Order to Cash data and share clear, actionable insights with Global Process Leads, Business System Owners, and Hub teams.
+* Translate business needs into Power BI visualizations and turn them into user stories and tasks for developers.
+* Train and support colleagues so that data is understood, trusted, and used in everyday decisions.
+* Put our data governance approach into practice, keeping data accurate, high quality, secure, and compliant.
+* Resolve data quality issues at the source and work with other teams to align data definitions and data sharing across processes.
+* Keep master and reference data consistent across systems and applications and check the accuracy of data from internal and external sources.
+
+**About you:**
+
+  
+  
+
+* **Experience:** Proven experience in analytics and a strong understanding of Order to Cash activities, with good business sense.
+* **Technical skills:** Hands-on experience with Power BI and RPA, and solid SAP knowledge. Experience with Agile ways of working, Jira/Confluence, Microsoft Lists, or Python is a plus.
+* **Soft skills:** Excellent stakeholder management and communication skills, strong problem-solving and analytical thinking, and the ability to train others and present ideas clearly.
+* A self-starter who takes initiative, works independently under pressure, and delivers excellent service to customers.
+* **Languages:** Excellent English (written and spoken). Other European languages are an advantage.
+
+**Why choose us?**
+
+  
+  
+
+* Bring the miracles of science to life alongside a supportive, future-focused team.
+* Discover endless opportunities to grow your talent and drive your career, whether it’s through a promotion or lateral move, at home or internationally.
+* Enjoy a thoughtful, well-crafted rewards package that recognizes your contribution and amplifies your impact.
+* Take good care of yourself and your family, with a wide range of health and wellbeing benefits including high-quality healthcare, prevention, and wellness programs and at least 14 weeks’ gender-neutral parental leave.
+* Opportunity to work in an international environment, collaborating with diverse business teams and vendors, working in a dynamic team, and fully empowered to propose and implement innovative ideas.
+
+  
+Pursue *progress*, discover *extraordinary*
+
+Better is out there. Better medications, better outcomes, better science. But progress doesn’t happen without people – people from different backgrounds, in different locations, doing different roles, all united by one thing: a desire to make miracles happen. So, let’s be those people.
+
+  
+
+At Sanofi, we provide equal opportunities to all regardless of race, colour, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, ability or gender identity.
+
+  
+
+Watch our ALL IN video and check out our Diversity Equity and Inclusion actions at sanofi.com!",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_63054728_n.png,,,,,,,,,,,,
+bayt-75347836,bayt,https://www.bayt.com/en/india/jobs/simulation-engineer_adas-75347836/,,Simulation Engineer_ADAS,Aptiv,India,2026-10-22,,,,,,,False,,,,,"**Job Description**
+
+  
+
+**Help shape the future of mobility.**
+
+  
+  
+
+**Your Role**
+
+  
+  
+
+**Role Overview**  
+We are seeking a Simulation Engineer – SIL to develop and execute virtual  
+validation environments for embedded software.  
+You will play a key role in early-stage verification using model-based development  
+and simulation frameworks.
+
+  
+
+**Key Responsibilities**  
+-Develop simulation models and environments for automotive ECUs using embedded  
+systems expertise.  
+-Optimize simulation performance and accuracy using microcontroller knowledge  
+(memory, processing, real-time constraints).  
+-Build simulation models for specific MCU platforms like Renesas, Aurix, and S32,  
+ensuring compatibility and scalability.  
+-Use tools like virtualization, emulation, and trace analysis to identify and fix  
+simulation issues.  
+-Develop simulation software using C and C++ for efficient and scalable  
+implementations.  
+-Create and maintain simulation tools aligned with automotive development processes.  
+-Collaborate with cross-functional teams to align simulation with timelines,  
+requirements, and quality standards.
+
+  
+  
+
+**Location:** Bangalore, India  
+**Experience:** 5–8 years
+
+  
+  
+
+**Your Background**
+
+  
+  
+
+Knowledge of Radar Signal Processing and Object Tracking  
+Strong experience in MATLAB/Simulink  
+Proficiency in Python and/or C++  
+Understanding of embedded systems and AUTOSAR basics  
+Hands-on experience with CAN/Ethernet communication protocols and CANoe  
+Experience with JIRA, Git/Gerrit  
+Knowledge of model-in-the-loop (MIL) vs SIL workflows  
+Windows and Linux
+
+  
+  
+
+**Why join Aptiv**
+
+  
+  
+
+* **You grow at Aptiv.**
+
+Aptiv's winning culture is global by design. We bring together diverse perspectives, cultures, and business contexts to solve our customers' toughest challenges. In this environment, every individual can grow, lead, and make an impact, regardless of background, because inclusion fuels how we innovate and win.  
+
+  
+
+**You make an impact at Aptiv.**
+
+  
+
+One of the strengths of humanity is our drive to progress, to improve, to achieve more tomorrow than we did yesterday. People need solutions they can trust when it matters most. At Aptiv, you are building those solutions every day. 
+
+  
+
+**You have support at Aptiv.**
+
+  
+
+We ensure you have the resources and support you need to take care of your family, your physical health, and your mental health with a competitive benefits package. 
+
+  
+  
+
+**Your Benefits at Aptiv:**
+
+  
+
+* Higher Education Opportunities (UDACITY, UDEMY, COURSERA are available for your continuous growth and development);
+* Life and accident insurance;
+* Well Being Program that includes regular workshops and networking events;
+* EAP Employee Assistance.
+* Access to fitness clubs (T&C apply);
+* Shift allowances are applicable. Will discuss during the interview process.
+
+  
+
+**Meet the next generation Aptiv**
+
+  
+  
+
+**At Aptiv, we deliver innovative solutions that people trust when it matters most.**
+
+  
+
+Progress is never static. It is about reaching further, exploring new possibilities, and enabling mobility. Aptiv empowers customers to create solutions people rely on—advancing safety and autonomy in Automotive and Commercial Vehicles, enabling mission-critical performance in Aerospace & Defense, and powering intelligent systems across Energy, Enterprise, and Telecommunications. We also drive precision and efficiency in Industrials & Robotics and support life-critical innovation in Medical technologies.  
+
+  
+
+Guided by our winning culture and values to Think & Act Like Owners, as One Team, and Play to Win, we turn commitment into results and achieve more together.  
+
+  
+
+**Join Us to Deliver Innovative Solutions That People Trust!**
+
+  
+
+#LI-SV2
+
+  
+
+Privacy Notice - Active Candidates: https://www.aptiv.com/privacy-notice-active-candidates
+
+  
+
+Aptiv is an equal employment opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, gender identity, sexual orientation, disability status, protected veteran status or any other characteristic protected by law.",Other Business Support Services,,https://secure.b8cdn.com/70x70/images/logo/00/aggregated_logo_130300771_n.png,,,,,,,5,,,,,
+in-f95a59ac5bb7fc2d,indeed,https://in.indeed.com/viewjob?jk=f95a59ac5bb7fc2d,,Senior Machine Learning Engineer,FuGenEd(An Incubation Center) ,"Remote, India",2026-10-14,"fulltime, contract",direct_data,monthly,100000.0,120000.0,INR,True,,,,,"**Role Overview**
+
+We are looking for a Senior Machine Learning Engineer with strong hands-on experience in MLOps, production ML systems, PySpark, and Databricks.
+
+The role is focused more on deploying, operationalizing, monitoring, and maintaining ML/DL models in production than on pure research or model development.
+
+**Key Responsibilities**
+
+Design, deploy, and operationalize Machine Learning and Deep Learning models in production.  
+Build and maintain end-to-end MLOps workflows, covering model training, validation, deployment, monitoring, versioning, and retraining.  
+Develop scalable data and ML pipelines using PySpark and Databricks.  
+Productionize Deep Learning models and support scalable model inference.  
+Work with multimodal data, combining Computer Vision, textual data, metadata, and other signals to build ML solutions.  
+Implement model monitoring, performance tracking, drift detection, experiment tracking, and lifecycle management.  
+Work with cloud-based ML infrastructure and deployment platforms.  
+Collaborate with Data Scientists, ML Engineers, Data Engineers, and business stakeholders to deliver production-ready ML solutions.  
+Ensure ML systems are scalable, reliable, maintainable, and suitable for production environments.
+
+**Mandatory Skills**
+
+5+ years of experience in Machine Learning / ML Engineering.  
+Strong hands-on MLOps and production ML deployment experience.  
+PySpark – mandatory.  
+Databricks – mandatory.  
+Experience deploying Deep Learning models into production.  
+Strong understanding of the end-to-end MLOps lifecycle.  
+Experience working with Computer Vision + textual data + metadata or other multimodal data.  
+Experience with at least one cloud platform such as AWS, Azure, or GCP.  
+Strong Python programming skills.
+
+**Good to Have**
+
+Strong understanding of Deep Learning architectures.  
+Experience building Deep Learning models using PyTorch or TensorFlow.  
+Experience with Generative AI / RAG.  
+Understanding and practical experience with embeddings, vector databases, and semantic search.  
+Experience with MLflow or similar ML lifecycle/experiment tracking tools.  
+Experience with Kubernetes, CI/CD, model serving, or ML monitoring platforms.
+
+**What We’re Looking For**
+
+The ideal candidate is someone who can take an ML/DL solution beyond experimentation and make it production-ready — including deployment, monitoring, scaling, versioning, and ongoing lifecycle management.  
+**Job Category:** Contractual  
+**Job Type:** Freelance  
+**Job Location:** India – Remote  
+**Experience:** 6+ years
+
+Pay: ₹100,000.00 - ₹120,000.00 per month
+
+Work Location: Remote",,https://in.indeed.com/cmp/Fugened,,,,,,,,5,,,,,
+in-628b7b675691808d,indeed,https://in.indeed.com/viewjob?jk=628b7b675691808d,,Senior Data Engineer,Technology Next,"Remote, India",2026-10-12,"fulltime, contract",direct_data,monthly,90000.0,130000.0,INR,True,,,,,"**Senior Data Engineer**
+
+**Job Title:** Senior Data Engineer  
+**Experience Required:** 8–10 Years  
+**Work Mode:** Remote  
+**Working Hours:** 11:00 AM – 9:00 PM IST
+
+**Job Summary**
+
+We are looking for an experienced **Data Engineer** with strong expertise in data engineering, data warehousing, AWS, Microsoft Azure, SQL/MySQL, and ETL/ELT development.
+
+The ideal candidate will be responsible for building and supporting data integration solutions, maintaining enterprise data warehouse systems, and contributing to cloud modernization, data migration, and platform upgrade initiatives. The candidate should have strong problem-solving skills and the ability to ensure data quality, performance, and reliability across enterprise data platforms.
+
+**Key Responsibilities**
+
+* Design, develop, and maintain ETL/ELT pipelines and data integration solutions.
+* Support the development, maintenance, and enhancement of enterprise data warehouse systems.
+* Work with AWS and Microsoft Azure cloud technologies to support data engineering and cloud modernization initiatives.
+* Perform data migration, platform upgrades, and data integration activities.
+* Develop, optimize, and maintain SQL/MySQL queries for efficient data processing.
+* Implement data modeling techniques to support scalable and reliable data solutions.
+* Monitor data pipelines and troubleshoot data processing and production issues.
+* Optimize data workflows, query performance, and overall system reliability.
+* Ensure data accuracy, consistency, quality, and integrity across data platforms.
+* Collaborate with business stakeholders, architects, and technical teams to deliver scalable data solutions.
+* Participate in Agile development processes, sprint planning, and project delivery activities.
+* Prepare technical documentation and support ongoing maintenance of data engineering solutions.
+
+**Required Skills and Qualifications**
+
+* 8–10 years of experience in Data Engineering and Data Warehousing.
+* Strong hands-on experience with AWS cloud technologies.
+* Working experience with Microsoft Azure technologies.
+* Proficiency in SQL and MySQL.
+* Strong knowledge of ETL/ELT development and data integration.
+* Experience with data migration and platform modernization projects.
+* Knowledge of data modeling, query optimization, and performance tuning.
+* Experience in production support, troubleshooting, and issue resolution.
+* Understanding of enterprise data warehouse concepts and data processing workflows.
+* Familiarity with Agile methodologies and collaborative software delivery.
+* Strong analytical, communication, and problem-solving skills.
+
+**Preferred Candidate Profile**
+
+* Experience working with enterprise-scale data platforms.
+* Ability to work across AWS and Azure environments.
+* Strong understanding of data quality, scalability, and performance optimization.
+* Ability to work independently in a remote environment and collaborate with cross-functional teams.
+
+Pay: ₹90,000.00 - ₹130,000.00 per month
+
+Experience:
+
+* Data Engineering: 8 years (Required)
+
+Work Location: Remote",,https://in.indeed.com/cmp/Technology-Next,,,,,,,,8,2.0,1.0,,,
+in-35948ab2a2013e69,indeed,https://in.indeed.com/viewjob?jk=35948ab2a2013e69,,Senior Machine Learning Engineer,FuGenEd(An Incubation Center) ,"Remote, India",2026-10-07,contract,direct_data,monthly,80000.0,110000.0,INR,True,,,,,"We are looking for a Senior Machine Learning Engineer with strong hands-on experience in MLOps, production ML systems, PySpark, and Databricks.
+
+The role is focused more on deploying, operationalizing, monitoring, and maintaining ML/DL models in production than on pure research or model development.
+
+Key Responsibilities
+
+Design, deploy, and operationalize Machine Learning and Deep Learning models in production.
+
+Build and maintain end-to-end MLOps workflows, covering model training, validation, deployment, monitoring, versioning, and retraining.
+
+Develop scalable data and ML pipelines using PySpark and Databricks.
+
+Productionize Deep Learning models and support scalable model inference.
+
+Work with multimodal data, combining Computer Vision, textual data, metadata, and other signals to build ML solutions.
+
+Implement model monitoring, performance tracking, drift detection, experiment tracking, and lifecycle management.
+
+Work with cloud-based ML infrastructure and deployment platforms.
+
+Collaborate with Data Scientists, ML Engineers, Data Engineers, and business stakeholders to deliver production-ready ML solutions.
+
+Ensure ML systems are scalable, reliable, maintainable, and suitable for production environments.
+
+Mandatory Skills
+
+5+ years of experience in Machine Learning / ML Engineering.
+
+Strong hands-on MLOps and production ML deployment experience.
+
+PySpark – mandatory.
+
+Databricks – mandatory.
+
+Experience deploying Deep Learning models into production.
+
+Strong understanding of the end-to-end MLOps lifecycle.
+
+Experience working with Computer Vision + textual data + metadata or other multimodal data.
+
+Experience with at least one cloud platform such as AWS, Azure, or GCP.
+
+Strong Python programming skills.
+
+Good to Have
+
+Strong understanding of Deep Learning architectures.
+
+Experience building Deep Learning models using PyTorch or TensorFlow.
+
+Experience with Generative AI / RAG.
+
+Understanding and practical experience with embeddings, vector databases, and semantic search.
+
+Experience with MLflow or similar ML lifecycle/experiment tracking tools.
+
+Experience with Kubernetes, CI/CD, model serving, or ML monitoring platforms.
+
+What We're Looking For
+
+The ideal candidate is someone who can take an ML/DL solution beyond experimentation and make it production-ready — including deployment, monitoring, scaling, versioning, and ongoing lifecycle management.
+
+Pay: ₹80,000.00 - ₹110,000.00 per month
+
+Work Location: Remote",,https://in.indeed.com/cmp/Fugened,,,,,,,,5,,,,,
+in-65841b47d3003d06,indeed,https://in.indeed.com/viewjob?jk=65841b47d3003d06,https://www.thebespokediaries.com/careers,Artificial Intelligence,Bespoke Diaries,"MH, India",2026-10-07,,,,,,,False,,,,,"Talented professionals are the building blocks of our success. To provide the best service to the best clients, we need the best people. We conduct serious business in a creative manner. Collaborating with forward-thinking professionals, who will help inspire our clients to explore and embrace emerging opportunity.
+
+  
+
+Hiring was and still is the most important thing we do. We take pride in offering opportunities for others to build their skills and explore a career in a supportive and dynamic environment.
+
+  
+
+**""We don't hire for skills, we hire for attitude. We can always teach skills.""**
+
+  
+
+By not taking the time to identify and nurture the talent that you have today, you run the risk of not sustaining the talent you need for the future. Whether talent leaves to achieve their aspirations elsewhere or talent stays but with unlocked potential, the result is lower levels of productivity, engagement, and lack of talent readiness for the future.
+
+  
+
+**So we do ensure to get the most out of our talent:**
+
+  
+
+* Invest time in our talents;
+* Understand their interest and need;
+* Guide them towards adaptability;
+* Develop their skillsets;
+* Improve them professionally and personally;
+
+  
+
+### Artificial Intelligence
+
+Mumbai, India
+
+Artificial Intelligence (AI) is a broad branch of computer science that is focused on a machine’s capability to produce rational behavior from external inputs. The goal of AI is to create systems that can perform tasks that would otherwise require human intelligence. AI manifests itself in everyday life via virtual assistants, search prediction technology, and even ride-hailing services.",,https://in.indeed.com/cmp/Bespoke-Diaries,,,,,,,,,,,,,
+in-00a5f83ae2043a70,indeed,https://in.indeed.com/viewjob?jk=00a5f83ae2043a70,https://maropost.bamboohr.com/careers/775?source=indeed&src=indeed&postedDate=2026-09-24,Senior Software Engineer (Machine Learning),Maropost,"Remote, India",2026-09-24,fulltime,,,,,,True,,,,,"Everything we do is for our customers!
+
+  
+
+Featured on Deloitte's Technology Fast 500 list and G2's leaderboard, Maropost offers a unified commerce experience that our customers need, transforming ecommerce, retail, marketing automation, merchandising, helpdesk and AI operations with one platform designed to scale for fast-growing businesses. With a relentless focus on our customers’ success, we are motivated by customer obsession, extreme urgency, excellence and resourcefulness to power 5,000+ global brands while we head to 100,000+.
+
+  
+
+Driven by the same customer-centric mentality as above, we empower businesses to achieve their goals and grow alongside us. If you're a driver and not passenger and are ready to make a significant impact and be part of our transformative journey, Maropost is the place for you.
+
+  
+
+**The Opportunity:**
+
+You will own the machine learning that powers product discovery for our merchants: personalized search ranking, recommendation widgets, email recommendations, and an LLM shopping assistant. This is an end-to-end role. You will train the models, build the services that serve them, and keep both running in production. You will not hand a model over a wall to someone else.
+
+The team is small and the systems are real: Recommendations are re-ranked in the live request path for storefronts, under a 200 ms budget, measured by merchant conversion.
+
+**What Youʼll Be Responsible For:**
+
+  
+
+* Design, train and ship recommendation and ranking models - session-based embeddings, collaborative filtering, content and visual embeddings.
+* Build and operate the Python services that serve them at low latency.
+* Run the batch pipelines that rebuild model artifacts daily across hundreds of merchants.
+* Design and read AB tests; decide what ships on the evidence.
+* Own your deployments: containers, Kubernetes manifests, autoscaling, dashboards, alerts.
+* Extend our LLM work - a shopping assistant and LLM-assisted catalogue enrichment - with proper evaluation behind it.
+
+  
+
+**What Youʼll Bring to Maropost:**
+
+  
+
+* 5+ years building machine learning systems, with at least 3 years of models serving live production traffic.
+* Strong Python,(FastAPI or equivalent).
+* Vector databases (Qdrant).
+* Other ANN libraries - FAISS, Annoy, ScaNN. HNSWlib is what we run, but the trade-offs transfer.
+* Hands-on recommender systems or search ranking experience: implicit feedback, embeddings, approximate nearest neighbour search.
+* Solid SQL against analytical stores; ClickHouse experience is a plus.
+* Comfortable with Docker and Kubernetes, and willing to own the deployment of your own work.
+* Experience running AB tests and reporting results you did not like.
+* Streaming systems (Pulsar, Kafka, Flink)
+* You exemplify Maropost’s Values:
+
+Customer Obsessed
+
+Extreme Urgency
+
+Excellence
+
+Resourceful
+
+**Message from the Founders:** Maropost is looking for builders - people who want to drive our business forward at all costs in order to achieve the goals we have both short and long term for the results and outcomes that that will bring to us all.
+
+  
+
+If that isn't for you that’s ok, for those of you that it is please get in touch with us!",,https://in.indeed.com/cmp/Maropost,https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/132d5b4a31481d490659c8b468ee1ea4,,,,,,,5,3.7,3.0,,,
+li-4478046678,linkedin,https://www.linkedin.com/jobs/view/4478046678,,Machine Learning Engineer,videosdk.live,"Surat, Gujarat, India",2026-10-11,fulltime,,,,,,False,entry level,,,,"**Company:**
+VideoSDK
+  
+  
+**Website:**
+Visit Website
+  
+  
+**LinkedIn:**
+Visit LinkedIn
+  
+  
+**Business Type:**
+Startup
+  
+  
+**Company Type:**
+Product
+  
+  
+**Business Model:**
+B2B
+  
+  
+**Funding Stage:**
+Seed
+  
+  
+**Industry:**
+Information Technology
+  
+  
+**Job Description**
+**About VideoSDK:**
+VideoSDK is a real-time communication platform that helps developers and businesses build scalable video, voice, and interactive experiences into their applications. With powerful APIs and SDKs, VideoSDK enables teams to create custom solutions for video conferencing, live streaming, webinars, virtual classrooms, and collaborative applications without worrying about the complexities of infrastructure.
+  
+  
+**Position**
+: Machine Learning Engineer
+  
+  
+**Location**
+: Surat, GJ (Onsite)
+  
+  
+**Experience**
+: 1 - 2 Years
+  
+  
+**Website**
+:
+**www.videosdk.live**
+**Education**
+: BE/BTech in CS/IT, AI/ML only.
+  
+  
+**Must To Have Skills**
+
+* Strong proficiency in Python, including NumPy, Pandas, Nvidia CUDA.
+* Strong understanding of statistics, probability, linear algebra, & machine learning fundamentals.
+* Hands-on experience building, training, evaluating, and optimizing machine learning models / or LLMs.
+* Experience with data preprocessing, feature engineering, exploratory data analysis (EDA), and model evaluation.
+* Ability to define evaluation metrics, conduct experiments, and interpret model performance.
+* Familiarity with Git, APIs, and deploying models into production environments.
+* Strong problem-solving skills and the ability to translate business requirements into data-driven solutions
+
+**Good To Have**
+
+* Familiarity with speech processing, ASR, TTS, or conversational AI.
+* Familiarity with inferencing frameworks.
+* Experience with LLMs, embeddings, vector databases, & RAG pipelines.
+* Knowledge of audio analytics, real-time communication data, or voice AI applications.
+* Understanding of MLOps, model monitoring, and production model optimization.","Technology, Information and Internet",https://www.linkedin.com/company/video-sdk,https://media.licdn.com/dms/image/v2/D4D0BAQFKL2cwclmlEA/company-logo_100_100/B4DaAzmLqOIIAI-/0/1787572042634/video_sdk_logo?e=2147483647&v=beta&t=9QZ3DHp6I0bDUVJXJUpcplt7zuoQztVCXmomDQfR2qA,,,,,,,1,,,,,
+li-4477646257,linkedin,https://www.linkedin.com/jobs/view/4477646257,,Senior Engineer - AIML,Litmus7,"Trivandrum, Kerala, India",2026-10-09,fulltime,,,,,,False,mid-senior level,,,,"Title: Senior Engineer - AIML
+  
+  
+
+* Minimum 5 years of experience in machine learning engineering and AI development, building and deploying and scaling AI based solutions in production.
+* Deep expertise in machine learning algorithms and techniques like supervised/unsupervised learning, deep learning, reinforcement learning, etc.
+* Solid experience in natural language processing (NLP) - language models, text generation, sentiment analysis, etc.
+* Proven understanding of generative AI concepts like text/image/audio synthesis, diffusion models, transformers, etc.
+* Experience working with Agentic AI frameworks like Langgraph, ADK, Autogen etc.
+* Hands-on experience in developing and deploying generative AI applications (text generation, conversational AI, image synthesis, etc.)
+* Experience in MLOps and ML model deployment pipelines.
+* Proficiency in programming languages like Python, and ML frameworks like TensorFlow, PyTorch, etc.
+* Knowledge of cloud platforms (AWS, GCP, Azure) and tools for scalable ML solution deployment.
+* Design, develop and optimize machine learning models for applications across different domains.
+* Build natural language processing pipelines for tasks like text generation, summarization, translation, etc.
+* Develop and deploy cutting-edge generative AI & Agentic AI applications.
+* Implement MLOps practices - model training, evaluation, deployment, monitoring, and maintenance.
+* Integrate machine learning capabilities into existing products or build new AI-powered applications.
+* Perform data mining, cleaning, preparation, and augmentation for training robust ML models.
+* Collaborate with cross-functional teams to translate AI requirements into technical implementations.
+* Ensure model performance, scalability, reliability.
+* Continuously research and implement state-of-the-art AI/ML algorithms and techniques.
+* Bachelor’s or master’s degree in computer science, AI, Statistics, Math or related fields.",IT Services and IT Consulting,https://www.linkedin.com/company/litmus7inc,https://media.licdn.com/dms/image/v2/C4D0BAQHPYzYaRLYvJg/company-logo_100_100/company-logo_100_100/0/1653291417459/litmus7inc_logo?e=2147483647&v=beta&t=mR_umuogu-gV6z2-1-8W2BBtD_i61QfiwfJbKEvZSQw,,,,,,,5,,,,,
+li-4477638563,linkedin,https://www.linkedin.com/jobs/view/4477638563,,Senior Engineer - AIML,Litmus7,"Kochi, Kerala, India",2026-10-09,fulltime,,,,,,False,mid-senior level,,,,"Title: Senior Engineer - AIML
+  
+  
+
+* Minimum 5 years of experience in machine learning engineering and AI development, building and deploying and scaling AI based solutions in production.
+* Deep expertise in machine learning algorithms and techniques like supervised/unsupervised learning, deep learning, reinforcement learning, etc.
+* Solid experience in natural language processing (NLP) - language models, text generation, sentiment analysis, etc.
+* Proven understanding of generative AI concepts like text/image/audio synthesis, diffusion models, transformers, etc.
+* Experience working with Agentic AI frameworks like Langgraph, ADK, Autogen etc.
+* Hands-on experience in developing and deploying generative AI applications (text generation, conversational AI, image synthesis, etc.)
+* Experience in MLOps and ML model deployment pipelines.
+* Proficiency in programming languages like Python, and ML frameworks like TensorFlow, PyTorch, etc.
+* Knowledge of cloud platforms (AWS, GCP, Azure) and tools for scalable ML solution deployment.
+* Design, develop and optimize machine learning models for applications across different domains.
+* Build natural language processing pipelines for tasks like text generation, summarization, translation, etc.
+* Develop and deploy cutting-edge generative AI & Agentic AI applications.
+* Implement MLOps practices - model training, evaluation, deployment, monitoring, and maintenance.
+* Integrate machine learning capabilities into existing products or build new AI-powered applications.
+* Perform data mining, cleaning, preparation, and augmentation for training robust ML models.
+* Collaborate with cross-functional teams to translate AI requirements into technical implementations.
+* Ensure model performance, scalability, reliability.
+* Continuously research and implement state-of-the-art AI/ML algorithms and techniques.
+* Bachelor’s or master’s degree in computer science, AI, Statistics, Math or related fields.",IT Services and IT Consulting,https://www.linkedin.com/company/litmus7inc,https://media.licdn.com/dms/image/v2/C4D0BAQHPYzYaRLYvJg/company-logo_100_100/company-logo_100_100/0/1653291417459/litmus7inc_logo?e=2147483647&v=beta&t=mR_umuogu-gV6z2-1-8W2BBtD_i61QfiwfJbKEvZSQw,,,,,,,5,,,,,
+li-4474734783,linkedin,https://www.linkedin.com/jobs/view/4474734783,,Machine Learning Engineer,RapidClaims,"Bengaluru, Karnataka, India",2026-10-06,fulltime,direct_data,yearly,2000000.0,3500000.0,INR,False,mid-senior level,,,,"**Company:**
+RapidClaims
+  
+  
+**Website:**
+Visit Website
+  
+  
+**LinkedIn:**
+Visit LinkedIn
+  
+  
+**Business Type:**
+Startup
+  
+  
+**Company Type:**
+Product
+  
+  
+**Business Model:**
+B2B
+  
+  
+**Funding Stage:**
+Series A
+  
+  
+**Industry:**
+Healthcare
+  
+  
+**Salary Range:**
+₹ 20-35 Lacs PA
+  
+  
+**Job Description**
+**RapidClaims**
+is a leader in AI-driven revenue cycle management, transforming medical coding and revenue operations with cutting-edge technology. The company has raised $11 million in total funding from top investors, including Accel and Together Fund. Join us as we scale a cloud-native platform that runs transformer-based Large Language Models rigorously fine-tuned on millions of clinical notes and claims every month. You’ll engineer autonomous coding pipelines that parse ICD-10-CM, CPT® and HCPCS at lightning speed, deliver reimbursement insights with sub-second latency and >99 % accuracy, and tackle the deep-domain challenges that make clinical AI one of the hardest—and most rewarding—problems in tech.
+  
+  
+**Machine Learning Engineer - Job Overview**
+We are seeking a skilled and innovative Machine Learning Engineer with expertise in Natural Language Processing (NLP) and an interest in the latest AI models . This role focuses on driving innovation by introducing non-traditional approaches, deploying scalable models, and implementing advanced AI techniques to solve real-world challenges. The ideal candidate is a strong programmer with a research mindset and the ability to translate the latest advancements in AI into impactful solutions.
+  
+  
+**Key Responsibilities**
+
+* Develop, deploy, and maintain ML models and pipelines for NLP tasks.
+* Design and set up self-hosted models for specific tasks, ensuring efficiency and scalability.
+* Establish workflows for fine-tuning, feedback loops, and online learning to enhance model performance.
+* Implement and optimize prompt refinement techniques to improve results.
+* Continuously research and evaluate state-of-the-art AI advancements to integrate into the organization's solutions.
+* Contribute to existing and new projects by:
+* Streamlining processes for better estimation and scaling solutions.
+* Enhancing testing tools and pipelines for AI development.
+* Collaborate with teams to identify opportunities for applying AI and ML to solve complex problems efficiently.
+* Build and productionize deep learning models, ensuring seamless integration into existing systems.
+
+**Requirements**
+
+* Bachelor’s degree in Computer Science, Machine Learning, or a related field.
+* 2-4 years of experience in machine learning or applied AI roles.
+* Strong Python skills with experience in hosting and maintaining ML models at scale.
+* Proficiency in a deep learning framework (e.g., PyTorch or TensorFlow).
+* Ability to explore and evaluate research papers, identifying key methods and techniques for application.
+* Capable of combining existing tools and frameworks to create efficient and effective solutions.
+* Solid foundation in machine learning principles and statistical techniques.
+* Strong communication skills to convey complex ideas to technical and non-technical stakeholders.
+
+**Preferred Qualifications**
+
+* Familiarity with cloud platforms, containerization tools (e.g., Docker, Kubernetes), and production-level AI workflows.
+* Experience working with domain-specific data, such as clinical or biomedical datasets.
+* Interest in cutting-edge AI techniques, with aspirations to co-author research or contribute to industry advancements.
+* Knowledge of advanced NLP techniques, including prompt engineering and refinement frameworks.
+* Exposure to signal processing applications in various domains.
+
+This role is ideal for individuals passionate about combining technical expertise and innovative thinking to address unique challenges and shape the future of AI applications.","Technology, Information and Internet",https://www.linkedin.com/company/rapidclaims-ai,https://media.licdn.com/dms/image/v2/D560BAQEiC091t8YBvg/company-logo_100_100/B56Z0lPWVqH0AQ-/0/1774446274452/rapidclaims_ai_logo?e=2147483647&v=beta&t=FvG6IBTTDggr64JUlpoZfKBffsHHMWKoYzkV4PcYJro,,,,,,,2,,,,,
+li-4472924915,linkedin,https://www.linkedin.com/jobs/view/4472924915,,Machine Leaning Engineering (P2),Nielsen,"Bengaluru, Karnataka, India",2026-10-01,fulltime,,,,,,False,not applicable,,,,"**Company Description**
+**At Nielsen, we are passionate about our work to power a better media future for all people by providing powerful insights that drive client decisions and deliver extraordinary results. Our talented, global workforce is dedicated to capturing audience engagement with content - wherever and whenever it’s consumed. Together, we are proudly rooted in our deep legacy as we stand at the forefront of the media revolution. When you join Nielsen, you will join a dynamic team committed to excellence, perseverance, and the ambition to make an impact together. We champion you, because when you succeed, we do too. We enable your best to power our future.**
+**Job Description**
+**About the Role:**
+As a Machine Learning Engineer at this level, you will be a key contributor to our team, responsible for building and deploying end-to-end machine learning models. You will work with a degree of autonomy on well-defined projects, translating business needs into functional and scalable ML solutions. This role is perfect for hands-on ML Engineers looking to deepen their expertise and take on more complex challenges.
+  
+  
+**Responsibilities**
+
+* Independently build, train, and deploy machine learning models for complex projects.
+* Design and maintain robust, end-to-end ML pipelines, from data processing to model
+
+serving.
+  
+  
+
+* Contribute to technical design discussions and provide input on system architecture and
+
+best practices.
+  
+  
+
+* Collaborate with business, product, and other engineering teams to understand
+
+requirements and translate them into technical specifications.
+  
+  
+
+* Write high-quality, production-ready code and participate in code reviews to maintain our
+
+standards of excellence.
+  
+  
+
+* Mentor interns or junior engineers, sharing your knowledge and expertise.
+
+**Qualifications**
+**Basic Qualifications:**
+
+* Bachelor's or Master's degree in Engineering, Mathematics, Statistics, or a related field.
+* 3-6 years of professional experience in machine learning engineering.
+* Proven experience in building and deploying ML models in a production environment.
+* Strong proficiency in Python, SQL, and experience with a distributed computing framework (e.g., Spark).
+* Data Analytics Experience: Strong background in data analytics, including statistical analysis, data visualization, and reporting to derive business insights.
+* AI Experience: Practical, hands-on experience with modern AI frameworks and techniques, including LLMs or Generative AI applications.
+* Familiarity with workflow orchestration tools (e.g., Airflow) and ML platforms (e.g., MLflow) is preferred.
+* Knowledge of classification models, regression models, anomaly detection, boosted models, deep learning, and simulation problems, particularly with large datasets.
+* Strong problem-solving skills and the ability to work independently on projects.
+
+**Additional Information**
+**Preferred Qualifications / Bonus Skills:**
+Experience with Generative AI models.
+  
+  
+Track record of publications in top -tier AI/ML/CV conferences or journals.
+  
+  
+Experience working with sports data (broadcast feeds, social media imagery, sponsorship analytics).
+  
+  
+Proficiency in cloud computing platforms (AWS, GCP, Azure) and their AI/ML services.
+  
+  
+Experience with video processing and analysis techniques.
+  
+  
+Familiarity with data pipeline and distributed computing tools (e.g., Apache Spark, Kafka).
+  
+  
+Demonstrated ability to lead technical projects and mentor team members.
+  
+  
+Please be aware that job-seekers may be at risk of targeting by scammers seeking personal data or money. Nielsen recruiters will only contact you through official job boards, LinkedIn, or email with a nielsen.com domain. Be cautious of any outreach claiming to be from Nielsen via other messaging platforms or personal email addresses. Always verify that email communications come from an @nielsen.com address. If you're unsure about the authenticity of a job offer or communication, please contact Nielsen directly through our official website or verified social media channels.",Broadcast Media Production and Distribution,https://www.linkedin.com/company/nielsen,https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_100_100/B4DZ.y4Wc7HEAI-/0/1785412544530/nielsen_logo?e=2147483647&v=beta&t=qfqqeZzFUw1DY_x5Ty5ZEuWVHfpMKQw_w7ID1wUISFo,,,,,,,3,,,,,
+nk-221026020311,naukri,https://www.naukri.com/job-listings-system-integration-flexy-managers-bengaluru-6-to-8-years-221026020311,,System Integration,Flexy Managers,"Bengaluru(Yelahanka), India",2026-10-22,fulltime,,,,,,False,,Engineering - Software & QA,,,"**Role** : System Integration
+
+  
+
+**Requirement:**
+
+  
+
+* Expertise and ability to train/guide the team on requirement collection, system design, standards, LRUs, harness, system validation and test cases.
+* Expertise in System of Systems and test philosophy covering simulation, system validation, standalone/integrated testing, testing to specifications, and integration tests.
+* Expertise in ICDs covering physical, electrical, software, hardware and communication interfaces specific to ground and air integration.
+* Expertise in system safety and reliability standards including SSA, system qualification and certification standards.
+* Guide and supervise System Integration/project management team through periodic reviews and assessments.
+* Ability to decode, plan and assess overall system architecture, independent system-level functionalities, interdependent cross-functionalities and system-level impact analysis.",Software Product,https://www.naukri.com/flexy-managers-jobs-careers-942862,https://img.naukimg.com/logo_images/groups/v1/655190.gif,,,,,Mention things you would want to highlight to jobseekers,"Line, Case, UNIT, Planning, Data validation, Test planning, Cross functional coordination, System design",6,,,1.0,Work from office,
+nk-230726014394,naukri,https://www.naukri.com/job-listings-ai-engineer-with-python-aseuro-technologies-bengaluru-7-to-10-years-230726014394,,AI Engineer with Python,Aseuro Technologies,"Bengaluru, India",2026-10-22,fulltime,direct_data,yearly,1500000.0,2500000.0,INR,False,,Data Science & Analytics,,,"7 years of Exp inData Engineering, AI Engineering.  
+Demonstrable strong proficiency in Python, Cloud Engineering, DevOps, Containers through work experience.  
+DsPy, Google ADK, A2UI, AGUI etc  
+Integration with Knowledge Graphs, APIs, MCP.",IT Services & Consulting,https://www.naukri.com/aseuro-technologies-jobs-careers-1294912,https://img.naukimg.com/logo_images/groups/v1/4736973.gif,,,,,"Leading provider of IT consulting, application development, and technology solutions. Delivering excellence through innovation","Machine learning, Machine, Python, Artificial Intelligence",7,3.2,34.0,1.0,Work from office,
+nk-221026023271,naukri,https://www.naukri.com/job-listings-virtual-scheduled-interview-gen-ai-python-developer-31st-oct-cognizant-hyderabad-bengaluru-delhi-ncr-4-to-9-years-221026023271,,Virtual Scheduled Interview-Gen AI & Python Developer|31st Oct,Cognizant,"Hyderabad, Bengaluru, Delhi / NCR, India",2026-10-22,fulltime,,,,,,False,,Engineering - Software & QA,,,"* Hiring for ""Gen AI+Python Developer""
+* Years of Experience Required: 3 to 12 years
+* Work Location: PAN India
+
+**Job Description:**
+
+**Required Skills and Experience:**
+
+* Strong experience with M365 Gen AI, Python and Co-pilot Studio.
+* Proficiency in AI/ML technologies and frameworks.
+* Experience with SharePoint Online and Azure services.
+* Excellent problem-solving and communication skills.
+* Proven track record of developing and implementing AI solutions.
+* Experience with Azure AI services (e.g., Cognitive Services, Machine Learning).
+
+**Desired Skills and Experience:**
+
+* Experience with natural language processing (NLP) and machine learning (ML).
+* Familiarity with Microsoft 365 development tools and services.
+* Agile development experience.
+* Knowledge of accessibility and UX best practices",IT Services & Consulting,https://www.naukri.com/cognizant-jobs-careers-2114,https://img.naukimg.com/logo_images/groups/v1/4156.gif,,"Academy Block &amp; SDB1 (Ground to 3rd floors) Plot No. H-4, SIPCOT SIRUSERI IT PARK, Padur Post, SIRUSERI, KANCHIPURAM, Tamilnadu, India",,,"Cognizant Technology Solutions Corporation is an American domiciled Indian multinational information technology services and outsourcing company, headquartered in Teaneck, New Jersey.","Python, Python Development, Artificial Intelligence, Gen, Development",4,3.6,66994.0,5.0,Work from office,
+nk-221026023120,naukri,https://www.naukri.com/job-listings-ai-ml-engineer-intellect-design-arena-hyderabad-chennai-4-to-9-years-221026023120,,Ai Ml Engineer,Intellect Design Arena,"Hyderabad, Chennai, India",2026-10-22,fulltime,,,,,,False,,Engineering - Software & QA,,,"**Role & responsibilities**
+
+* Design, develop, and implement AI/ML models using Python.
+* Build Generative AI applications using LLMs and prompt engineering techniques.
+* Develop RAG pipelines for document processing, semantic search, and knowledge retrieval.
+* Implement NLP solutions such as text classification, entity extraction, summarization, and conversational AI.
+* Work with frameworks such as LangChain, LangGraph, or LlamaIndex.
+* Integrate vector databases and embedding models for semantic search and retrieval.
+* Fine-tune, evaluate, and optimize ML models and LLM-based applications.
+* Deploy and monitor AI solutions using APIs, cloud platforms, and MLOps practices.
+* Collaborate with engineering and business teams to deliver reliable, scalable AI solutions.
+
+**Preferred candidate profile**
+
+  
+
+* Strong programming experience in Python.
+* Hands-on experience in Machine Learning and Deep Learning.
+* Practical knowledge of NLP and Generative AI.
+* Experience working with LLMs such as GPT, Llama, or similar models.
+* Strong understanding of RAG architecture, embeddings, vector search, and retrieval pipelines.
+* Experience with frameworks such as LangChain, LangGraph, or LlamaIndex.
+* Familiarity with REST APIs, Git, and model deployment.
+
+**Perks and benefits**",IT Services & Consulting,https://www.naukri.com/intellect-design-arena-jobs-careers-1541586,https://img.naukimg.com/logo_images/groups/v1/1302864.gif,,"4th Floor, Old No 713, New No 244,, Polaris Banyan Holding Limited, Thousand Lights, East, Anna Salai, Chennai - 600006, Chennai, Tamilnadu, India",,,Not mentioned,"Deep Learning, Processing, Machine, Natural language processing, Artificial Intelligence, Aiml, Ml, Process",4,3.4,2657.0,1.0,Work from office,
+nk-221026023005,naukri,https://www.naukri.com/job-listings-data-analyst-doosrigaadi-services-bengaluru-3-to-6-years-221026023005,,Data Analyst,Doosrigaadi Services,India,2026-10-22,fulltime,direct_data,yearly,70000.0,275000.0,INR,True,,Data Science & Analytics,,,"**Roles and Responsibilities**
+
+* Design, develop, test, and deploy data pipelines using Airflow to extract insights from various sources.
+* Collaborate with cross-functional teams to identify business requirements and design solutions that meet those needs.
+* Develop expertise in SQL and NumPy libraries for data analysis and manipulation.
+* Implement machine learning models using PyTorch or other relevant frameworks to drive business outcomes.
+* Ensure high-quality deliverables by following best practices in software development.",IT Services & Consulting,https://www.naukri.com/doosrigaadi-services-jobs-careers-124992293,https://img.naukimg.com/logo_images/groups/v1/11876707.gif,,"FLAT NO 19D MIG IIFLOOR, PKT II SECT 7 SWARKA Dwar ka Sec-6, New Delhi, South West Delhi- 110075,  , NEW DELHI, Delhi, India",,,"About Us Dusri Gaadi Services At Dusri Gaadi Services, we believe that owning and maintaining a vehicle should be simple, transparent, and stress-free. Whether you're buying your second car, selling your existing one, or looking for reliable vehicle support services, we are here to make the entire journey smooth and trustworthy. Founded with a vision to bring clarity and convenience to the pre-owned vehicle ecosystem, Dusri Gaadi Services specializes in end-to-end automotive solutions. From vehicle inspection and documentation support to resale assistance and customer guidance, we ensure every step is handled with professionalism and care. Our team is driven by a customer-first approach, combining industry knowledge with a commitment to honesty and quality service. We understand that every vehicle has a story, and every customer has unique needs—so we tailor our services to deliver maximum value and peace of mind. What We Offer Pre-owned vehicle buying & selling assistance Vehicle inspection and evaluation Documentation and ownership transfer support Pricing guidance and market insights End-to-end customer support Our Mission To simplify the process of buying, selling, and managing pre-owned vehicles while building long-term trust with our customers. Our Vision To become a reliable and recognized name in the automotive services industry, known for transparency, efficiency, and customer satisfaction. If you want, I can make this more premium, startup-style, or highly sales-focused depending on your website tone.","Pytorch, Analysis, SQL, Data, Python, Numpy, Data analysis",3,,,2.0,Remote,

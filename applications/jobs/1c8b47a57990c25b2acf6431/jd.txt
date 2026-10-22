@@ -1,0 +1,60 @@
+Mavenir is building the future of networks and pioneering advanced technology, focusing on the vision of a single, software-based automated network that runs on any cloud. As the industry's only end-to-end, cloud-native network software provider, Mavenir is transforming the way the world connects, accelerating software network transformation for 250+ Communications Service Providers in over 120 countries, which serve more than 50% of the world’s subscribers.
+
+  
+
+**Role Summary**
+
+  
+Plans, designs, develops and tests software systems or applications for software enhancements and new products including cloud-based or internet-related tools.
+
+**Key Responsibilities**
+
+  
+
+* Generative AI application development
+* LLMs, SLMs, RAG, agents, tool-calling, and prompt engineering
+* AI gateway or AI platform concepts
+* LLM fine-tuning and evaluation
+* ML model training and ML pipelines
+* Python-based backend development
+* FastAPI, REST APIs, microservices, and async processing
+* Vector databases such as Milvus, FAISS, Qdrant, Weaviate, or Pinecone
+* ML frameworks such as PyTorch, TensorFlow, Hugging Face Transformers, or Scikit-learn
+* Fine-tuning frameworks such as PEFT, LoRA, QLoRA, TRL, or Unsloth
+* Workflow orchestration using Airflow, Prefect, Kubeflow, Dagster, or similar tools
+* Containerization using Docker
+* Kubernetes-based deployment experience
+* Observability using logs, metrics, traces, dashboards, and alerts
+* Strong understanding of scalable system design
+* Good software engineering fundamentals, clean coding, testing, and documentation
+
+**Job Requirements**
+
+  
+
+• Design, develop, and deploy AI solutions across Generative AI, AI Platforms, Voice AI, LLM Fine-Tuning, and MLOps.  
+• Build production-grade applications using LLMs, RAG, Agents, and Prompt Engineering.  
+• Develop scalable APIs, backend services, and AI/ML pipelines.  
+• Contribute to AI platform development, performance optimization, and production deployments.  
+Must-Have Skills:  
+• Strong programming skills in C, C++ and Python.  
+• Strong understanding of scalable system design.  
+• Hands-on experience with GenAI, LLMs, RAG, Agents, and Prompt Engineering.  
+• Experience building APIs, backend systems, and microservices.  
+• Knowledge of ML training, evaluation, and MLOps workflows.  
+• Experience with PyTorch, TensorFlow, Hugging Face, or similar frameworks.  
+• Familiarity with Docker, Kubernetes, Vector Databases, and cloud-native environments.  
+Preferred Qualifications:  
+• Bachelor's or master's degree in computer science, AI, ML, Data Science, or a related field.
+
+  
+
+**Accessibility**
+
+  
+
+Mavenir is committed to working with and providing reasonable accommodation to individuals with physical and mental disabilities. If you require any assistance, please state in your application or contact your recruiter.
+
+  
+
+Mavenir is an Equal Employment Opportunity (EEO) employer and welcomes qualified applicants from around the world, regardless of their ethnicity, gender, religion, nationality, age, disability, or other legally protected status.

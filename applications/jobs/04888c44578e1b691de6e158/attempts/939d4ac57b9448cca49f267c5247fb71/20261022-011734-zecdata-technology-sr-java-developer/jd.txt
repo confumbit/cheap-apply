@@ -1,0 +1,104 @@
+ZecData Technology
+Sr. Java Developer
+
+**Java Developer Job Description-**
+
+**Roles and Responsibilities:**
+
+● Design, develop, test, and maintain Java-based applications.
+
+● Write clean, efficient, and reusable code adhering to best practices.
+
+● Collaborate with cross-functional teams to define, design, and ship new
+
+features.
+
+● Debug and resolve issues in existing applications to enhance performance.
+
+● Work with relational and non-relational databases for effective data
+
+management.
+
+● Develop and consume RESTful APIs and integrate third-party services.
+
+● Participate in code reviews and contribute to team discussions on technical
+
+solutions.
+
+● Stay updated with emerging technologies and frameworks in Java
+
+development.
+
+● For experienced candidates: Lead module development, mentor junior team
+
+members, and ensure high-quality deliverables.
+
+**Technical Skills:**
+
+● Proficiency in Core Java and Object-Oriented Programming (OOP)
+
+principles.
+
+● Familiarity with Java frameworks like Spring, Spring Boot, and Hibernate.
+
+● Basic understanding of relational databases (e.g., MySQL, PostgreSQL)
+
+and/or NoSQL databases (e.g., MongoDB).
+
+● Knowledge of version control systems (e.g., Git) and CI/CD tools.
+
+● Strong problem-solving and debugging skills.
+
+● Hands-on experience in developing scalable applications using Spring Boot.
+
+● Familiarity with DevOps tools like Jenkins, Docker, and Cloud platforms
+
+such as AWS, Azure, or GCP.
+
+● Ability to optimize application performance and troubleshoot complex issues.
+
+● Understanding of Agile methodologies and team collaboration tools (e.g.,
+
+JIRA).
+
+**Qualifications and Requirements:**
+
+● Bachelor’s degree in Computer Science, Information Technology, or a
+
+related field.
+
+● Hands on exp. & freshers with internships, relevant academic projects, strong
+
+understanding of Java and eagerness to learn are also welcome.
+
+● Strong communication skills, especially the ability to explain technical
+
+concepts.
+
+**Interested candidates can fill out the form through the given link below-**  
+https://forms.gle/n3x5gM3gh8uQ7Y8d8
+
+Job Types: Full-time, Permanent
+
+Pay: ₹300,000.00 - ₹800,000.00 per year
+
+Benefits:
+
+* Flexible schedule
+* Paid sick time
+* Provident Fund
+* Work from home
+
+Location Type:
+
+* In-person
+
+Ability to commute/relocate:
+
+* Niranjanpur, Indore, Madhya Pradesh: Reliably commute or planning to relocate before starting work (Required)
+
+Experience:
+
+* Java Developer: 1 year (Required)
+
+Work Location: In person

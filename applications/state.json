@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "jobs": {
+    "4ff4996a2af4c7219bdbacf4": {
+      "id": "4ff4996a2af4c7219bdbacf4",
+      "company": "Luxoft",
+      "title": "Test Engineer – Data Migration & Transformation Validation - Java / Python automation along with CI/CD integration",
+      "url": "https://www.bayt.com/en/india/jobs/test-engineer-data-migration-transformation-validation-java-python-automation-along-with-ci-cd-integration-75341919",
+      "board_url": "https://www.bayt.com/en/india/jobs/test-engineer-data-migration-transformation-validation-java-python-automation-along-with-ci-cd-integration-75341919/",
+      "location": "India",
+      "experience": null,
+      "experience_status": "unknown",
+      "fingerprint": "a75bf5e6e08e8c337430ff83bd2360907808e966cc8f8151cfe86f4ab0806b29",
+      "status": "failed",
+      "error": "Authentication expired or invalid. https://notebook.google.com/ served a signed-out page, and its sign-in check redirected to https://accounts.google.com/<redacted>\nRun 'notebooklm login' to re-authenticate."
+    },
+    "4f99e34376deea31c504b29a": {
+      "id": "4f99e34376deea31c504b29a",
+      "company": "Mondelez International",
+      "title": "Engineer - Electrical & Automation",
+      "url": "https://www.bayt.com/en/india/jobs/engineer-electrical-automation-75341924",
+      "board_url": "https://www.bayt.com/en/india/jobs/engineer-electrical-automation-75341924/",
+      "location": "India",
+      "experience": null,
+      "experience_status": "unknown",
+      "fingerprint": "64866931b0773559ac1086dfaa41617724416a5f463470194b89f65f790770e9",
+      "status": "inactive",
+      "final_dir": "D:\\work\\job-apps\\fresh\\applications\\jobs\\4f99e34376deea31c504b29a\\attempts\\9ff58001c74f4aac84397b9884119b23\\20261022-011007-mondelez-international-engineer-electrical-automation\\final",
+      "packet": "D:\\work\\job-apps\\fresh\\applications\\jobs\\4f99e34376deea31c504b29a\\application.json"
+    },
+    "651660e74b2c49ff62d7b8a7": {
+      "id": "651660e74b2c49ff62d7b8a7",
+      "company": "Mercer LLC",
+      "title": "Business Analysis, Data Science & AI Specialist",
+      "url": "https://www.bayt.com/en/india/jobs/business-analysis-data-science-ai-specialist-75342928",
+      "board_url": "https://www.bayt.com/en/india/jobs/business-analysis-data-science-ai-specialist-75342928/",
+      "location": "India",
+      "experience": null,
+      "experience_status": "unknown",
+      "fingerprint": "34b22c709e10e9636adc2b0f62444d575944f41003747cc9c055f98bd3fa562d",
+      "status": "inactive",
+      "final_dir": "D:\\work\\job-apps\\fresh\\applications\\jobs\\651660e74b2c49ff62d7b8a7\\attempts\\6c46bd2b5b5743cb95e8f046c17916f9\\20261022-011258-mercer-llc-business-analysis-data-science-ai-specia\\final",
+      "packet": "D:\\work\\job-apps\\fresh\\applications\\jobs\\651660e74b2c49ff62d7b8a7\\application.json"
+    },
+    "04888c44578e1b691de6e158": {
+      "id": "04888c44578e1b691de6e158",
+      "company": "ZecData Technology",
+      "title": "Sr. Java Developer",
+      "url": "https://in.indeed.com/viewjob?jk=9b485d44d8d23eaf",
+      "board_url": "https://in.indeed.com/viewjob?jk=9b485d44d8d23eaf",
+      "location": "MP, India",
+      "experience": 1.0,
+      "experience_status": "known",
+      "fingerprint": "07ef0e108d2a74287aa939566b71fda76ca89cba9e8a728c1efcb3970c50c5e6",
+      "status": "inactive",
+      "final_dir": "D:\\work\\job-apps\\fresh\\applications\\jobs\\04888c44578e1b691de6e158\\attempts\\939d4ac57b9448cca49f267c5247fb71\\20261022-011734-zecdata-technology-sr-java-developer\\final",
+      "packet": "D:\\work\\job-apps\\fresh\\applications\\jobs\\04888c44578e1b691de6e158\\application.json"
+    },
+    "4c04efdf64e390573f39fff6": {
+      "id": "4c04efdf64e390573f39fff6",
+      "company": "Siemens",
+      "title": "Data Engineer",
+      "url": "https://jobs.siemens.com/externaljobs/JobDetail/525786?source=Indeed",
+      "board_url": "https://in.indeed.com/viewjob?jk=0b1a734034e23240",
+      "location": "MH, India",
+      "experience": 3.0,
+      "experience_status": "known",
+      "fingerprint": "ab5bd41f279cdcd0adcb9a9e25bc17ba5b756f9b6201ce341c72067af1a462d1",
+      "status": "inactive",
+      "final_dir": "D:\\work\\job-apps\\fresh\\applications\\jobs\\4c04efdf64e390573f39fff6\\attempts\\d388d937c1f94ba493e2a44422189e49\\20261022-012315-siemens-data-engineer\\final",
+      "packet": "D:\\work\\job-apps\\fresh\\applications\\jobs\\4c04efdf64e390573f39fff6\\application.json"
+    },
+    "d819bc3369f7e04d11606bfc": {
+      "id": "d819bc3369f7e04d11606bfc",
+      "company": "Cognizant",
+      "title": "Software Architect",
+      "url": "https://careers.cognizant.com/global-en/jobs/46902/software-architect",
+      "board_url": "https://in.indeed.com/viewjob?jk=d3877881a8c7c3e9",
+      "location": "MH, India",
+      "experience": null,
+      "experience_status": "unknown",
+      "fingerprint": "c4daf7eb3a7a67f6b7cf0dcfa8d24fc42484e1a9a11bb53d45c5664ecb233552",
+      "status": "tailoring"
+    },
+    "1c8b47a57990c25b2acf6431": {
+      "id": "1c8b47a57990c25b2acf6431",
+      "company": "Mavenir",
+      "title": "AI Engineer - Generative AI, AI Platform & Voice AI",
+      "url": "https://www.bayt.com/en/india/jobs/ai-engineer-generative-ai-ai-platform-voice-ai-75348566",
+      "board_url": "https://www.bayt.com/en/india/jobs/ai-engineer-generative-ai-ai-platform-voice-ai-75348566/",
+      "location": "India",
+      "experience": null,
+      "experience_status": "unknown",
+      "fingerprint": "a685b139b1791a7422fd122d4c05e2d5449f37039bb9d99fbd70625d2f124c1b",
+      "status": "failed",
+      "error": "Authentication expired or invalid. https://notebook.google.com/ served a signed-out page, and its sign-in check redirected to https://accounts.google.com/<redacted>\nRun 'notebooklm login' to re-authenticate."
+    }
+  },
+  "experience_limit": 3
+}

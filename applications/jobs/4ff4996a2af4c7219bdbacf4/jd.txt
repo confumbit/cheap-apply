@@ -1,0 +1,51 @@
+Project description  
+We are looking for an experienced Database Testing Lead with strong expertise in SQL-based backend validation. The candidate will be responsible for validating large data sets, performing file-to-file reconciliation, volume testing, and ensuring accurate data validation from AWS sources to downstream systems (including PNR creation on PID data). API testing experience is required as a secondary skill.  
+Responsibilities  
+Data Migration & Transformation Validation  
+Lead testing efforts for large-scale data transformation and migration initiatives involving millions of records across enterprise Network Operation platforms.  
+Design and execute comprehensive data validation strategies to ensure data accuracy, completeness, consistency, and integrity during migrations.  
+Develop complex SQL queries and automated validation scripts to reconcile source and target systems at scale.  
+Validate ETL/ELT processes, transformation rules, data mappings, and business logic across multiple data domains.  
+Perform end-to-end testing of batch, real-time, and incremental data migration workflows.  
+Identify, analyze, and troubleshoot data quality issues, migration defects, duplicates, missing records, and transformation anomalies.  
+Collaborate closely with data engineers, architects, business analysts, and application teams to define test strategies and acceptance criteria.  
+Generate detailed data quality metrics, reconciliation reports, and migration readiness assessments for stakeholders.  
+Drive best practices in database testing, automation, and data quality engineering to ensure successful delivery of enterprise migration programs.  
+AI Agent Onboarding & Test Automation  
+Partner with AI agent onboarding partners to define and execute the onboarding approach for all three UA agents.  
+Establish an automation-first testing strategy for the product and agent-based workflows.  
+Review the product architecture diagrams, and overall solution objectives to understand the end-to-end agent workflow and testing requirements.  
+Identify opportunities to use AI-driven test automation to improve test coverage, execution efficiency, and agent workflow validation.  
+Collaborate with development, architecture, AI partners, and QA teams to embed DB automation & AI agent into the product development lifecycle.  
+Define test scenarios and validation strategies for AI-agent-based workflows, covering functional, integration, data, and end-to-end validation.  
+Skills  
+Must have  
+Primary Skills  
+Strong experience in Database Testing using SQL  
+Expertise in writing complex SQL queries (joins, aggregations, subqueries) and PLSQL  
+Able to build Automation either Using Java / Python along with CI/CD integration  
+Experience in API Testing  
+Experience in File-to-File Data Validation  
+Hands-on experience with Volume Testing / Large Data Set Validation  
+Experience in data reconciliation and backend testing  
+Ability to validate data pipelines and data transformations  
+Experience validating data flow between systems and databases  
+Strong understanding of data integrity, accuracy, and consistency checks  
+Technical Skills  
+SQL (Mandatory)  
+Database platforms such as Oracle, SQL Server, PostgreSQL, or MySQL  
+AWS data validation  
+Experience working with large data volumes  
+Knowledge of data migration and ETL validation  
+Nice to have  
+Secondary Skills  
+API Testing using tools such as Postman, Swagger, or similar tools  
+Experience in AI-driven test automation  
+Understanding of REST APIs and HTTP methods (GET, POST, PUT, DELETE)  
+Ability to validate API responses with database data  
+Knowledge of JSON/XML validation  
+Other  
+Languages  
+English: C1 Advanced  
+Seniority  
+Senior

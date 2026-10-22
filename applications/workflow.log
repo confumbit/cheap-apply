@@ -1,0 +1,310 @@
+2026-10-22 01:06:56,276 - ERROR - JobSpy:Google - Google returned no job data
+2026-10-22 01:06:56,759 - ERROR - JobSpy:ZipRecruiter - ZipRecruiter: no jobKeysMap in the page
+2026-10-22 01:07:06,172 INFO main: Found 38 jobs
+2026-10-22 01:07:06,179 WARNING main: Found lesser than 50 jobs!
+2026-10-22 01:08:47,088 INFO application_pipeline: 12 unique jobs have unknown experience or meet EXPERIENCE <= 3
+2026-10-22 01:08:48,261 INFO httpx: HTTP Request: POST https://accounts.google.com/RotateCookies "HTTP/1.1 200 OK"
+2026-10-22 01:08:48,530 INFO httpx: HTTP Request: GET https://notebook.google.com/?authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:08:48,710 INFO httpx: HTTP Request: GET https://notebook.google.com/login?authuser=hitendalmia04%40gmail.com "HTTP/1.1 302 Found"
+2026-10-22 01:08:48,855 INFO httpx: HTTP Request: GET https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://notebook.google.com/login?authuser%3Dhitendalmia04@gmail.com&followup=https://notebook.google.com/login?authuser%3Dhitendalmia04@gmail.com "HTTP/1.1 302 Found"
+2026-10-22 01:08:49,008 INFO httpx: HTTP Request: GET https://accounts.google.com/v3/signin/accountchooser?continue=https://notebook.google.com/login?authuser%3Dhitendalmia04@gmail.com&followup=https://notebook.google.com/login?authuser%3Dhitendalmia04@gmail.com&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1513771892:1792611530068317 "HTTP/1.1 200 OK"
+2026-10-22 01:08:49,201 ERROR application_pipeline: Tailoring failed for 4ff4996a2af4c7219bdbacf4; stopping batch to avoid repeated backend failures
+Traceback (most recent call last):
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\extraction.py", line 306, in _auth_error_boundary
+    yield
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\refresh.py", line 819, in _fetch_tokens_with_refresh_core
+    return await _cold_fallbacks(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\refresh.py", line 920, in _cold_fallbacks
+    return await coordinator.recover(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\recovery.py", line 273, in _drive_cold
+    raise last_redirect
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\refresh.py", line 811, in _fetch_tokens_with_refresh_core
+    csrf, session_id = await _fetch_tokens_with_jar(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\refresh.py", line 1053, in _fetch_tokens_with_jar
+    raise signed_out
+notebooklm._auth.extraction._LoginRedirectError: Authentication expired or invalid. https://notebook.google.com/ served a signed-out page, and its sign-in check redirected to https://accounts.google.com/<redacted>
+Run 'notebooklm login' to re-authenticate.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\work\job-apps\fresh\application_pipeline.py", line 325, in prepare_applications
+    await check_notebook_sources(cfg)
+  File "D:\work\job-apps\fresh\application_pipeline.py", line 162, in check_notebook_sources
+    async with NotebookLMClient.from_storage(profile=cfg.get("profile")) as client:
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\client.py", line 1259, in __aenter__
+    client = await self._build()
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_request_policy.py", line 120, in asynchronous
+    return await function(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\client.py", line 1184, in _build
+    loaded = await _auth_tokens._load_stored_auth(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\tokens.py", line 854, in _load_stored_auth
+    return await loader.load(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\tokens.py", line 778, in load
+    acquired = await self._token_acquirer.acquire(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\tokens.py", line 702, in acquire
+    csrf, session_id, baseline = await _auth_refresh._fetch_tokens_with_exact_baseline(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\refresh.py", line 775, in _fetch_tokens_with_exact_baseline
+    csrf, session_id, _, _, baseline = await _fetch_tokens_with_refresh_core(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\refresh.py", line 818, in _fetch_tokens_with_refresh_core
+    with _auth_extraction._auth_error_boundary():
+  File "C:\Users\Hiten Dalmia\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\extraction.py", line 310, in _auth_error_boundary
+    raise auth_error from expired
+notebooklm.exceptions.AuthError: Authentication expired or invalid. https://notebook.google.com/ served a signed-out page, and its sign-in check redirected to https://accounts.google.com/<redacted>
+Run 'notebooklm login' to re-authenticate.
+2026-10-22 01:08:49,258 INFO __main__: Workflow result: {"eligible": 12, "new_attempts": 1, "statuses": {"failed": 1}, "failed": true}
+2026-10-22 01:09:53,886 - ERROR - JobSpy:Google - Google returned no job data
+2026-10-22 01:09:54,272 - ERROR - JobSpy:ZipRecruiter - ZipRecruiter: no jobKeysMap in the page
+2026-10-22 01:10:03,906 INFO main: Found 38 jobs
+2026-10-22 01:10:03,914 WARNING main: Found lesser than 50 jobs!
+2026-10-22 01:10:03,967 INFO application_pipeline: 12 unique jobs have unknown experience or meet EXPERIENCE <= 3
+2026-10-22 01:10:05,176 INFO httpx: HTTP Request: GET https://notebook.google.com/?authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:10:07,045 INFO httpx: [req=8d40f26d] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Baseline: 1 page(s), 50 rendered lines
+2026-10-22 01:10:10,046 INFO httpx: HTTP Request: GET https://notebook.google.com/?authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:10:11,898 INFO httpx: [req=79cf38ef] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:10:13,364 INFO httpx: [req=be6203c9] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:10:14,304 INFO httpx: [req=2cdaa3b9] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=khqZz&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:10:15,489 INFO httpx: [req=dae7a295] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=J7Gthc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Started a fresh conversation (previous chat backed up to previous-chat-backup.json)
+2026-10-22 01:10:16,823 INFO httpx: [req=3cac5066] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:10:19,353 INFO httpx: [req=a59dbdc5] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=tGMBJ&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Removed old JD source: JD - SmartServ - Python Developer
+2026-10-22 01:10:24,019 INFO httpx: [req=c82675e2] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=izAoDd&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:10:25,492 INFO httpx: [req=d7668aa7] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Uploaded JD source: JD - Mondelez International - Engineer - Electrical & Automation
+Asking NotebookLM (round 1)...
+2026-10-22 01:10:27,061 INFO httpx: [req=ef005910] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:10:31,641 INFO httpx: [req=2937c8b3] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/google.internal.labs.tailwind.orchestration.v1.LabsTailwindOrchestrationService/GenerateFreeFormStreamed?bl=boq_labs-tailwind-frontend_20260802.02_p0&hl=en&_reqid=200000&rt=c&f.sid=***&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:12:57,967 INFO httpx: [req=049bea01] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+  round 1: 0 blocking, 0 soft, layout -2 lines vs original
+
+Best attempt: round 1 (clean)
+Output: D:\work\job-apps\fresh\applications\jobs\4f99e34376deea31c504b29a\attempts\9ff58001c74f4aac84397b9884119b23\20261022-011007-mondelez-international-engineer-electrical-automation\final
+Baseline: 1 page(s), 50 rendered lines
+2026-10-22 01:13:00,515 INFO httpx: HTTP Request: GET https://notebook.google.com/?authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:13:02,217 INFO httpx: [req=97e848ea] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:13:03,841 INFO httpx: [req=6305caa2] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:13:04,726 INFO httpx: [req=2160f089] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=khqZz&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:13:05,737 INFO httpx: [req=23e093d6] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=J7Gthc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Started a fresh conversation (previous chat backed up to previous-chat-backup.json)
+2026-10-22 01:13:07,254 INFO httpx: [req=9416696f] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:13:09,487 INFO httpx: [req=dfaa9a13] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=tGMBJ&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Removed old JD source: JD - Mondelez International - Engineer - Electrical & Automation
+2026-10-22 01:13:14,917 INFO httpx: [req=c355ed21] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=izAoDd&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:13:16,263 INFO httpx: [req=fcd71af9] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Uploaded JD source: JD - Mercer LLC - Business Analysis, Data Science & AI Specialist
+Asking NotebookLM (round 1)...
+2026-10-22 01:13:17,851 INFO httpx: [req=525dd266] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:13:22,236 INFO httpx: [req=3d8fd349] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/google.internal.labs.tailwind.orchestration.v1.LabsTailwindOrchestrationService/GenerateFreeFormStreamed?bl=boq_labs-tailwind-frontend_20260802.02_p0&hl=en&_reqid=200000&rt=c&f.sid=***&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:17:33,383 INFO httpx: [req=71e1793b] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+  round 1: 0 blocking, 0 soft, layout -2 lines vs original
+
+Best attempt: round 1 (clean)
+Output: D:\work\job-apps\fresh\applications\jobs\651660e74b2c49ff62d7b8a7\attempts\6c46bd2b5b5743cb95e8f046c17916f9\20261022-011258-mercer-llc-business-analysis-data-science-ai-specia\final
+Baseline: 1 page(s), 50 rendered lines
+2026-10-22 01:17:35,877 INFO httpx: HTTP Request: GET https://notebook.google.com/?authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:17:37,526 INFO httpx: [req=130996b8] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:17:39,156 INFO httpx: [req=77e3e545] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:17:40,279 INFO httpx: [req=eabde927] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=khqZz&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:17:41,290 INFO httpx: [req=519f2051] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=J7Gthc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Started a fresh conversation (previous chat backed up to previous-chat-backup.json)
+2026-10-22 01:17:42,691 INFO httpx: [req=bb6d9746] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:17:44,776 INFO httpx: [req=9f75e1eb] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=tGMBJ&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Removed old JD source: JD - Mercer LLC - Business Analysis, Data Science & AI Specialist
+2026-10-22 01:17:50,179 INFO httpx: [req=01e76a62] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=izAoDd&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:17:51,558 INFO httpx: [req=a1ec1f06] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Uploaded JD source: JD - ZecData Technology - Sr. Java Developer
+Asking NotebookLM (round 1)...
+2026-10-22 01:17:53,245 INFO httpx: [req=5363c7ba] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:17:58,344 INFO httpx: [req=d551da23] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/google.internal.labs.tailwind.orchestration.v1.LabsTailwindOrchestrationService/GenerateFreeFormStreamed?bl=boq_labs-tailwind-frontend_20260802.02_p0&hl=en&_reqid=200000&rt=c&f.sid=***&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:22:37,962 INFO httpx: [req=74adbe50] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+  round 1: 0 blocking, 1 soft, layout -2 lines vs original
+    [soft] BANNED_PHRASE: "scalable"/"high-volume" without a number in bullet "Optimized PostgreSQL relational schemas and Hibernate..."
+Asking NotebookLM (round 2)...
+2026-10-22 01:22:39,658 INFO httpx: [req=73ffd29a] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=khqZz&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:22:44,178 INFO httpx: [req=9cf87589] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/google.internal.labs.tailwind.orchestration.v1.LabsTailwindOrchestrationService/GenerateFreeFormStreamed?bl=boq_labs-tailwind-frontend_20260802.02_p0&hl=en&_reqid=300000&rt=c&f.sid=***&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+  round 2: 0 blocking, 0 soft, layout -2 lines vs original
+
+Best attempt: round 2 (clean)
+Output: D:\work\job-apps\fresh\applications\jobs\04888c44578e1b691de6e158\attempts\939d4ac57b9448cca49f267c5247fb71\20261022-011734-zecdata-technology-sr-java-developer\final
+Baseline: 1 page(s), 50 rendered lines
+2026-10-22 01:23:16,811 INFO httpx: HTTP Request: GET https://notebook.google.com/?authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:23:18,560 INFO httpx: [req=69e3e673] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:23:20,215 INFO httpx: [req=fa7ede7f] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:23:21,129 INFO httpx: [req=36fb3e2a] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=khqZz&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:23:22,266 INFO httpx: [req=80b43293] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=J7Gthc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Started a fresh conversation (previous chat backed up to previous-chat-backup.json)
+2026-10-22 01:23:23,774 INFO httpx: [req=41dbf143] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:23:26,055 INFO httpx: [req=f73bf9af] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=tGMBJ&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Removed old JD source: JD - ZecData Technology - Sr. Java Developer
+2026-10-22 01:23:30,874 INFO httpx: [req=ddd9babb] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=izAoDd&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:23:32,418 INFO httpx: [req=301709a9] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Uploaded JD source: JD - Siemens - Data Engineer
+Asking NotebookLM (round 1)...
+2026-10-22 01:23:34,023 INFO httpx: [req=2aad57af] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:23:38,656 INFO httpx: [req=7a37fee0] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/google.internal.labs.tailwind.orchestration.v1.LabsTailwindOrchestrationService/GenerateFreeFormStreamed?bl=boq_labs-tailwind-frontend_20260802.02_p0&hl=en&_reqid=200000&rt=c&f.sid=***&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:26:44,015 INFO httpx: [req=678f21b9] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+  round 1: 0 blocking, 0 soft, layout -1 lines vs original
+
+Best attempt: round 1 (clean)
+Output: D:\work\job-apps\fresh\applications\jobs\4c04efdf64e390573f39fff6\attempts\d388d937c1f94ba493e2a44422189e49\20261022-012315-siemens-data-engineer\final
+Baseline: 1 page(s), 50 rendered lines
+2026-10-22 01:26:46,366 INFO httpx: HTTP Request: GET https://notebook.google.com/?authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:26:48,147 INFO httpx: [req=da169a51] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:26:49,612 INFO httpx: [req=a9f1c849] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:26:50,711 INFO httpx: [req=8a07da83] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=khqZz&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:26:51,791 INFO httpx: [req=fc799248] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=J7Gthc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Started a fresh conversation (previous chat backed up to previous-chat-backup.json)
+2026-10-22 01:26:53,378 INFO httpx: [req=668082eb] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:26:55,305 INFO httpx: [req=f9c656bf] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=tGMBJ&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Removed old JD source: JD - Siemens - Data Engineer
+2026-10-22 01:27:00,217 INFO httpx: [req=840051ac] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=izAoDd&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:27:01,820 INFO httpx: [req=a6da75ae] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=rLM1Ne&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+Uploaded JD source: JD - Cognizant - Software Architect
+Asking NotebookLM (round 1)...
+2026-10-22 01:27:03,407 INFO httpx: [req=7d0602a7] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:27:09,181 INFO httpx: [req=6d3f9d56] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/google.internal.labs.tailwind.orchestration.v1.LabsTailwindOrchestrationService/GenerateFreeFormStreamed?bl=boq_labs-tailwind-frontend_20260802.02_p0&hl=en&_reqid=200000&rt=c&f.sid=***&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:29:32,694 INFO httpx: [req=b5986b37] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=hPTbtc&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+  round 1: 1 blocking, 0 soft, layout +1 lines vs original
+    [block] OVERFLOW: 1 rendered line(s) longer than the original. Cut at least 1 line(s): shorten the bullets you lengthened, starting with any flagged below.
+Asking NotebookLM (round 2)...
+2026-10-22 01:29:34,424 INFO httpx: [req=4f9728a0] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=khqZz&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:29:39,065 INFO httpx: [req=2e773053] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/google.internal.labs.tailwind.orchestration.v1.LabsTailwindOrchestrationService/GenerateFreeFormStreamed?bl=boq_labs-tailwind-frontend_20260802.02_p0&hl=en&_reqid=300000&rt=c&f.sid=***&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+  round 2: 1 blocking, 1 soft, layout +1 lines vs original
+    [soft] BANNED_PHRASE: "dynamic" in bullet "Implemented real-time keypoint feature matching, transmitting..."
+    [block] OVERFLOW: 1 rendered line(s) longer than the original. Cut at least 1 line(s): shorten the bullets you lengthened, starting with any flagged below.
+Asking NotebookLM (round 3)...
+2026-10-22 01:30:35,519 INFO httpx: [req=1838fefb] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/batchexecute?rpcids=khqZz&source-path=%2Fnotebook%2Fcc55df33-a1e4-4740-866e-ed1987f528ca&f.sid=***&hl=en&rt=c&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:30:40,377 INFO httpx: [req=ea861224] HTTP Request: POST https://notebook.google.com/_/LabsTailwindUi/data/google.internal.labs.tailwind.orchestration.v1.LabsTailwindOrchestrationService/GenerateFreeFormStreamed?bl=boq_labs-tailwind-frontend_20260802.02_p0&hl=en&_reqid=400000&rt=c&f.sid=***&authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 01:34:32,664 ERROR __main__: Workflow failed
+Traceback (most recent call last):
+  File "D:\work\job-apps\fresh\main.py", line 101, in main
+    result = run_workflow(
+             ^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\main.py", line 39, in run_workflow
+    with workflow_lock(directory):
+  File "C:\Users\Hiten Dalmia\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\workflow_io.py", line 43, in workflow_lock
+    raise RuntimeError(f"Workflow locked: {path}. If a process crashed, verify it has stopped before removing this lock.") from None
+RuntimeError: Workflow locked: D:\work\job-apps\fresh\applications\workflow.lock. If a process crashed, verify it has stopped before removing this lock.
+2026-10-22 01:43:16,422 ERROR __main__: Workflow failed
+Traceback (most recent call last):
+  File "D:\work\job-apps\fresh\main.py", line 101, in main
+    result = run_workflow(
+             ^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\main.py", line 39, in run_workflow
+    with workflow_lock(directory):
+  File "C:\Users\Hiten Dalmia\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\workflow_io.py", line 43, in workflow_lock
+    raise RuntimeError(f"Workflow locked: {path}. If a process crashed, verify it has stopped before removing this lock.") from None
+RuntimeError: Workflow locked: D:\work\job-apps\fresh\applications\workflow.lock. If a process crashed, verify it has stopped before removing this lock.
+2026-10-22 01:43:28,855 ERROR __main__: Workflow failed
+Traceback (most recent call last):
+  File "D:\work\job-apps\fresh\main.py", line 101, in main
+    result = run_workflow(
+             ^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\main.py", line 39, in run_workflow
+    with workflow_lock(directory):
+  File "C:\Users\Hiten Dalmia\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\workflow_io.py", line 43, in workflow_lock
+    raise RuntimeError(f"Workflow locked: {path}. If a process crashed, verify it has stopped before removing this lock.") from None
+RuntimeError: Workflow locked: D:\work\job-apps\fresh\applications\workflow.lock. If a process crashed, verify it has stopped before removing this lock.
+2026-10-22 13:48:00,347 ERROR __main__: Workflow failed
+Traceback (most recent call last):
+  File "D:\work\job-apps\fresh\main.py", line 101, in main
+    result = run_workflow(
+             ^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\main.py", line 39, in run_workflow
+    with workflow_lock(directory):
+  File "C:\Users\Hiten Dalmia\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\workflow_io.py", line 43, in workflow_lock
+    raise RuntimeError(f"Workflow locked: {path}. If a process crashed, verify it has stopped before removing this lock.") from None
+RuntimeError: Workflow locked: D:\work\job-apps\fresh\applications\workflow.lock. If a process crashed, verify it has stopped before removing this lock.
+2026-10-22 13:49:09,297 - ERROR - JobSpy:ZipRecruiter - ZipRecruiter: no jobKeysMap in the page
+2026-10-22 13:49:09,524 - ERROR - JobSpy:Google - Google returned no job data
+2026-10-22 13:49:14,501 INFO main: Found 20 jobs
+2026-10-22 13:49:14,515 WARNING main: Found lesser than 50 jobs!
+2026-10-22 13:50:11,369 INFO application_pipeline: 12 unique jobs have unknown experience or meet EXPERIENCE <= 3
+2026-10-22 13:50:13,752 INFO httpx: HTTP Request: POST https://accounts.google.com/RotateCookies "HTTP/1.1 200 OK"
+2026-10-22 13:50:14,271 INFO httpx: HTTP Request: GET https://notebook.google.com/?authuser=hitendalmia04%40gmail.com "HTTP/1.1 200 OK"
+2026-10-22 13:50:14,643 INFO httpx: HTTP Request: GET https://notebook.google.com/login?authuser=hitendalmia04%40gmail.com "HTTP/1.1 302 Found"
+2026-10-22 13:50:14,871 INFO httpx: HTTP Request: GET https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://notebook.google.com/login?authuser%3Dhitendalmia04@gmail.com&followup=https://notebook.google.com/login?authuser%3Dhitendalmia04@gmail.com "HTTP/1.1 302 Found"
+2026-10-22 13:50:15,030 INFO httpx: HTTP Request: GET https://accounts.google.com/v3/signin/accountchooser?continue=https://notebook.google.com/login?authuser%3Dhitendalmia04@gmail.com&followup=https://notebook.google.com/login?authuser%3Dhitendalmia04@gmail.com&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-1675007822:1792657216705786 "HTTP/1.1 200 OK"
+2026-10-22 13:50:15,380 ERROR application_pipeline: Tailoring failed for 1c8b47a57990c25b2acf6431; stopping batch to avoid repeated backend failures
+Traceback (most recent call last):
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\extraction.py", line 306, in _auth_error_boundary
+    yield
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\refresh.py", line 819, in _fetch_tokens_with_refresh_core
+    return await _cold_fallbacks(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\refresh.py", line 920, in _cold_fallbacks
+    return await coordinator.recover(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\recovery.py", line 273, in _drive_cold
+    raise last_redirect
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\refresh.py", line 811, in _fetch_tokens_with_refresh_core
+    csrf, session_id = await _fetch_tokens_with_jar(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\refresh.py", line 1053, in _fetch_tokens_with_jar
+    raise signed_out
+notebooklm._auth.extraction._LoginRedirectError: Authentication expired or invalid. https://notebook.google.com/ served a signed-out page, and its sign-in check redirected to https://accounts.google.com/<redacted>
+Run 'notebooklm login' to re-authenticate.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\work\job-apps\fresh\application_pipeline.py", line 325, in prepare_applications
+    await check_notebook_sources(cfg)
+  File "D:\work\job-apps\fresh\application_pipeline.py", line 162, in check_notebook_sources
+    async with NotebookLMClient.from_storage(profile=cfg.get("profile")) as client:
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\client.py", line 1259, in __aenter__
+    client = await self._build()
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_request_policy.py", line 120, in asynchronous
+    return await function(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\client.py", line 1184, in _build
+    loaded = await _auth_tokens._load_stored_auth(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\tokens.py", line 854, in _load_stored_auth
+    return await loader.load(
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\tokens.py", line 778, in load
+    acquired = await self._token_acquirer.acquire(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\tokens.py", line 702, in acquire
+    csrf, session_id, baseline = await _auth_refresh._fetch_tokens_with_exact_baseline(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\refresh.py", line 775, in _fetch_tokens_with_exact_baseline
+    csrf, session_id, _, _, baseline = await _fetch_tokens_with_refresh_core(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\refresh.py", line 818, in _fetch_tokens_with_refresh_core
+    with _auth_extraction._auth_error_boundary():
+  File "C:\Users\Hiten Dalmia\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\work\job-apps\fresh\.venv\Lib\site-packages\notebooklm\_auth\extraction.py", line 310, in _auth_error_boundary
+    raise auth_error from expired
+notebooklm.exceptions.AuthError: Authentication expired or invalid. https://notebook.google.com/ served a signed-out page, and its sign-in check redirected to https://accounts.google.com/<redacted>
+Run 'notebooklm login' to re-authenticate.
+2026-10-22 13:50:15,541 INFO __main__: Workflow result: {"eligible": 12, "new_attempts": 1, "statuses": {"failed": 2, "inactive": 4, "tailoring": 1}, "failed": true}

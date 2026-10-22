@@ -1,0 +1,38 @@
+Mercer LLC
+Business Analysis, Data Science & AI Specialist
+
+Company:MarshDescription:We are looking for a versatile, well-rounded analytics professional to join our Global Sales and Client Insights & Analytics team — a global group, with members based across multiple geographies combining commercial context with advanced analytics to identify growth opportunities, strengthen retention, unlock whitespace, and elevate client experience. You'll work across the full range of analytics, from reporting and automation to machine learning and LLM-based solutions, a role for someone who enjoys variety and wants their work to drive real decisions.What can you expect?
+
+* A broad, varied remit across business intelligence, advanced analytics, and a growing pipeline of AI/LLM projects.
+* The chance to combine traditional analytics with modelling and LLM techniques to solve real business problems.
+* Close collaboration with commercial leaders, finance, marketing, and tech.
+* Working in a global, multi-cultural team, with the autonomy to shape how analytics is delivered.
+
+We will count on you to:
+
+* Partner closely with stakeholders across the business to align analyses with business objectives.
+* Deliver a wide range of analytics, from high-level reporting and automation to forecasting, machine learning, and LLM-based solutions.
+* Turn data into clear, compelling insight that non-technical and executive audiences can act on.
+* Communicate insights clearly and concisely to senior leadership, both verbally and in writing.
+* Manage multiple projects under tight deadlines, demonstrating effective prioritization and time management.
+* Learn our key data sources and get up to speed quickly on new systems.
+
+What you need to have:
+
+* Bachelor’s degree in Engineering, Mathematics, Analytics, or a related field, or a Master's degree in Statistics, Business Analytics, or any related discipline.
+* 3 to 6 years of experience across both business intelligence and data science / modelling.
+* Strong SQL and Python, with hands-on experience building and automating data pipelines (e.g., Databricks).
+* Practical machine learning and forecasting experience, plus familiarity with LLM frameworks and how to apply them.
+* Working knowledge of Power BI to help design dashboards and translate business needs into clear requirements.
+* Strong data visualization, storytelling, and presentation skills.
+* Fluent English, written and verbal, this is essential, as the team operates entirely in English across geographies.
+* Genuine interest in the business and the flexibility to work across different types of work.
+
+What makes you stand out?
+
+* A commercial sense for matching analytical depth to the value of the output.
+* Hands-on experience building LLM-powered tools.
+* Strong interest in predictive and prescriptive analytics.
+* A self-starter who picks up new tools and domains quickly.
+
+Marsh (NYSE: MRSH) is a global leader in risk, reinsurance and capital, people and investments, and management consulting, advising clients in 130 countries. With annual revenue of over $27 billion and more than 95,000 colleagues, Marsh helps build the confidence to thrive through the power of perspective. For more information, visit marsh.com, or follow us on LinkedIn and X.Marsh is committed to embracing a diverse, inclusive and flexible work environment. We aim to attract and retain the best people and embrace diversity of age, background, disability, ethnic origin, family duties, gender orientation or expression, marital status, nationality, parental status, personal or social status, political affiliation, race, religion and beliefs, sex/gender, sexual orientation or expression, skin color, or any other characteristic protected by applicable law. In accordance with Section 40.2 of the Royal Legislative Decree 1/2013, of 29 November, approving the Consolidated Text of the General Act on the Rights of Persons with Disabilities and their Social Inclusion, Marsh will provide a reasonable accommodation to employees and prospective employees up to the point of undue hardship as required for the individual’s particular restrictions and limitations.Marsh is committed to hybrid work, which includes the flexibility of working remotely and the collaboration, connections and professional development benefits of working together in the office. All Marsh colleagues are expected to be in their local office or working onsite with clients at least three days per week. Office-based teams will identify at least one “anchor day” per week on which their full team will be together in person.

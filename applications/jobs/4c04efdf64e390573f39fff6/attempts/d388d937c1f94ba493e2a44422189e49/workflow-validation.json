@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "files": {
+    "resume.pdf": "a612bba0d264c2b8489444168272c1dd34334b5b4682d647bafc2330e77cc7b8",
+    "resume.tex": "5119994dec6ade5676cda97a255227d48edbdbd72e6f7ae15b304a0272e4f6ee",
+    "section.tex": "1c33898d86e9d9f59342155b2b08ebe407fcb090ec6e5cfe684b9cb802bdff23",
+    "report.md": "8ee3a8a639ce0ee6d8d3f58a77e75df15803941f9072e4570772b9d31a679bae",
+    "issues.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

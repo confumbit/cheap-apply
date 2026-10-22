@@ -1,0 +1,53 @@
+An architect is responsible for the design, development, and maintenance of software applications using a back-end stack (Java, Node.js or .NET) and a modern front-end framework (e.g. React, Angular or Vue). This includes working with technologies such as Java (Spring Boot), Node.js (NestJS/Express) or .NET (ASP.NET Core), message brokers (e.g. Kafka, RabbitMQ, Azure Service Bus) and ORMs (e.g. Hibernate/JPA, TypeORM/Prisma, Entity Framework), as well as front-end web development technologies such as React, Angular or Vue, TypeScript, HTML and CSS. An architect will be involved in all aspects of the software development life cycle, including requirement gathering, design, development, testing, and deployment. Strong technical skills and experience with both front-end and back-end development are essential for this role. Good knowledge of DDD design patterns, CQRS and Clean Architecture is mandatory. In addition, experience with microservices and micro frontends is expected. Strong skills in at least one modern front-end framework are expected. They will also be able to collaborate with other team members, including other engineers, product managers, and stakeholders to deliver high-quality software on time.  
+  
+The Architect is expected to participate in sales workshops, assess client requirements and discuss technical feasibility, participate in knowledge sharing sessions.
+
+**Key Responsibilities:**
+
+* Participating in agile ceremonies such as sprint planning, stand-up meetings, and retrospectives.
+* Working with product owners, business analysts and clients to translate business requirements into architecture, technical designs and delivery plans.
+* Leading the design and hands-on development of back-end services using Java (Spring Boot), Node.js (NestJS/Express) or .NET (ASP.NET Core), together with the relevant ORM and data-access frameworks.
+* Guiding front-end architecture (including micro frontends) and contributing to development using React, Angular or Vue, together with TypeScript, HTML and CSS.
+* Designing API contracts and integration patterns (REST, event-driven messaging) between services and external systems.
+* Defining and promoting software development best practices – clean code, SOLID principles, automated testing, secure coding, CI/CD and documentation – to ensure code quality and maintainability.
+* Driving the adoption of AI-assisted development tools (e.g. GitHub Copilot, Cursor, Claude Code) across the team and defining guidelines for their safe and effective use.
+* Leading code and design reviews, and mentoring engineers to raise the team's technical capability.
+* Troubleshooting and debugging issues.Continuously improving the software development process and practices.
+* Presenting architecture options, trade-offs and risks to stakeholders and team members to ensure project goals are met.
+* Keeping up to date with the latest technologies and industry trends, evaluating them through proofs of concept, and sharing knowledge across teams.
+
+**Job Requirements**
+
+**Essential Skills**:
+
+* Strong hands-on development skills in at least one back-end stack – Java, Node.js (TypeScript) or .NET – and strong skills in a modern front-end framework (React, Angular or Vue); solid experience with microservices, cloud platforms (Azure, AWS or GCP), message brokers and ORMs.
+* Strong written and verbal skills for discussing requirements with business stakeholders, PMs, designers, engineering.
+* Ability to make and argue technical decisions on security, performance and manageability
+* Significant experience in technical design and implementation of successful software products
+* Ability to define application structure, behaviour, interaction, non-functional properties
+* Ability to analyse impact and risks for business and subsequent architectural decisions
+* Code and process reviews, adherence to best practices
+* Hands-on experience using AI-assisted development tools in daily work, with a critical understanding of their strengths, limitations and risks (e.g. code quality, security, IP)
+
+**Nice to Have Skills:**
+
+* Experience in pre-sales activities, including RFP/RFI responses, technical solution proposals and effort estimation.
+* Experience in client consulting: running discovery and solution workshops, assessing business needs and advising on technology choices.
+* Ability to present technical solutions convincingly to both technical and non-technical audiences, including senior client stakeholders.
+* Experience designing and integrating GenAI/LLM-based solutions (e.g. RAG, AI agents, Azure OpenAI, AWS Bedrock), including evaluation, cost and responsible-AI considerations.
+
+**What we offer:**
+
+* Opportunity to be part of a global organization.
+* Encouraging working atmosphere, engaging activities, and extra benefits (e.g. additional medical insurance (covers gym subscription), team events, outreach activities, and others);
+* Hybrid work model with remote work opportunities ( 3/5 days weekly from the office)
+* Open, modern, and ergonomic work environment when working from the office with the multicultural community.
+* Opportunity to grow professionally and personally (e.g. Udemy) and continuously develop within the domain.
+* The salary range for this position is from **6000 to 7300 EURO gross before taxes.\\***  
+  + Salary offer for the candidate is determined based on the predefined salary ranges for the position and depends on the level of competence and experience of the candidate.
+
+Cognizant, as a digital company, makes employee health and safety its top priority. With that in mind, we are implementing virtual hiring and work practices which means all interviews will be conducted online as well as live from the office  
+We will be looking forward to Your CV.  
+Only suitable candidates will be contacted within 7 days from application.  
+Stay up to date with our website https://www.cognizant.com/lt/en  
+We are an equal opportunity employer and value diversity at our company. We do not discriminate based on race, religion, color, national origin, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, or disability status.

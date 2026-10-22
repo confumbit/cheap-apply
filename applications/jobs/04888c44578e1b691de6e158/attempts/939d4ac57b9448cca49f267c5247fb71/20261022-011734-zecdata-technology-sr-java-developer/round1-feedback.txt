@@ -1,0 +1,2 @@
+VALIDATOR FEEDBACK (round 1). Fix every issue below, change nothing else, and return the full LaTeX block and report again.
+- BANNED_PHRASE: "scalable"/"high-volume" without a number in bullet "Optimized PostgreSQL relational schemas and Hibernate..."

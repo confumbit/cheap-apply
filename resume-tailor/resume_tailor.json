@@ -1,0 +1,35 @@
+{
+  "notebook_id": "cc55df33-a1e4-4740-866e-ed1987f528ca",
+  "profile": null,
+  "source_titles": [
+    "resume-modifier",
+    "experience-skills-section",
+    "projects-list.txt",
+    "skills-list.txt",
+    "questions-list.txt"
+  ],
+  "custom_prompt_file": "resume-modifier-chat.md",
+  "resume_dir": "D:/work/job-apps/fresh/resume-tailor/originals",
+  "main_tex": "main.tex",
+  "section_file": "expandskills.tex",
+  "output_dir": "tailor-runs",
+  "latex_engine": "pdflatex",
+  "pdftotext": "C:\\Program Files\\poppler\\poppler-26.09.0\\Library\\bin\\pdftotext.exe",
+  "immutable_strings": [
+    "Freelance \\& Fractal",
+    "Tagglabs Experimental Pvt. Ltd. (Contract)",
+    "Gurugram, Haryana (Remote)",
+    "Mar. 2023 -- Present",
+    "Oct. 2023 -- Apr. 2025"
+  ],
+  "bullet_macros": ["resumeItem", "item"],
+  "chars_per_line": 100,
+  "max_bullet_chars": 205,
+  "heading_max_chars": 95,
+  "short_last_line_chars": 25,
+  "underflow_min_lines": 3,
+  "max_rounds": 4,
+  "fresh_conversation": true,
+  "jd_as_source": true,
+  "jd_source_prefix": "JD - "
+}

@@ -1,0 +1,192 @@
+Job Description
+
+**Are You Ready to Make It Happen at Mondelēz International?**
+
+  
+
+**Join our Mission to Lead the Future of Snacking. Make It With Pride.**
+
+  
+
+You assist in planning, developing and execution of capital projects, technical development, feasibility perspectives of engineering-related activities in the supply chain and capital-expense project execution to support growth, world-class manufacturing and productivity with the highest level of quality, safety and environmental requirements. You help ensure sure that Mondelēz business and innovation processes in project management and Mondelēz standards in execution are followed.
+
+  
+
+**How you will contribute**
+
+  
+
+The role supports capital project execution, and you will be accountable for the quality of the results and execution of capital projects using Mondelēz standards, and business and innovation processes in project management. You will help define and deliver the capital and technical agenda during the development phase of capital investments with stakeholders so that accurate budgets, plans and fit-for-purpose technical solutions are provided and develop the capital budget according to the contract and forecast cash flow. You will also help ensure that applicable engineering developments and standards are properly implemented, and support the development and implementation of state-of-the-art processes and equipment strategies to optimize resources, harmonize assets and rollout best practices.
+
+  
+
+**What you will bring**
+
+  
+
+A desire to drive your future and accelerate your career. You will bring experience and knowledge in:
+
+  
+
+* Engineering or operations
+* Working effectively and under pressure to meet deadlines
+* Analysis
+* Project management
+
+**More about this role**
+
+  
+
+Lead the electrical and automation engineering project a the site, ensuring reliable, safe, and efficient execution of all electrical systems and automation system for new capacity expansion.
+
+  
+  
+
+**What you need to know about this position:**
+
+  
+
+**Experience**
+
+  
+
+5–6 years of progressive experience in electrical and automation engineering within a manufacturing environment (FMCG/food & beverage preferred).
+
+  
+
+**PLC / SCADA**
+
+  
+
+Strong knowledge of PLC programming (Rockwell / Siemens), SCADA/HMI design, industrial networking (Ethernet/IP, Profinet, Modbus TCPIP), and instrumentation. Shall have sound knowledge of batch processes and Pack-ML Standards.
+
+  
+
+**Electrical**
+
+  
+
+Solid understanding of power distribution, motor control, and electrical protection systems. MCC panels and Drives.
+
+  
+
+**Instrumentation**
+
+  
+
+Good knowledge of instruments, selection, and Calibration processes, including legal meteorology.
+
+  
+
+**Digital and Cybersecurity**
+
+  
+
+Digital mindset, familiar with Digital applications for factory operations.
+
+  
+
+OT infrastructure – Networks, Network management, Server, Virtual Environment, Cybersecurity tools and Secure Remote access tools.
+
+  
+
+**Process and Equipment Safety.**
+
+  
+
+Hands-on knowledge of Process Safety and Equipment Safety Standards (SIL and PL). To design and validate the safety of the equipment and processes.
+
+  
+
+**Leadership**
+
+  
+
+Proven ability to lead and develop technical teams in a fast-paced operational setting.
+
+  
+
+**Project Mgmt**
+
+  
+
+Experience managing capital projects (>$500K electrical/automation scope).
+
+  
+
+**Communication**
+
+  
+
+Ability to translate complex technical topics for non-technical stakeholders; strong written and verbal English.
+
+  
+  
+
+**Education / Certifications:**
+
+  
+
+Bachelor's degree in Electrical Engineering, Automation/Control Engineering, Mechatronics, or a related discipline.
+
+  
+  
+
+**Job specific requirements:**
+
+  
+
+**Electrical Systems**
+
+  
+
+* Own the design, BOQ preparation, installation, commissioning,  all electrical systems across for new capacity expansion & Plant projects.
+
+* Ensure compliance with local electrical codes, MDLZ engineering standards, and relevant safety regulations (e.g., NFPA 70E, IEC, local statutory requirements).
+
+**Automation for plant projects**
+
+  
+
+* Design and implementation of automation and control systems, including PLCs (Allen-Bradley, Siemens, etc.), SCADA/HMI, VFDs, servo drives, instrumentation, and industrial networks for new capacity expansion.
+
+* Support in plant  digital manufacturing roadmaps.
+
+**Project Delivery**
+
+  
+
+* Lead electrical and automation scope for capital projects — from concept and design through FAT/SAT, installation, commissioning, and handover.
+
+* Manage external contractors, system integrators, and OEMs to deliver projects on time, on budget, and to specification.
+
+* Prepare and manage project budgets, schedules, and risk registers for the E&A scope.
+
+**People Leadership**
+
+  
+
+* Lead, coach, and develop a team of electrical and automation technicians/engineers.
+
+* Build technical capability through structured training, mentoring, and skills-gap assessments.
+
+* Foster a culture of safety, ownership, and continuous improvement within the team.
+* Coordinate with Site Automation team, SSAL and the Electrical Maintenance team for project shutdown and integration planning.
+
+**Safety & Compliance**
+
+  
+
+* Champion electrical safety practices, including lockout/tagout (LOTO), arc-flash risk assessments, and safe work permits.
+
+* Ensure all electrical and automation work complies with MDLZ Global Engineering Standards, local regulations, and insurance requirements.
+
+* Maintain up-to-date electrical single-line diagrams, panel schedules, and automation documentation.
+
+  
+&#xa;&#xa;Within Country Relocation support available and for candidates voluntarily moving internationally some minimal support is offered through our Volunteer International Transfer Policy**Business Unit Summary**Mondelez India Foods Private Limited (formerly Cadbury India Ltd.) has been in India for over 70 years, making sure our mouth-watering and well-loved local and global brands such as *Cadbury* chocolates, *Bournvita* and *Tang* powdered beverages, *Oreo* and *Cadbury Bournvita* biscuits, and *Halls* and *Cadbury Choclairs Gold* candies get safely into our customers hands—and mouths*.* Headquartered in Mumbai, the company has more than 3,300 employees proudly working across sales offices in New Delhi, Mumbai, Kolkata and Chennai and in manufacturing facilities at Maharashtra, Madhya Pradesh, Himachal Pradesh and Andhra Pradesh, at our global Research & Development Technical Centre and Global Business Hub in Maharashtra and in a vast distribution network across the country. We are also proud to be recognised by Avatar as the Best Companies for Women in India in 2019 – the fourth time we’ve received this award.
+
+Mondelēz International is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, gender, sexual orientation or preference, gender identity, national origin, disability status, protected veteran status, or any other characteristic protected by law.
+
+  
+**Job Type**RegularProject EngineeringScience & Engineering

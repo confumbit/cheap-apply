@@ -1,0 +1,5 @@
+resume-tailor/_pycache_/
+resume-tailor/tailor-runs/
+.hermex/
+.venv/
+_pycache_/

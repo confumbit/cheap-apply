@@ -1,0 +1,3 @@
+VALIDATOR FEEDBACK (round 2). Fix every issue below, change nothing else, and return the full LaTeX block and report again.
+- OVERFLOW: 1 rendered line(s) longer than the original. Cut at least 1 line(s): shorten the bullets you lengthened, starting with any flagged below.
+- BANNED_PHRASE: "dynamic" in bullet "Implemented real-time keypoint feature matching, transmitting..."

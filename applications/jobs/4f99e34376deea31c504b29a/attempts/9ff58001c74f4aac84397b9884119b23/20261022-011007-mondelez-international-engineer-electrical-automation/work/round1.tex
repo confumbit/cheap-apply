@@ -1,0 +1,219 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{cmap}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks,pdflang={en-US}]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{accsupp}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\pdfglyphtounicode{bulletoperator}{2022}
+\pdfglyphtounicode{asteriskmath}{002A}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\hypersetup{
+    pdftitle={Hiten Dalmia - Resume},
+    pdfauthor={Hiten Dalmia},
+    pdfsubject={Resume},
+    pdfcreator={LaTeX}
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{5pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{\raisebox{0.15ex}{\tiny\textbullet}}
+\renewcommand\labelitemiii{\raisebox{0.15ex}{\tiny\textbullet}}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge Hiten Dalmia} \\ \vspace{1pt}
+  \small \href{mailto:hitendwork@gmail.com}{\underline{hitendwork@gmail.com}} |
+  \href{https://www.linkedin.com/in/hiten-dalmia/}{\underline{linkedin/hiten-dalmia}} |
+  \href{https://github.com/confumbit}{\underline{github/confumbit}} |
+  \href{https://confumbit.github.io/index.html}{\underline{confumbit.github.io (homepage)}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Chennai Mathematical Institute}{Chennai, India}
+{Master of Science in Theoretical Computer Science (On Full Scholarship)}{Aug. 2026 -- Discontinued}
+
+\resumeSubheading
+{Kirori Mal College, University of Delhi}{Delhi, India}
+{Bachelor of Science (Honours with Research) in Mathematics, \footnotesize{Minor in Economics}}{Nov. 2022 -- May 2026}
+\resumeSubHeadingListEnd
+
+% -----------EXPERIENCE-----------
+\section{Experience}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Software Engineer}{Mar. 2023 -- Present}
+{Freelance \& Fractal}{Remote}
+\resumeItemListStart
+\resumeItem{Delivered 10+ production software applications and automation systems for client businesses, specializing in full-stack architecture, real-time data ingestion pipelines, and RESTful API infrastructure.}
+
+\resumeItem{\textbf{Order Procurement \& Management Solution} | \emph{PostgreSQL, NodeJS, TypeScript, NextJS}}
+\resumeItemListStart
+\resumeItem{Designed a full-stack order portal using NextJS, ExpressJS, TypeScript, and PostgreSQL with session-based authentication and secure RESTful endpoints.}
+\resumeItem{Built a dual-tier system with real-time inventory tracking for clients and an admin control suite supporting task dispatch, automated audit logs, and scheduled recurring orders.}
+\resumeItem{Constructed an automated order ingestion pipeline parsing incoming WhatsApp message payloads into relational SQL records, eliminating manual data entry and cutting processing time by 80\%.}
+\resumeItem{Optimized PostgreSQL database schemas with B-tree indexing and foreign key integrity constraints to process 5,000+ daily order queries with under 50ms response latency.}
+\resumeItemListEnd
+\resumeItemListEnd
+
+\medskip
+
+\resumeSubheading
+{Software Engineer}{Oct. 2023 -- Apr. 2025}
+{Tagglabs Experimental Pvt. Ltd. (Contract)}{Gurugram, Haryana (Remote)}
+\resumeItemListStart
+\resumeItem{\textbf{Cross-platform AR App} | \emph{C/C++, OpenCV, Flutter, Django} \textbf{(\underline{\href{[suspicious link removed]}{Live link}})}}
+\resumeItemListStart
+\resumeItem{Architected a native C/C++ bridge using \texttt{dart:ffi} to port OpenCV feature-matching algorithms into Flutter, enabling unified cross-platform image processing across Android and iOS.}
+\resumeItem{Engineered a real-time frame processing pipeline normalizing OS video buffers and aspect ratios into raw C structs with zero-copy memory management and 30+ FPS throughput.}
+\resumeItem{Implemented asynchronous feature extraction and object detection routines, transmitting coordinate payloads to Dart for real-time overlay rendering without UI thread blocking.}
+\resumeItem{Developed responsive Flutter user interfaces and RESTful Django backend APIs to manage location-aware spatial telemetry and client discovery services for alpha release.}
+\resumeItemListEnd
+
+\medskip
+
+\resumeItem{\textbf{Kia National Conference App} | \emph{Flutter}}
+\resumeItemListStart
+\resumeItem{Deployed an event management mobile app in Flutter for 500+ attendees at the Kia Conference in Bangkok, supporting real-time registration, attendee directories, and venue navigation.}
+\resumeItemListEnd
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% -----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Systems \& Languages:} {Python, C++, C, SQL, JavaScript/TypeScript, Dart, R} \\
+        \textbf{Automation \& Infrastructure:} {Linux, Bash, Docker, AWS, RESTful APIs, Git, PostgreSQL} \\
+        \textbf{Frameworks \& Databases:} {NodeJS, ExpressJS, Django, NextJS, Flutter, React Native, NestJS} \\
+        \textbf{Data Science \& Computer Vision:} {OpenCV (SIFT), NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn} \\
+        }}
+\end{itemize}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Erasmus Mundus Joint Master MATHS-DISC Fellowship}{Europe}
+{Issued by European Union and affiliated universities}{Mar. 2026}
+\resumeSubheading
+{Master in Mathematics (ISI) and MSc Computer Science (CMI) Scholarships}{India}
+{Indian Statistical Institute and Chennai Mathematical Institute respectively}{Jun. 2026}
+
+\resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{\href{https://doi.org/10.46753/pjmpa.2026.v01i01.001}{\underline{\textbf{Computable Analysis: Mathematical Foundations and Computability of Real Functions}}}}{}
+{Poincare Journal of Mathematical Physics \& Applications, Vol. 1, No. 1 (2026), 1--20 (with Sujit Kumar)}{}
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}

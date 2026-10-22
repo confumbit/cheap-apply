@@ -3,6 +3,7 @@ import os, sys, logging
 from dotenv import load_dotenv
 
 from job_functions import classify_jobs, scraper, scrape_hr
+from resume_pipeline import tailor_jobs
 
 load_dotenv()
 
@@ -18,6 +19,10 @@ def run_workflow() -> None:
     logger.info("Classifying jobs according to experience started")
     classify_jobs(path)
     logger.info("Classifying jobs according to experience finished")
+
+    logger.info("Tailoring resumes for eligible jobs started")
+    tailor_jobs(path, experience_column="experience_range")
+    logger.info("Tailoring resumes for eligible jobs finished")
 
     # logger.info("Finding HR emails started")
     # scrape_hr()
