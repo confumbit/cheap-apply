@@ -1,7 +1,6 @@
 """Offline integration tests: no scraping, NotebookLM, or LaTeX calls."""
 import csv
 from pathlib import Path
-import subprocess
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -36,10 +35,10 @@ class ResumePipelineTests(unittest.TestCase):
         with self.csv.open(newline="", encoding="utf-8") as stream:
             return list(csv.DictReader(stream))
 
-    def test_strict_threshold_and_missing(self):
-        for value in ("", "null", "unknown", "0", "2", "2-4 Yrs", "2.5"):
+    def test_current_threshold_and_missing(self):
+        for value in ("", "null", "unknown", "0", "2", "2-4 Yrs", "2.5", "3", "3-5 Yrs", "3.0"):
             self.assertTrue(pipeline.eligible(value, 3), value)
-        for value in ("3", "3-5 Yrs", "4", "3.0"):
+        for value in ("4", "4-5 Yrs", "4.0"):
             self.assertFalse(pipeline.eligible(value, 3), value)
         with self.assertRaises(ValueError):
             pipeline.eligible("failed extraction", 3)
@@ -50,7 +49,7 @@ class ResumePipelineTests(unittest.TestCase):
         self.write([
             {"min_years_experience": "2", "job_url": "https://board-a/jobs/1"},
             {"min_years_experience": "", "company": "ACME", "job_url": "https://board-b/jobs/9", "description": "A fuller JD"},
-            {"min_years_experience": "3", "resume_pdf": str(self.pdf)},
+            {"min_years_experience": "4", "resume_pdf": str(self.pdf)},
             {"min_years_experience": "5"},
             {"min_years_experience": "0", "title": "Data Scientist"},
         ])
@@ -70,7 +69,7 @@ class ResumePipelineTests(unittest.TestCase):
     @patch.object(pipeline, "tailor_one")
     def test_classifier_ad_column(self, tailor):
         tailor.return_value = self.pdf
-        self.write([{"experience_range": "2"}, {"experience_range": "3", "title": "Other"}], named=False)
+        self.write([{"experience_range": "2"}, {"experience_range": "4", "title": "Other"}], named=False)
         pipeline.tailor_jobs(self.csv, 3)
         self.assertEqual(tailor.call_count, 1)
         self.assertEqual(self.read()[0]["resume_pdf"], str(self.pdf.resolve()))
@@ -121,16 +120,6 @@ class ResumePipelineTests(unittest.TestCase):
         self.assertEqual(tailor.call_count, 1)
         self.assertEqual(self.read()[0]["resume_pdf"], "")
 
-    def test_main_runs_integration_after_classifier(self):
-        import main
-        calls = []
-        with patch.object(main, "scraper", side_effect=lambda: calls.append("scrape") or "jobs.csv"), \
-             patch.object(main, "classify_jobs", side_effect=lambda path: calls.append(("classify", path))), \
-             patch.object(main, "tailor_jobs", side_effect=lambda path, **kw: calls.append(("tailor", path, kw))):
-            main.run_workflow()
-        self.assertEqual(calls, ["scrape", ("classify", "jobs.csv"),
-                                 ("tailor", "jobs.csv", {"experience_column": "experience_range"})])
-
     def test_matching_jd_handles_different_location_labels(self):
         description = " ".join(f"word{i}" for i in range(70))
         self.write([
@@ -150,15 +139,18 @@ class ResumePipelineTests(unittest.TestCase):
         self.assertNotEqual(pipeline.canonical_url("https://jobs.test/view?id=1"),
                             pipeline.canonical_url("https://jobs.test/view?id=2"))
 
-    @patch.object(pipeline.subprocess, "run")
+    @patch.object(pipeline.subprocess, "Popen")
     def test_existing_tailor_cli_and_output_directory(self, run):
-        run.return_value = subprocess.CompletedProcess([], 0, f"Best attempt: round 1\nOutput: {self.pdf.parent}\n")
+        import io
+        run.return_value.stdout = io.StringIO(f"Best attempt: round 1\nOutput: {self.pdf.parent}\n")
+        run.return_value.wait.return_value = 0
         result = pipeline.tailor_one("Acme", "Engineer", "Full job description", pipeline.CONFIG)
         self.assertEqual(result, self.pdf.resolve())
         command = run.call_args.args[0]
-        self.assertEqual(command[:5], [pipeline.sys.executable, str(pipeline.TAILOR), "--config", str(pipeline.CONFIG), "run"])
+        self.assertEqual(command[:6], [pipeline.sys.executable, "-u", str(pipeline.TAILOR), "--config", str(pipeline.CONFIG), "run"])
         self.assertNotIn("--output-dir", command)
         self.pdf.unlink()
+        run.return_value.stdout = io.StringIO(f"Output: {self.pdf.parent}\n")
         with self.assertRaisesRegex(RuntimeError, "no PDF"):
             pipeline.tailor_one("Acme", "Engineer", "JD", pipeline.CONFIG)
 

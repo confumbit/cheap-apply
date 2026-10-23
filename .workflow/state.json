@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "stage": "complete",
+  "work_dir": "D:\\work\\job-apps\\fresh\\.workflow\\runs\\2ff2bf6bfa5447acaf00fa8ec5660850",
+  "next_row": 200,
+  "csv_path": "D:\\work\\job-apps\\fresh\\jobs-2026-10-22.csv",
+  "working_csv": "D:\\work\\job-apps\\fresh\\.workflow\\runs\\2ff2bf6bfa5447acaf00fa8ec5660850\\jobs-2026-10-22.csv",
+  "experience_column": "experience_range"
+}

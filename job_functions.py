@@ -90,7 +90,7 @@ def scraper() -> None:
         location="India",
         distance=None,
         # is_remote=True,
-        results_wanted=5,
+        results_wanted=50,
         hours_old=720,
         fetch_description=True,
         country_indeed="India",

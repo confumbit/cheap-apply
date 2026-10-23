@@ -4,6 +4,8 @@ from __future__ import annotations
 import argparse
 import csv
 import html
+import hashlib
+import json
 import logging
 import math
 import os
@@ -14,6 +16,8 @@ import sys
 import tempfile
 import unicodedata
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+
+from workflow_support import Recovery, WorkflowStopped, load_json, save_json
 
 logger = logging.getLogger(__name__)
 ROOT = Path(__file__).resolve().parent
@@ -123,18 +127,37 @@ def tailor_one(company: str, title: str, description: str, config: Path) -> Path
     """Use the public CLI unchanged, including its configured output directory."""
     with tempfile.TemporaryDirectory(prefix="resume-jd-") as tmp:
         jd = Path(tmp) / "jd.txt"
-        jd.write_text(description, encoding="utf-8")
-        result = subprocess.run(
-            [sys.executable, str(TAILOR), "--config", str(config), "run",
+        jd.write_text(description, encoding="utf-8", newline="\n")
+        process = subprocess.Popen(
+            [sys.executable, "-u", str(TAILOR), "--config", str(config), "run",
              "--company", company, "--role", title, "--jd", str(jd)],
             cwd=TAILOR.parent, text=True, encoding="utf-8", errors="replace",
             stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
         )
-    if result.stdout:
-        logger.info("Resume tailor output:\n%s", result.stdout.rstrip())
-    if result.returncode:
-        raise RuntimeError(f"Resume tailor exited with code {result.returncode}")
-    outputs = re.findall(r"^Output: (.+)$", result.stdout, flags=re.MULTILINE)
+        lines = []
+        try:
+            for line in process.stdout:
+                lines.append(line)
+                logger.info("Resume tailor: %s", line.rstrip())
+            returncode = process.wait()
+        except BaseException:
+            # Do not leave the old tailor running while a resumed workflow starts.
+            try:
+                process.terminate()
+            except OSError:
+                pass  # The child may have exited just before the interruption.
+            try:
+                process.wait(timeout=10)
+            except subprocess.TimeoutExpired:
+                process.kill()
+                process.wait()
+            raise
+        finally:
+            process.stdout.close()
+    output = "".join(lines)
+    if returncode:
+        raise RuntimeError(f"Resume tailor exited with code {returncode}:\n" + "".join(lines[-30:]))
+    outputs = re.findall(r"^Output: (.+)$", output, flags=re.MULTILINE)
     if not outputs:
         raise RuntimeError("Resume tailor did not report an output directory")
     final = Path(outputs[-1].strip())
@@ -146,12 +169,62 @@ def tailor_one(company: str, title: str, description: str, config: Path) -> Path
     return pdf.resolve()
 
 
-def tailor_jobs(path, experience=None, *, config=CONFIG, experience_column=None, dry_run=False):
+class ResumeJournal:
+    """Record results before CSV writes, plus run folders for interrupted CLI calls."""
+    def __init__(self, csv_path, config, recovery):
+        self.path = csv_path.with_name(csv_path.name + ".resume-progress.json")
+        self.config = config
+        self.recovery = recovery
+        self.data = recovery.run("Read resume checkpoint", lambda: load_json(self.path)) if self.path.exists() else {"version": 1, "jobs": {}}
+        if self.data.get("version") != 1 or not isinstance(self.data.get("jobs"), dict):
+            raise ValueError(f"Invalid resume checkpoint: {self.path}")
+
+    def save(self):
+        self.recovery.run("Save resume checkpoint", lambda: save_json(self.path, self.data))
+
+    def tailor(self, company, title, jd):
+        config_text = self.config.read_text(encoding="utf-8-sig")
+        key = hashlib.sha256(json.dumps([company, title, jd, str(self.config), config_text]).encode("utf-8")).hexdigest()
+        output = Path(json.loads(config_text).get("output_dir", "tailor-runs"))
+        if not output.is_absolute():
+            output = self.config.parent / output
+        record = self.data["jobs"].get(key, {})
+        pdf = Path(record["pdf"]) if record.get("pdf") else None
+        if pdf and pdf.is_file() and pdf.stat().st_size:
+            logger.info("Recovered completed PDF from checkpoint: %s", pdf)
+            return pdf
+        expected_jd = f"{company}\n{title}\n\n{jd}".replace("\r\n", "\n").replace("\r", "\n")
+        if "existing_runs" in record and output.exists():
+            previous = set(record["existing_runs"])
+            for run in sorted(output.iterdir(), reverse=True):
+                candidate = run / "final" / "resume.pdf"
+                source = run / "jd.txt"
+                # finalize writes issues.txt after copying the PDF; its presence
+                # prevents reuse of a half-copied PDF after a forced shutdown.
+                finished = run / "final" / "issues.txt"
+                if run.name not in previous and candidate.is_file() and candidate.stat().st_size and source.is_file() and finished.is_file():
+                    if source.read_text(encoding="utf-8-sig") == expected_jd:
+                        logger.info("Recovered PDF from interrupted tailor run: %s", candidate)
+                        record["pdf"] = str(candidate.resolve())
+                        self.save()
+                        return candidate.resolve()
+        record = {"existing_runs": [p.name for p in output.iterdir()] if output.exists() else []}
+        self.data["jobs"][key] = record
+        self.save()
+        pdf = tailor_one(company, title, jd, self.config)
+        record["pdf"] = str(pdf)
+        self.save()
+        return pdf
+
+
+def tailor_jobs(path, experience=None, *, config=CONFIG, experience_column=None, dry_run=False, recovery=None):
     """Link one tailored PDF per eligible duplicate group; checkpoint each group.
 
     Use the named minimum column when present, otherwise column AD, which is
     where classify_jobs writes its result. Pass experience_column to override.
     """
+    recovery = recovery or Recovery(False)
+    logger.info("Reading classified CSV: %s", path)
     if experience is None:
         from job_functions import EXPERIENCE
         experience = EXPERIENCE
@@ -196,15 +269,20 @@ def tailor_jobs(path, experience=None, *, config=CONFIG, experience_column=None,
                 row[resume_index] = ""
             logger.warning("Row %d skipped: %s", i + 2, exc)
     stats["eligible"] = len(qualified)
+    logger.info("Checking duplicate postings among %d rows (%d eligible)", len(rows), len(qualified))
+    groups = [group for group in duplicate_groups(rows, cols) if any(i in qualified for i in group)]
+    logger.info("Found %d eligible unique job groups", len(groups))
+    journal = None if dry_run else ResumeJournal(path, config, recovery)
     if not dry_run:
-        save_csv(path, header, rows)
-    for group in duplicate_groups(rows, cols):
+        recovery.run("Save CSV resume column", lambda: save_csv(path, header, rows))
+    for number, group in enumerate(groups, start=1):
         targets = [i for i in group if i in qualified]
         if not targets:
             continue
         stats["groups"] += 1
         if dry_run:
             continue
+        logger.info("Resume group %d/%d; CSV rows %s", number, len(groups), [i + 2 for i in targets])
         try:
             pdf = None
             for i in targets:
@@ -217,6 +295,7 @@ def tailor_jobs(path, experience=None, *, config=CONFIG, experience_column=None,
                         pdf = candidate.resolve()
                         break
             if pdf is not None:
+                logger.info("Reusing PDF: %s", pdf)
                 stats["reused"] += 1
             else:
                 # The fullest posting generally supplies the most useful JD.
@@ -225,17 +304,19 @@ def tailor_jobs(path, experience=None, *, config=CONFIG, experience_column=None,
                 if not all((company, title, jd)):
                     raise ValueError("Missing company, title, or job description")
                 logger.info("Tailoring %s / %s for %d eligible row(s)", company, title, len(targets))
-                pdf = tailor_one(company, title, jd, config)
+                pdf = recovery.run(f"Tailor {company} / {title}", lambda: journal.tailor(company, title, jd))
                 stats["generated"] += 1
             for i in targets:
                 rows[i][resume_index] = str(pdf)
+        except WorkflowStopped:
+            raise
         except Exception:
             stats["failed"] += 1
             for i in targets:
                 rows[i][resume_index] = ""
             logger.exception("Could not tailor CSV rows %s; continuing batch", [i + 2 for i in targets])
-        finally:
-            save_csv(path, header, rows)
+        recovery.run("Save resume links to CSV", lambda: save_csv(path, header, rows))
+        logger.info("Completed resume group %d/%d", number, len(groups))
     logger.info("Resume batch: %s", stats)
     if stats["failed"] or stats["invalid"]:
         raise RuntimeError(f"Resume batch needs attention: {stats}")
@@ -248,6 +329,17 @@ if __name__ == "__main__":
     parser.add_argument("--config", type=Path, default=CONFIG)
     parser.add_argument("--experience-column", help="Override automatic experience-column selection")
     parser.add_argument("--dry-run", action="store_true", help="Count eligible rows and groups without writing or tailoring")
+    parser.add_argument("--non-interactive", action="store_true", help="Exit on errors instead of prompting")
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
-    tailor_jobs(args.csv, config=args.config, experience_column=args.experience_column, dry_run=args.dry_run)
+    recovery = Recovery(False if args.non_interactive else None)
+    try:
+        recovery.run("Tailor CSV jobs", lambda: tailor_jobs(
+            args.csv, config=args.config, experience_column=args.experience_column,
+            dry_run=args.dry_run, recovery=recovery))
+    except (KeyboardInterrupt, WorkflowStopped):
+        logger.info("Stopped. Rerun this command to resume completed resume groups.")
+        sys.exit(130)
+    except Exception:
+        logger.exception("Batch failed. Fix the issue and rerun this command to resume.")
+        sys.exit(1)

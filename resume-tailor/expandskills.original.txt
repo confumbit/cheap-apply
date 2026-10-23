@@ -1,0 +1,54 @@
+% -----------EXPERIENCE-----------
+\section{Experience}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Full-Stack Developer}{Mar. 2023 -- Present}
+{Freelance \& Fractal}{Remote}
+\resumeItemListStart
+\resumeItem{Delivered 10+ production web and mobile applications for client businesses via Upwork and Fractal, specializing in full-stack architecture, e-commerce infrastructure, and automated testing pipelines.}
+
+\resumeItem{\textbf{Order Procurement \& Management Solution} | \emph{NextJS, NodeJS, PostgreSQL, TypeScript}}
+\resumeItemListStart
+\resumeItem{Architected a full-stack enterprise order portal utilizing NextJS, ExpressJS, TypeScript, and PostgreSQL with session-based authentication and RESTful APIs.}
+\resumeItem{Designed a dual-tier interface comprising a customer ordering portal with real-time inventory listings and an office administrative suite supporting employee task dispatch, audit logging, and recurring order schedules.}
+\resumeItem{Developed an automated order ingestion pipeline parsing incoming WhatsApp messages into structured database records, eliminating manual entry and accelerating order processing throughput.}
+\resumeItem{Designed relational PostgreSQL schemas with optimized indexing and relational integrity constraints to handle high-volume transactions efficiently.}
+\resumeItemListEnd
+\resumeItemListEnd
+
+\medskip
+
+\resumeSubheading
+{Software Developer}{Oct. 2023 -- Apr. 2025}
+{Tagglabs Experimental Pvt. Ltd. (Contract)}{Gurugram, Haryana (Remote)}
+\resumeItemListStart
+\resumeItem{\textbf{Cross-platform AR App} | \emph{Flutter, Django, OpenCV, C} \textbf{(\underline{\href{https://discoverloka.org/}{Live link}})}}
+\resumeItemListStart
+\resumeItem{Architected a native C/C++ bridge using \texttt{dart:ffi} to port OpenCV Scale-Invariant Feature Transform (SIFT) keypoint algorithms into Flutter, enabling single-codebase cross-platform computer vision across Android and iOS.}
+\resumeItem{Engineered a real-time camera feed pipeline that normalized OS frame buffers and aspect ratios, converting raw video streams into C structs with zero memory leaks and 30+ FPS performance.}
+\resumeItem{Implemented real-time keypoint extraction and object recognition, transmitting match coordinates asynchronously to Dart for dynamic augmented reality UI overlay rendering.}
+\resumeItem{Developed responsive mobile interfaces in Flutter from Figma designs and built RESTful backend APIs in Django to power location-aware spatial discovery features for alpha release.}
+\resumeItemListEnd
+
+\medskip
+
+\resumeItem{\textbf{Kia National Conference App} | \emph{Flutter}}
+\resumeItemListStart
+\resumeItem{Engineered an event management mobile app in Flutter for 500+ attendees at the Kia National Dealer Conference in Bangkok, featuring real-time registration, attendee directories, and interactive venue navigation.}
+\resumeItemListEnd
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% -----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Languages \& Systems:} {Python, JavaScript/TypeScript, C++, Dart, C, SQL, R, Mathematica} \\
+        \textbf{Frameworks \& Databases:} {NodeJS, ExpressJS, NestJS, Django, PostgreSQL, Flutter, React, NextJS, React Native} \\
+        \textbf{Computer Vision \& Data Science:} {OpenCV (SIFT), NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib} \\
+        \textbf{Developer Tools \& Cloud:} {AWS, Git, Linux, Bash, Docker, Vim, \BeginAccSupp{ActualText=LaTeX}\LaTeX\EndAccSupp{}, Agentic Development, MCPs, LLM Pipeline \& Context Engineering, n8n} \\
+        }}
+\end{itemize}
