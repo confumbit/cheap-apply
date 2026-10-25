@@ -3,3 +3,10 @@ resume-tailor/tailor-runs/
 .hermex/
 .venv/
 _pycache_/
+.playwright-mcp/
+.playwright-cli/
+applications/browser-state.json.lock
+applications/*-state.json.lock
+applications/automation/
+resume-tailor/originals/misc-list.yml.lock
+.env
