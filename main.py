@@ -1,4 +1,4 @@
-"""Resumable orchestration; job_functions and the resume tailor stay unchanged."""
+"""Resumable scraping, experience/title filtering, and resume orchestration."""
 import argparse
 from contextlib import redirect_stdout
 import csv
@@ -12,7 +12,7 @@ import uuid
 
 from dotenv import load_dotenv
 
-from job_functions import classify_jobs, scraper
+from job_functions import SEARCH_TERM, check_job_titles, classify_jobs, mark_eligible, scraper
 from resume_pipeline import ROOT, save_csv, tailor_jobs
 from workflow_support import Recovery, WorkflowStopped, atomic_bytes, load_json, save_json
 
@@ -82,7 +82,8 @@ def run_workflow(*, checkpoint=CHECKPOINT, fresh=False, csv_path=None,
         work = checkpoint.parent / "runs" / uuid.uuid4().hex
         recovery.run("Create workflow work folder", lambda: work.mkdir(parents=True, exist_ok=True))
         state = dict(version=1, stage="scrape", work_dir=str(work), next_row=0,
-                     csv_path=None, working_csv=None, experience_column="experience_range")
+                     csv_path=None, working_csv=None, experience_column="experience_range",
+                     search_term=SEARCH_TERM)
         if csv_path is not None:
             source = Path(csv_path).resolve()
             stage = start_at or "classify"
@@ -126,9 +127,23 @@ def run_workflow(*, checkpoint=CHECKPOINT, fresh=False, csv_path=None,
         elif stage == "classify":
             logger.info("[2/3] Classifying experience; resume at job %d", state["next_row"] + 1)
             recovery.run("Classify remaining jobs", lambda: classify_remaining(state, persist, recovery))
+            recovery.run("Check job titles", lambda: check_job_titles(
+                state["working_csv"], search_title=state.get("search_term", SEARCH_TERM)))
+            recovery.run("Mark eligible jobs", lambda: mark_eligible(
+                state["working_csv"], experience_column=state["experience_column"]))
+            state["title_filter_complete"] = True
             state["stage"] = "publish_classification"
+        elif stage == "filter_titles":
+            # Resume checkpoints saved by the previous separate-title stage.
+            logger.info("[2/3] Finishing title/eligibility classification from an older checkpoint")
+            recovery.run("Check job titles", lambda: check_job_titles(
+                state["csv_path"], search_title=state.get("search_term", SEARCH_TERM)))
+            recovery.run("Mark eligible jobs", lambda: mark_eligible(
+                state["csv_path"], experience_column=state["experience_column"]))
+            state["title_filter_complete"] = True
+            state["stage"] = "tailor"
         elif stage == "tailor":
-            logger.info("[3/3] Filtering, grouping duplicates, and tailoring resumes")
+            logger.info("[3/3] Grouping eligible duplicates and tailoring resumes")
             recovery.run("Tailor eligible jobs", lambda: tailor_jobs(
                 state["csv_path"], experience_column=state["experience_column"], recovery=recovery))
             state["stage"] = "complete"

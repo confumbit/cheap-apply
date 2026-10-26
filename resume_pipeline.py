@@ -44,8 +44,8 @@ def canonical_url(value: str) -> str:
     return urlunsplit(("https", parts.netloc.lower(), parts.path.rstrip("/"), urlencode(query), ""))
 
 
-def eligible(value: str, experience: float) -> bool:
-    """Blank/explicitly missing values qualify; malformed values must not qualify."""
+def eligible(value: str, experience: float, *, strict=False) -> bool:
+    """Shared experience policy: inclusive by default; unknowns qualify."""
     value = value.strip().casefold()
     if value in {"", "null", "none", "nan", "n/a", "not mentioned", "not stated", "unknown"}:
         return True
@@ -55,7 +55,19 @@ def eligible(value: str, experience: float) -> bool:
     )
     if not match:
         raise ValueError(f"Unrecognized experience value: {value!r}")
-    return float(match.group(1)) <= experience
+    years = float(match.group(1))
+    return years < experience if strict else years <= experience
+
+
+def row_eligible(row, cols, exp_index, experience):
+    """Honor title/domain checks when present; keep old CSV compatibility."""
+    if "correct_domain" in cols:
+        if row[cols["correct_domain"]].strip().lower() != "true":
+            return False
+        if "eligible" in cols and row[cols["eligible"]].strip().lower() != "true":
+            return False
+        return eligible(row[exp_index], experience)
+    return eligible(row[exp_index], experience)
 
 
 def duplicate_groups(rows: list[list[str]], cols: dict[str, int]) -> list[list[int]]:
@@ -259,7 +271,7 @@ def tailor_jobs(path, experience=None, *, config=CONFIG, experience_column=None,
     qualified = set()
     for i, row in enumerate(rows):
         try:
-            if eligible(row[exp_index], experience):
+            if row_eligible(row, cols, exp_index, experience):
                 qualified.add(i)
             elif not dry_run:
                 row[resume_index] = ""

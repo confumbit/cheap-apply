@@ -4,9 +4,10 @@ Run the full workflow from the project folder:
 .venv/Scripts/python.exe main.py
 ```
 
-The existing scraper runs, the existing classifier updates its CSV, and the
-new adapter calls `resume-tailor/resume_tailor.py run` sequentially for eligible
-jobs. The scraper, classifier, tailor script, and tailor configuration are unchanged.
+The scraper runs, the experience classifier updates its CSV, and the local Ollama
+title check adds `correct_domain`. A final routine adds `eligible`, then the adapter
+calls `resume-tailor/resume_tailor.py run` sequentially for qualifying jobs.
+The experience classifier, tailor script, and tailor configuration are unchanged.
 
 Running that command again automatically resumes `.workflow/state.json`.
 Completed workflows remain completed; start another scrape explicitly:
@@ -21,6 +22,11 @@ Start at a chosen point using an existing CSV:
 .venv/Scripts/python.exe main.py --csv jobs-2026-10-22.csv --start-at classify
 .venv/Scripts/python.exe main.py --csv jobs-2026-10-22.csv --start-at tailor
 ```
+
+`classify` performs all three checks: experience, title/domain, and final
+eligibility. The resulting CSV is published together before tailoring starts.
+`tailor` skips all classification checks and uses the existing CSV results.
+Use `--start-at classify` to add or refresh correct_domain/eligible columns.
 
 `--csv` seeds a new workflow at that stage. After an interruption, use plain
 `main.py` to resume it, without repeating `--new` or `--csv`. Use `--checkpoint`
@@ -46,11 +52,54 @@ CSV is published after scraping and after classification. If publication is
 blocked, the private results are retained and publication alone is retried.
 Don't edit the private work files while the workflow runs.
 
-Eligibility uses `job_functions.EXPERIENCE` (currently 3). The current adapter's
-existing `<= EXPERIENCE` rule is preserved: a minimum of 3 or less, or an
-unspecified minimum, qualifies. Malformed nonempty values are logged and skipped.
+Eligibility uses `job_functions.EXPERIENCE` (currently 3). New filtered CSVs require
+`correct_domain=true` AND a minimum experience at or below EXPERIENCE. A minimum
+of 3 qualifies with EXPERIENCE=3; 4 does not. Unknown experience still qualifies
+when the title check passes, preserving your earlier preference. Malformed values
+do not qualify. Older CSVs without title-filter columns retain the adapter's
+previous inclusive experience-only behavior when used directly. Classification,
+resume selection and application selection share the inclusive experience policy
+in `resume_pipeline.eligible()`; no separate strict check is applied downstream.
 The full workflow reads `experience_range` because that is column AD, where
 the current classifier writes its results.
+
+Set `SEARCH_TERM` in `job_functions.py` to change the primary scraper search and
+the title comparison target. The existing separate Google search parameter is
+unchanged. A new workflow checkpoints its search term so resume uses the same
+target even if settings are later edited. For an old checkpoint the current
+SEARCH_TERM is used.
+
+`check_job_titles(path, search_title=None)` sends only the target and job title to
+the installed local model `qwen3.5:0.8b`. A short prompt with three examples helps
+it accept the related roles you specified. Executive titles are rejected locally;
+clear QA/Selenium/test-automation titles are also rejected locally for ML/AI
+searches. Those QA exclusions do not apply to other search fields. You can
+override `model` when calling this function. The experience classifier is unchanged.
+AI/software/data roles are accepted as
+related to machine learning engineering; unrelated roles are rejected. Ordinary
+Senior/Lead/Staff/Principal titles are allowed, while explicit executive titles
+(VP/AVP, chief/C-suite, director, head of department) are rejected. Executive and
+empty titles are rejected locally; semantic checks use a small JSON boolean reply
+with thinking disabled and at most 48 output tokens. See the
+[Ollama structured-output API](https://github.com/ollama/ollama/blob/main/docs/api.md#structured-outputs).
+
+Results are cached in `.workflow/title-cache.json` by search term, title, model,
+endpoint and instructions. Duplicate titles and retries reuse successful checks.
+An Ollama failure raises for the existing retry/recovery routine; it is not
+recorded as a false domain decision. Pending rows have blank correct_domain and
+false eligible until their check completes. The local model can still make
+semantic mistakes; inspect these two columns for borderline titles.
+
+`mark_eligible(path, experience=None, experience_column=None)` computes the final
+column without model calls. Main runs both routines inside the classify stage,
+after experience classification and before publishing its results. Resume generation and the application queue honor both new
+columns when present. Standalone use on an already classified CSV:
+
+```python
+from job_functions import check_job_titles, mark_eligible
+check_job_titles("jobs-2026-10-22.csv")
+mark_eligible("jobs-2026-10-22.csv")
+```
 
 To process an existing classified CSV without scraping or classifying again:
 
@@ -105,5 +154,5 @@ The existing tailor may select a PDF with remaining validation issues; its
 Offline checks:
 
 ```powershell
-.venv/Scripts/python.exe -B -m unittest test_resume_pipeline test_workflow_recovery -v
+.venv/Scripts/python.exe -B -m unittest test_title_filter test_resume_pipeline test_workflow_recovery -v
 ```

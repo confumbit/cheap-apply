@@ -14,6 +14,12 @@ from workflow_support import Recovery, WorkflowStopped, load_json, save_json
 
 class WorkflowRecoveryTests(unittest.TestCase):
     def setUp(self):
+        titles = patch.object(main, "check_job_titles")
+        eligibility = patch.object(main, "mark_eligible")
+        titles.start()
+        eligibility.start()
+        self.addCleanup(titles.stop)
+        self.addCleanup(eligibility.stop)
         self.tmp = tempfile.TemporaryDirectory(dir=pipeline.ROOT)
         self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name)
@@ -130,11 +136,14 @@ class WorkflowRecoveryTests(unittest.TestCase):
 
     def test_start_at_tailoring_skips_scraper_and_classifier(self):
         with patch.object(main, "scraper") as scrape, patch.object(main, "classify_jobs") as classify, \
-             patch.object(main, "tailor_jobs") as tailor:
+             patch.object(main, "tailor_jobs") as tailor, \
+             patch.object(main, "check_job_titles") as titles, patch.object(main, "mark_eligible") as eligibility:
             result = main.run_workflow(checkpoint=self.checkpoint, csv_path=self.csv,
                                        start_at="tailor", recovery=self.recovery)
         scrape.assert_not_called()
         classify.assert_not_called()
+        titles.assert_not_called()
+        eligibility.assert_not_called()
         self.assertEqual(tailor.call_args.kwargs["experience_column"], None)
         self.assertEqual(result["stage"], "complete")
 
